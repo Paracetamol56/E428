@@ -1,2 +1,3 @@
-Palette de couleur : https://lospec.com/palette-list/adventure28
+Palette de couleur : https://lospec.com/palette-list/rewild-64
 Sprite du slime : https://opengameart.org/content/animated-slime
+ID de mob : https://twitter.com/RunninBlood/status/1072554928122617857?s=20
