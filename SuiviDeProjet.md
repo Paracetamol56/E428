@@ -7,6 +7,7 @@
 ### TD 22/03/2021
 
 - Recherche d'idées
+- Mise en place du projet git
 
 ### TP 26/03/2021
 
