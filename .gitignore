@@ -1,2 +1,3 @@
 # Fichier de configuration Visual studio
-.vs
+*/*.vs
+./PrivateBuilds/*
