@@ -19,7 +19,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
             ""id"": ""5f9b77df-634b-47e1-bb02-f20f2413818d"",
             ""actions"": [
                 {
-                    ""name"": ""Button"",
+                    ""name"": ""Jump"",
                     ""type"": ""Button"",
                     ""id"": ""a8b2c486-573f-4051-b1b6-33d474882827"",
                     ""expectedControlType"": ""Button"",
@@ -39,11 +39,22 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""c90d23f0-0ff7-4e38-b87e-50488aca4022"",
-                    ""path"": """",
+                    ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Default_Control"",
-                    ""action"": ""Button"",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""22851af4-b202-48a1-9652-db2cfa2e22ea"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Jump"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -101,17 +112,17 @@ public class @PlayerInput : IInputActionCollection, IDisposable
             ""devices"": [
                 {
                     ""devicePath"": ""<Gamepad>"",
-                    ""isOptional"": false,
+                    ""isOptional"": true,
                     ""isOR"": false
                 },
                 {
                     ""devicePath"": ""<Keyboard>"",
-                    ""isOptional"": false,
+                    ""isOptional"": true,
                     ""isOR"": false
                 },
                 {
                     ""devicePath"": ""<Mouse>"",
-                    ""isOptional"": false,
+                    ""isOptional"": true,
                     ""isOR"": false
                 }
             ]
@@ -120,7 +131,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
 }");
         // Gameplay
         m_Gameplay = asset.FindActionMap("Gameplay", throwIfNotFound: true);
-        m_Gameplay_Button = m_Gameplay.FindAction("Button", throwIfNotFound: true);
+        m_Gameplay_Jump = m_Gameplay.FindAction("Jump", throwIfNotFound: true);
         m_Gameplay_Horizontal_Axis = m_Gameplay.FindAction("Horizontal_Axis", throwIfNotFound: true);
     }
 
@@ -171,13 +182,13 @@ public class @PlayerInput : IInputActionCollection, IDisposable
     // Gameplay
     private readonly InputActionMap m_Gameplay;
     private IGameplayActions m_GameplayActionsCallbackInterface;
-    private readonly InputAction m_Gameplay_Button;
+    private readonly InputAction m_Gameplay_Jump;
     private readonly InputAction m_Gameplay_Horizontal_Axis;
     public struct GameplayActions
     {
         private @PlayerInput m_Wrapper;
         public GameplayActions(@PlayerInput wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Button => m_Wrapper.m_Gameplay_Button;
+        public InputAction @Jump => m_Wrapper.m_Gameplay_Jump;
         public InputAction @Horizontal_Axis => m_Wrapper.m_Gameplay_Horizontal_Axis;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
@@ -188,9 +199,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         {
             if (m_Wrapper.m_GameplayActionsCallbackInterface != null)
             {
-                @Button.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnButton;
-                @Button.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnButton;
-                @Button.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnButton;
+                @Jump.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnJump;
+                @Jump.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnJump;
+                @Jump.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnJump;
                 @Horizontal_Axis.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnHorizontal_Axis;
                 @Horizontal_Axis.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnHorizontal_Axis;
                 @Horizontal_Axis.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnHorizontal_Axis;
@@ -198,9 +209,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
             m_Wrapper.m_GameplayActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Button.started += instance.OnButton;
-                @Button.performed += instance.OnButton;
-                @Button.canceled += instance.OnButton;
+                @Jump.started += instance.OnJump;
+                @Jump.performed += instance.OnJump;
+                @Jump.canceled += instance.OnJump;
                 @Horizontal_Axis.started += instance.OnHorizontal_Axis;
                 @Horizontal_Axis.performed += instance.OnHorizontal_Axis;
                 @Horizontal_Axis.canceled += instance.OnHorizontal_Axis;
@@ -219,7 +230,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
     }
     public interface IGameplayActions
     {
-        void OnButton(InputAction.CallbackContext context);
+        void OnJump(InputAction.CallbackContext context);
         void OnHorizontal_Axis(InputAction.CallbackContext context);
     }
 }

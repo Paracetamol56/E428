@@ -6,7 +6,7 @@
             "id": "5f9b77df-634b-47e1-bb02-f20f2413818d",
             "actions": [
                 {
-                    "name": "Button",
+                    "name": "Jump",
                     "type": "Button",
                     "id": "a8b2c486-573f-4051-b1b6-33d474882827",
                     "expectedControlType": "Button",
@@ -26,11 +26,22 @@
                 {
                     "name": "",
                     "id": "c90d23f0-0ff7-4e38-b87e-50488aca4022",
-                    "path": "",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "Default_Control",
-                    "action": "Button",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "22851af4-b202-48a1-9652-db2cfa2e22ea",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -88,17 +99,17 @@
             "devices": [
                 {
                     "devicePath": "<Gamepad>",
-                    "isOptional": false,
+                    "isOptional": true,
                     "isOR": false
                 },
                 {
                     "devicePath": "<Keyboard>",
-                    "isOptional": false,
+                    "isOptional": true,
                     "isOR": false
                 },
                 {
                     "devicePath": "<Mouse>",
-                    "isOptional": false,
+                    "isOptional": true,
                     "isOR": false
                 }
             ]
