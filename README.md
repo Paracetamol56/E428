@@ -8,4 +8,4 @@ https://github.com/Paracetamol56/E428/projects/1
 
 ## Description
 
-2D platform game that follows the adventures of Glucose, a corn syrup skinny slime trying to escape from a food factory. Along his way, Glucose will meet antagonists who will help him in his task and protagonists who try to kill him.
+2D platform game that follows the adventures of Glucose, a corn syrup skinny slime trying to escape from a food factory. Along his way, Glucose will meet protagonists who will help him in his task and antagonists who try to kill him. Will he succeed to escape from this unhealthy place ?

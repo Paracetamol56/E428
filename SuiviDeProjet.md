@@ -16,3 +16,15 @@
 - Début du dessin en pixel art
 
 ### TP 02/04/2021
+
+- Création du projet Unity
+- Début du code
+- Recherche d'idée sur le background
+- Création d'animations pour le personnage principal
+
+### Vacances de paques 
+
+- Programmation d'éléments de gamplay
+- Création d'éléments de background
+- Création de sprites et d'animations d'ennemis
+...
