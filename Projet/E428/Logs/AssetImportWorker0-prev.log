@@ -15,11 +15,11 @@ E:/Documents/Dev/Git/E428/Projet/E428
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50513
+50436
 Successfully changed project path to: E:/Documents/Dev/Git/E428/Projet/E428
 E:/Documents/Dev/Git/E428/Projet/E428
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.66 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 55.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path E:/Programs/Tools/UnityInstall/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -36,1552 +36,92 @@ Initialize mono
 Mono path[0] = 'E:/Programs/Tools/UnityInstall/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programs/Tools/UnityInstall/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Programs/Tools/UnityInstall/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Programs/Tools/UnityInstall/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.000876 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.76 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 59.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.729 seconds
+- Completed reload, in  0.815 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000800 seconds.
+Registered in 0.001023 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 52.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
+- Completed reload, in  0.903 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.3 MB.
-System memory in use after: 143.4 MB.
+System memory in use before: 143.4 MB.
+System memory in use after: 143.5 MB.
 
 Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3696.
-Total: 3.055800 ms (FindLiveObjects: 0.456900 ms CreateObjectMapping: 0.102900 ms MarkObjects: 2.341900 ms  DeleteObjects: 0.152700 ms)
+Total: 2.623800 ms (FindLiveObjects: 0.352200 ms CreateObjectMapping: 0.102000 ms MarkObjects: 1.991500 ms  DeleteObjects: 0.176900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump
-  artifactKey: Guid(8e0a0fde9e34f6440bb08c431ab3f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump using Guid(8e0a0fde9e34f6440bb08c431ab3f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0090abb19607b3bbec5c00e66cb97215') in 0.009014 seconds
-  Import took 0.014026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Sprites/Player
-  artifactKey: Guid(88fc26538147ef94eba3b05c16de4f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player using Guid(88fc26538147ef94eba3b05c16de4f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52238606e1328092c813c699209ae23a') in 0.005985 seconds
-  Import took 0.010376 seconds .
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/ForwardRendererData.asset
+  artifactKey: Guid(618d298269e66c542b306de85db1faea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/ForwardRendererData.asset using Guid(618d298269e66c542b306de85db1faea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24826977fd939721e029ed4a3fc24792') in 0.038988 seconds
+  Import took 0.043527 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000204 seconds.
-  path: Assets/Sprites/Player/Glucose
-  artifactKey: Guid(d46da87d0df6a3e4e94dbec391d1cdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose using Guid(d46da87d0df6a3e4e94dbec391d1cdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ceb7330428cba4a6cf835f8820616ce') in 0.005316 seconds
-  Import took 0.009367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.129280 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land
-  artifactKey: Guid(c0602004da2780843b59bba44418e32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land using Guid(c0602004da2780843b59bba44418e32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd298b4e8ea48741384616793ac3a0d10') in 0.005298 seconds
-  Import took 0.009871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.804388 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry
-  artifactKey: Guid(98e03acc80ba8e34f9a6e79752b1f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry using Guid(98e03acc80ba8e34f9a6e79752b1f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22b6b9fe9eb464a5259438eeb8fb67a') in 0.005295 seconds
-  Import took 0.010670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054659 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry/MrGlucose_jump_Land_frame1_angry.png
-  artifactKey: Guid(38daa17ee4282e74bb37404a39c9bcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry/MrGlucose_jump_Land_frame1_angry.png using Guid(38daa17ee4282e74bb37404a39c9bcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20fb8ae9a6aab9858f2d95bc9c2b049') in 0.099279 seconds
-  Import took 0.103977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry/MrGlucose_jump_Land_frame2_angry.png
-  artifactKey: Guid(1b5765a1cf450b34ba754fdf4e195c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry/MrGlucose_jump_Land_frame2_angry.png using Guid(1b5765a1cf450b34ba754fdf4e195c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd0704509cac416ef9d0bfee60fd444') in 0.008934 seconds
-  Import took 0.013110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.102701 seconds.
-  path: Assets/Animation/Player/Glucose/Glucose.controller
-  artifactKey: Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Glucose.controller using Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7176abcd77065ec9976746dd3b36db57') in 0.005405 seconds
-  Import took 0.010363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 304.873452 seconds.
-  path: Assets/Animation
-  artifactKey: Guid(1dfcb509366242c4493da30c14e1dd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation using Guid(1dfcb509366242c4493da30c14e1dd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94c126753d1c0d6c2cce2a9a819616b') in 0.006237 seconds
-  Import took 0.011698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.317145 seconds.
-  path: Assets/Animation/Player
-  artifactKey: Guid(b39c3567256749649aa020ffa4975915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player using Guid(b39c3567256749649aa020ffa4975915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f37fc298a44fd05e75cdab6105c70a0') in 0.005956 seconds
-  Import took 0.010675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.598858 seconds.
-  path: Assets/Animation/Player/Glucose
-  artifactKey: Guid(1128b4ff6da5be345ad1c9e19fa8f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose using Guid(1128b4ff6da5be345ad1c9e19fa8f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3e28141a57a1bcd6918fff7c7273c7') in 0.001765 seconds
-  Import took 0.006306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.261675 seconds.
-  path: Assets/Animation/Player/Glucose/Run
-  artifactKey: Guid(47270a0697f1d594e9288d1cd53859be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Run using Guid(47270a0697f1d594e9288d1cd53859be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0286d70b7416498f61626c5e8529e1b9') in 0.005250 seconds
-  Import took 0.009894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.820509 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run
-  artifactKey: Guid(56077b9c5b96e6046adb22e1ffe38435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run using Guid(56077b9c5b96e6046adb22e1ffe38435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e323963895fba262659a0c439fd233') in 0.005734 seconds
-  Import took 0.010258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.290404 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Pre&PostRun
-  artifactKey: Guid(eadc120d316157c4eb1c51cfebfa6aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Pre&PostRun using Guid(eadc120d316157c4eb1c51cfebfa6aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d4f5017103dafe2fb12ec87ae7d58e') in 0.005605 seconds
-  Import took 0.010452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.067106 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Pre&PostRun/MrGlucose_Pre&PostRun_angry.png
-  artifactKey: Guid(e5d90dd7444ce6e44948710299889694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Pre&PostRun/MrGlucose_Pre&PostRun_angry.png using Guid(e5d90dd7444ce6e44948710299889694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8cb53959aab2c0af5582a9234be3199') in 0.814555 seconds
-  Import took 0.819982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Pre&PostRun/MrGlucose_Pre&PostRun_normal.png
-  artifactKey: Guid(fc99763f05daeef479912cb42c22b59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Pre&PostRun/MrGlucose_Pre&PostRun_normal.png using Guid(fc99763f05daeef479912cb42c22b59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b32106f2f4977d63abe89e67b0adff') in 0.008967 seconds
-  Import took 0.013171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Pre&PostRun/MrGlucose_Pre&PostRun_surprised.png
-  artifactKey: Guid(d7296b3a877a04c429d62e11e474ec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Pre&PostRun/MrGlucose_Pre&PostRun_surprised.png using Guid(d7296b3a877a04c429d62e11e474ec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069ef982a75312fab0283726ec080d8b') in 0.011459 seconds
-  Import took 0.016526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Pre&PostRun/MrGlucose_Pre&PostRun_tired.png
-  artifactKey: Guid(2d3d586aaa2ca654987a72de01d18e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Pre&PostRun/MrGlucose_Pre&PostRun_tired.png using Guid(2d3d586aaa2ca654987a72de01d18e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f87acfcd871588ce2662d9ba7a9ef3') in 0.008693 seconds
-  Import took 0.013056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Pre&PostRun/MrGlucose_Pre&PostRun_curious.png
-  artifactKey: Guid(9bb610080171d2648be9b263702dff99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Pre&PostRun/MrGlucose_Pre&PostRun_curious.png using Guid(9bb610080171d2648be9b263702dff99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6910b83a74bf1f49243b3bec220823') in 0.011594 seconds
-  Import took 0.016790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.402625 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run
-  artifactKey: Guid(c1a44a1aa6b26074e9fa41d4a875c71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run using Guid(c1a44a1aa6b26074e9fa41d4a875c71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824b63d40bbdd663908b1911db981fae') in 0.001935 seconds
-  Import took 0.006644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.110121 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend
-  artifactKey: Guid(c99012b61882d5347b02a090e7aa58e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend using Guid(c99012b61882d5347b02a090e7aa58e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c8c2e2f47384280b8a22cacc3fee23') in 0.005397 seconds
-  Import took 0.010322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.823204 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/normal
-  artifactKey: Guid(185ea2796d030b149bd005d2256116a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/normal using Guid(185ea2796d030b149bd005d2256116a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57a61c0e7aa1aae1261754a21ba3569') in 0.005138 seconds
-  Import took 0.009662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.039030 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/normal/MrGlucose_jump_Ascend_normal.png
-  artifactKey: Guid(2a7999619e0699f4e93e39096ccee27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/normal/MrGlucose_jump_Ascend_normal.png using Guid(2a7999619e0699f4e93e39096ccee27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97efa1a56d0cf4f5c461ffa326cf6200') in 0.008110 seconds
-  Import took 0.012685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.133859 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/angry
-  artifactKey: Guid(1fb59b36b9e4c5941a80f9369ec16a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/angry using Guid(1fb59b36b9e4c5941a80f9369ec16a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664ebb66db8ed8b83456a5d4aff81280') in 0.001883 seconds
-  Import took 0.006907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.070600 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/angry/MrGlucose_Run_frame1_angry.png
-  artifactKey: Guid(9475a17793ba5fa42950030b0d777114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/angry/MrGlucose_Run_frame1_angry.png using Guid(9475a17793ba5fa42950030b0d777114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00ff540874e007441ca8d139152aabc') in 0.008194 seconds
-  Import took 0.012945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/angry/MrGlucose_Run_frame2_angry.png
-  artifactKey: Guid(004845688e1ec5a469deba99edbcab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/angry/MrGlucose_Run_frame2_angry.png using Guid(004845688e1ec5a469deba99edbcab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a045ddc795a791465477d7b5f931a67') in 0.008471 seconds
-  Import took 0.012871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 277.144976 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/angry/MrGlucose_Run_frame1_angry.png
-  artifactKey: Guid(9475a17793ba5fa42950030b0d777114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/angry/MrGlucose_Run_frame1_angry.png using Guid(9475a17793ba5fa42950030b0d777114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8f76c42d2bc88c6339ec461c1388fa') in 0.008733 seconds
-  Import took 0.013810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/angry/MrGlucose_Run_frame2_angry.png
-  artifactKey: Guid(004845688e1ec5a469deba99edbcab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/angry/MrGlucose_Run_frame2_angry.png using Guid(004845688e1ec5a469deba99edbcab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5f2bffcd383f4f5a90c81828563051') in 0.008356 seconds
-  Import took 0.012481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.460104 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/tired
-  artifactKey: Guid(93633a4c9d96999428e63569a8124a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/tired using Guid(93633a4c9d96999428e63569a8124a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c474b30e379476d1ba5dcb11aefc8d4') in 0.005342 seconds
-  Import took 0.010239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.060294 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/tired/MrGlucose_Run_frame1_tired.png
-  artifactKey: Guid(42ba9ea4c4cef1748b8fd8de9f19870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/tired/MrGlucose_Run_frame1_tired.png using Guid(42ba9ea4c4cef1748b8fd8de9f19870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432a94a3f2a046609db9fe321111983f') in 0.008245 seconds
-  Import took 0.013109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/tired/MrGlucose_Run_frame2_tired.png
-  artifactKey: Guid(e08c52d3dc7f89441a8a1f64ea1c320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/tired/MrGlucose_Run_frame2_tired.png using Guid(e08c52d3dc7f89441a8a1f64ea1c320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde0c81b3ef5bba9261f4c3531ed387c') in 0.007990 seconds
-  Import took 0.012055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.625066 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/tired/MrGlucose_Run_frame1_tired.png
-  artifactKey: Guid(42ba9ea4c4cef1748b8fd8de9f19870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/tired/MrGlucose_Run_frame1_tired.png using Guid(42ba9ea4c4cef1748b8fd8de9f19870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbbccb8fd0609a719fab59855f07945') in 0.008090 seconds
-  Import took 0.013044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/tired/MrGlucose_Run_frame2_tired.png
-  artifactKey: Guid(e08c52d3dc7f89441a8a1f64ea1c320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/tired/MrGlucose_Run_frame2_tired.png using Guid(e08c52d3dc7f89441a8a1f64ea1c320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f726751472f8a2dd1938027aaa3001') in 0.008277 seconds
-  Import took 0.012990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.725913 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised
-  artifactKey: Guid(256407f099044e042aca1a62597077d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised using Guid(256407f099044e042aca1a62597077d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1b82d1874a606401d70099887a8ea3') in 0.005421 seconds
-  Import took 0.010320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.059344 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised/MrGlucose_Run_frame1_surprised.png
-  artifactKey: Guid(ea0f49c44a3e3d246aa28cfd81b55ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised/MrGlucose_Run_frame1_surprised.png using Guid(ea0f49c44a3e3d246aa28cfd81b55ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382e7670122ebcca7868f5053c6af4ba') in 0.008031 seconds
-  Import took 0.012769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised/MrGlucose_Run_frame2_surprised.png
-  artifactKey: Guid(e407f11352ca7f04a8bf224a2d5b2cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised/MrGlucose_Run_frame2_surprised.png using Guid(e407f11352ca7f04a8bf224a2d5b2cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7fa72946ba2bc6fe5c4267f3e6e0d1') in 0.008648 seconds
-  Import took 0.013332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.948587 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised/MrGlucose_Run_frame1_surprised.png
-  artifactKey: Guid(ea0f49c44a3e3d246aa28cfd81b55ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised/MrGlucose_Run_frame1_surprised.png using Guid(ea0f49c44a3e3d246aa28cfd81b55ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a6dcc7f214679ed417083ebd682573') in 0.008973 seconds
-  Import took 0.013931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised/MrGlucose_Run_frame2_surprised.png
-  artifactKey: Guid(e407f11352ca7f04a8bf224a2d5b2cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised/MrGlucose_Run_frame2_surprised.png using Guid(e407f11352ca7f04a8bf224a2d5b2cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995ae1f884543b89295c164dda04bb5a') in 0.010913 seconds
-  Import took 0.015646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.163758 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/normal
-  artifactKey: Guid(05f0db11068c5344dbe31abfee55b299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/normal using Guid(05f0db11068c5344dbe31abfee55b299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd893ce915d3cd3f44088ed4e0ffda1b5') in 0.002000 seconds
-  Import took 0.006590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.072503 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/normal/MrGlucose_Run_frame1_normal.png
-  artifactKey: Guid(bddf2c838beef7c4395710fbabe7e548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/normal/MrGlucose_Run_frame1_normal.png using Guid(bddf2c838beef7c4395710fbabe7e548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55697e9c898f3f0c62b1f94cbab643e') in 0.008217 seconds
-  Import took 0.013111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/normal/MrGlucose_Run_frame2_normal.png
-  artifactKey: Guid(cfadb814f37075a478ae0e1ceff73304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/normal/MrGlucose_Run_frame2_normal.png using Guid(cfadb814f37075a478ae0e1ceff73304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d6b942516326401c010159a84c463c') in 0.009181 seconds
-  Import took 0.013456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.911420 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/normal/MrGlucose_Run_frame1_normal.png
-  artifactKey: Guid(bddf2c838beef7c4395710fbabe7e548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/normal/MrGlucose_Run_frame1_normal.png using Guid(bddf2c838beef7c4395710fbabe7e548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046b84f1177eb733bf796da0b1b5d263') in 0.008766 seconds
-  Import took 0.013484 seconds .
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset
+  artifactKey: Guid(41439944d30ece34e96484bdb6645b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset using Guid(41439944d30ece34e96484bdb6645b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246be473841ac935ad202f861164239c') in 0.005550 seconds
+  Import took 0.009524 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000208 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/normal/MrGlucose_Run_frame2_normal.png
-  artifactKey: Guid(cfadb814f37075a478ae0e1ceff73304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/normal/MrGlucose_Run_frame2_normal.png using Guid(cfadb814f37075a478ae0e1ceff73304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b079402bdc84c77aed4f190d3d29e7') in 0.008109 seconds
-  Import took 0.012741 seconds .
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineEditorResources.asset
+  artifactKey: Guid(a3d8d823eedde654bb4c11a1cfaf1abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineEditorResources.asset using Guid(a3d8d823eedde654bb4c11a1cfaf1abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39e64cf4f37248dbd9f6d4270b956e2') in 0.009684 seconds
+  Import took 0.014564 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 98.252218 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/curious
-  artifactKey: Guid(90f2cecc55e4b07428c505c0561295e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/curious using Guid(90f2cecc55e4b07428c505c0561295e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960c600d138fb3d0e65e89074e2288dd') in 0.005419 seconds
-  Import took 0.010033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026162 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/curious/MrGlucose_Run_frame1_curious.png
-  artifactKey: Guid(ae49bb8bb940bff4ea1c10a7fdedfa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/curious/MrGlucose_Run_frame1_curious.png using Guid(ae49bb8bb940bff4ea1c10a7fdedfa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a0230e38a9d8e75581bf66f3fc256b') in 0.008324 seconds
-  Import took 0.013092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/curious/MrGlucose_Run_frame2_curious.png
-  artifactKey: Guid(9f84e176077df924eb5ea80952418eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/curious/MrGlucose_Run_frame2_curious.png using Guid(9f84e176077df924eb5ea80952418eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcd612613f63ea5fa24217635cd9705') in 0.008541 seconds
-  Import took 0.012856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.690768 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/curious/MrGlucose_Run_frame1_curious.png
-  artifactKey: Guid(ae49bb8bb940bff4ea1c10a7fdedfa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/curious/MrGlucose_Run_frame1_curious.png using Guid(ae49bb8bb940bff4ea1c10a7fdedfa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4420d80fcec7f8e68089000eeac5e11b') in 0.008312 seconds
-  Import took 0.013025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/curious/MrGlucose_Run_frame2_curious.png
-  artifactKey: Guid(9f84e176077df924eb5ea80952418eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/curious/MrGlucose_Run_frame2_curious.png using Guid(9f84e176077df924eb5ea80952418eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e956e4a1d7dbe08e5991dd2975addc2') in 0.008047 seconds
-  Import took 0.012165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 242.710189 seconds.
-  path: Assets/Preset/TextureImporter.preset
-  artifactKey: Guid(5a0e60899584e464d8dde8e806373e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Preset/TextureImporter.preset using Guid(5a0e60899584e464d8dde8e806373e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a405603a68a91debd5ae34c64663b76') in 0.009040 seconds
-  Import took 0.014596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001499 seconds.
-  path: Assets/Preset/TextureImporter.preset
-  artifactKey: Guid(5a0e60899584e464d8dde8e806373e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Preset/TextureImporter.preset using Guid(5a0e60899584e464d8dde8e806373e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a405603a68a91debd5ae34c64663b76') in 0.002963 seconds
-  Import took 0.007588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.008992 seconds.
-  path: Assets/Animation/Player/Glucose/Glucose.controller
-  artifactKey: Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Glucose.controller using Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1ea4a4fb308709dc5b3b343b689b0d') in 0.003907 seconds
-  Import took 0.008645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 86.512037 seconds.
-  path: Assets/Animation/Player/Glucose/Glucose.controller
-  artifactKey: Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Glucose.controller using Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d50a73dad455eff50376ff2497f3125') in 0.003813 seconds
-  Import took 0.008763 seconds .
+  Time since last request: 0.000217 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/XRSystemData.asset
+  artifactKey: Guid(60e1133243b97e347b653163a8c01b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/XRSystemData.asset using Guid(60e1133243b97e347b653163a8c01b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1453fd02654fc2adb375fcfbe4f91a2') in 0.005212 seconds
+  Import took 0.009936 seconds .
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001108 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.786 seconds
-Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.5 MB.
-System memory in use after: 139.6 MB.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3706.
-Total: 2.625600 ms (FindLiveObjects: 0.329300 ms CreateObjectMapping: 0.102900 ms MarkObjects: 2.084900 ms  DeleteObjects: 0.107400 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3696.
+Total: 2.791700 ms (FindLiveObjects: 0.350100 ms CreateObjectMapping: 0.093500 ms MarkObjects: 2.210400 ms  DeleteObjects: 0.136600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001011 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.775 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.6 MB.
-System memory in use after: 139.7 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3710.
-Total: 3.352400 ms (FindLiveObjects: 0.365100 ms CreateObjectMapping: 0.087100 ms MarkObjects: 2.777800 ms  DeleteObjects: 0.121400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001052 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.774 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.6 MB.
-System memory in use after: 139.7 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3714.
-Total: 2.657900 ms (FindLiveObjects: 0.328000 ms CreateObjectMapping: 0.086200 ms MarkObjects: 2.124100 ms  DeleteObjects: 0.118200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 435.158594 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump
-  artifactKey: Guid(87ba09a55fb9209489ba4b050662f582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump using Guid(87ba09a55fb9209489ba4b050662f582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9c5c57642c6e5ac8ee9830cc6d02b0') in 0.010040 seconds
-  Import took 0.014809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.102977 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/normal
-  artifactKey: Guid(678a128da88482d44a46afa73b3e0df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/normal using Guid(678a128da88482d44a46afa73b3e0df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523da9dd4e54c00a58fc017daddc27f0') in 0.001904 seconds
-  Import took 0.006737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.767799 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/normal/MrGlucose_jump_ActionJump_frame1_normal.png
-  artifactKey: Guid(9482f98d1d598ac4786dfaa89fcfff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/normal/MrGlucose_jump_ActionJump_frame1_normal.png using Guid(9482f98d1d598ac4786dfaa89fcfff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae158d6abf81dfbc923fe197e6988604') in 0.039652 seconds
-  Import took 0.044251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/normal/MrGlucose_jump_ActionJump_frame2_normal.png
-  artifactKey: Guid(ac365598b7976b846a4f32eea673eed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/normal/MrGlucose_jump_ActionJump_frame2_normal.png using Guid(ac365598b7976b846a4f32eea673eed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdbbca31c7ff8dc1610426d3bf53256') in 0.007653 seconds
-  Import took 0.011681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.323323 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/normal/MrGlucose_jump_ActionJump_frame1_normal.png
-  artifactKey: Guid(9482f98d1d598ac4786dfaa89fcfff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/normal/MrGlucose_jump_ActionJump_frame1_normal.png using Guid(9482f98d1d598ac4786dfaa89fcfff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7e98989048f820dee7cdf1c2a00a03') in 0.015821 seconds
-  Import took 0.020746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/normal/MrGlucose_jump_ActionJump_frame2_normal.png
-  artifactKey: Guid(ac365598b7976b846a4f32eea673eed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/normal/MrGlucose_jump_ActionJump_frame2_normal.png using Guid(ac365598b7976b846a4f32eea673eed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50699095aaeed706bf8e920135320c6') in 0.025410 seconds
-  Import took 0.029680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.732384 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/curious
-  artifactKey: Guid(173339a6da579f5418d9fe443e73f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/curious using Guid(173339a6da579f5418d9fe443e73f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0502e525572e6a7b3075db9da158cc6e') in 0.001970 seconds
-  Import took 0.006636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051918 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/curious/MrGlucose_jump_ActionJump_frame1_curious.png
-  artifactKey: Guid(2271aba99e674af4fa5665b16eab94c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/curious/MrGlucose_jump_ActionJump_frame1_curious.png using Guid(2271aba99e674af4fa5665b16eab94c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e588797c8a0ade7f045b685f057cd912') in 0.009317 seconds
-  Import took 0.014249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/curious/MrGlucose_jump_ActionJump_frame2_curious.png
-  artifactKey: Guid(bdda025be18a9374ca1f68d7b3af72e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/curious/MrGlucose_jump_ActionJump_frame2_curious.png using Guid(bdda025be18a9374ca1f68d7b3af72e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07474ce59b523b63b5eaafa7002f4407') in 0.008384 seconds
-  Import took 0.012768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.351948 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/curious/MrGlucose_jump_ActionJump_frame1_curious.png
-  artifactKey: Guid(2271aba99e674af4fa5665b16eab94c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/curious/MrGlucose_jump_ActionJump_frame1_curious.png using Guid(2271aba99e674af4fa5665b16eab94c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ed3c83859a9f19c7935ffb88892d63') in 0.007772 seconds
-  Import took 0.012689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/curious/MrGlucose_jump_ActionJump_frame2_curious.png
-  artifactKey: Guid(bdda025be18a9374ca1f68d7b3af72e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/curious/MrGlucose_jump_ActionJump_frame2_curious.png using Guid(bdda025be18a9374ca1f68d7b3af72e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d70cecdbad1344160a22abaa4afe32') in 0.007928 seconds
-  Import took 0.012856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/curious/MrGlucose_jump_ActionJump_frame1_curious.png
-  artifactKey: Guid(2271aba99e674af4fa5665b16eab94c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/curious/MrGlucose_jump_ActionJump_frame1_curious.png using Guid(2271aba99e674af4fa5665b16eab94c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ed3c83859a9f19c7935ffb88892d63') in 0.004958 seconds
-  Import took 0.009382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.910913 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/surprised
-  artifactKey: Guid(d96106f246d30834fba88f3fe72c1bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/surprised using Guid(d96106f246d30834fba88f3fe72c1bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b7738e1fae0e94ff36ff9573ced2cd') in 0.001955 seconds
-  Import took 0.006646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051947 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/surprised/MrGlucose_jump_ActionJump_frame1_surprised.png
-  artifactKey: Guid(31788b5b0e6e1a74a8b5573efccb3cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/surprised/MrGlucose_jump_ActionJump_frame1_surprised.png using Guid(31788b5b0e6e1a74a8b5573efccb3cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c5421192622f0154786286807e1b46') in 0.008838 seconds
-  Import took 0.013966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/surprised/MrGlucose_jump_ActionJump_frame2_surprised.png
-  artifactKey: Guid(9fb0e9cf5bbf13e418bb65eb3fd61052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/surprised/MrGlucose_jump_ActionJump_frame2_surprised.png using Guid(9fb0e9cf5bbf13e418bb65eb3fd61052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b773f51976a426fa6ef6a12aeecb1b5') in 0.008334 seconds
-  Import took 0.012869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.450819 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/surprised/MrGlucose_jump_ActionJump_frame1_surprised.png
-  artifactKey: Guid(31788b5b0e6e1a74a8b5573efccb3cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/surprised/MrGlucose_jump_ActionJump_frame1_surprised.png using Guid(31788b5b0e6e1a74a8b5573efccb3cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd217ea5aa104e7d24c90304765599c5') in 0.007646 seconds
-  Import took 0.012314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/surprised/MrGlucose_jump_ActionJump_frame2_surprised.png
-  artifactKey: Guid(9fb0e9cf5bbf13e418bb65eb3fd61052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/surprised/MrGlucose_jump_ActionJump_frame2_surprised.png using Guid(9fb0e9cf5bbf13e418bb65eb3fd61052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daee09e9c81151cb7434e743662f5f08') in 0.008152 seconds
-  Import took 0.012666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 88.312805 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/tired
-  artifactKey: Guid(01d0584f5dae6824d8017c0f89bfe19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/tired using Guid(01d0584f5dae6824d8017c0f89bfe19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7193eb9995d46a5dca04d058903f7dfb') in 0.001833 seconds
-  Import took 0.006471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.056719 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/tired/MrGlucose_jump_ActionJump_frame1_tired.png
-  artifactKey: Guid(e3d3906ca59c7e44c9fc3c09f9c15c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/tired/MrGlucose_jump_ActionJump_frame1_tired.png using Guid(e3d3906ca59c7e44c9fc3c09f9c15c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc90d8e9e9b34017a90bdd915a7899a') in 0.008190 seconds
-  Import took 0.012841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/tired/MrGlucose_jump_ActionJump_frame2_tired.png
-  artifactKey: Guid(550afc565623b6c4593515f440b4e69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/tired/MrGlucose_jump_ActionJump_frame2_tired.png using Guid(550afc565623b6c4593515f440b4e69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf4d350c9a99777b5512a0170687977') in 0.008126 seconds
-  Import took 0.012361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.164205 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/tired/MrGlucose_jump_ActionJump_frame1_tired.png
-  artifactKey: Guid(e3d3906ca59c7e44c9fc3c09f9c15c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/tired/MrGlucose_jump_ActionJump_frame1_tired.png using Guid(e3d3906ca59c7e44c9fc3c09f9c15c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cf0b49c3b42b90cda16d56a9c6df72') in 0.007984 seconds
-  Import took 0.012821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/tired/MrGlucose_jump_ActionJump_frame2_tired.png
-  artifactKey: Guid(550afc565623b6c4593515f440b4e69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/tired/MrGlucose_jump_ActionJump_frame2_tired.png using Guid(550afc565623b6c4593515f440b4e69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7780a8766f57034775cf4fb1d33ba7') in 0.007882 seconds
-  Import took 0.012089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.770781 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/angry
-  artifactKey: Guid(967bd45d467674b4f9e418cc593612e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/angry using Guid(967bd45d467674b4f9e418cc593612e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b29dc6e9da0070c04f1c30aad0015d9') in 0.001862 seconds
-  Import took 0.006717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049087 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/angry/MrGlucose_jump_ActionJump_frame1_angry.png
-  artifactKey: Guid(7515243389fd96742bd606c23b4fb270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/angry/MrGlucose_jump_ActionJump_frame1_angry.png using Guid(7515243389fd96742bd606c23b4fb270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1709e0a1472a2e9b1861f8b339ebfe7b') in 0.009024 seconds
-  Import took 0.014221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/angry/MrGlucose_jump_ActionJump_frame2_angry.png
-  artifactKey: Guid(4080c38fb24d22542a3467ba72ef79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/angry/MrGlucose_jump_ActionJump_frame2_angry.png using Guid(4080c38fb24d22542a3467ba72ef79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ebc8a6e4e710954cfbf26ec67fcf06') in 0.008314 seconds
-  Import took 0.012786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.523427 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/angry/MrGlucose_jump_ActionJump_frame1_angry.png
-  artifactKey: Guid(7515243389fd96742bd606c23b4fb270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/angry/MrGlucose_jump_ActionJump_frame1_angry.png using Guid(7515243389fd96742bd606c23b4fb270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8495f614929b28a0b3b8de8c16fca2a1') in 0.013637 seconds
-  Import took 0.018326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/angry/MrGlucose_jump_ActionJump_frame2_angry.png
-  artifactKey: Guid(4080c38fb24d22542a3467ba72ef79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/angry/MrGlucose_jump_ActionJump_frame2_angry.png using Guid(4080c38fb24d22542a3467ba72ef79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9544cd41aa87adac442dbf1bde4c96ad') in 0.029444 seconds
-  Import took 0.034205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007541 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/angry/MrGlucose_jump_ActionJump_frame2_angry.png
-  artifactKey: Guid(4080c38fb24d22542a3467ba72ef79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_ActionJump/angry/MrGlucose_jump_ActionJump_frame2_angry.png using Guid(4080c38fb24d22542a3467ba72ef79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9544cd41aa87adac442dbf1bde4c96ad') in 0.031747 seconds
-  Import took 0.036741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.678873 seconds.
-  path: Assets/Animation/Player/Glucose/Glucose.controller
-  artifactKey: Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Glucose.controller using Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040e0e6ad9d549fa5e34a00c98528060') in 0.005674 seconds
-  Import took 0.010516 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001134 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.794 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.7 MB.
-System memory in use after: 139.8 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3719.
-Total: 2.474200 ms (FindLiveObjects: 0.315200 ms CreateObjectMapping: 0.079400 ms MarkObjects: 1.962000 ms  DeleteObjects: 0.116400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 297.152479 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/normal/MrGlucose_jump_Ascend_normal.png
-  artifactKey: Guid(2a7999619e0699f4e93e39096ccee27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/normal/MrGlucose_jump_Ascend_normal.png using Guid(2a7999619e0699f4e93e39096ccee27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afb633a559495a96c7003b6adac32ae') in 0.044973 seconds
-  Import took 0.050087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.955297 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/curious
-  artifactKey: Guid(4153a362c8b46de4ea689ae522e92f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/curious using Guid(4153a362c8b46de4ea689ae522e92f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e768db3d3573313fc956d412c5551a03') in 0.005324 seconds
-  Import took 0.009989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.045149 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/curious/MrGlucose_jump_Ascend_curious.png
-  artifactKey: Guid(a5448484886db8c4c87f538fc72e0ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/curious/MrGlucose_jump_Ascend_curious.png using Guid(a5448484886db8c4c87f538fc72e0ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc87aba1875a13a2c735f338c53c54f0') in 0.007583 seconds
-  Import took 0.012121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.209837 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/curious/MrGlucose_jump_Ascend_curious.png
-  artifactKey: Guid(a5448484886db8c4c87f538fc72e0ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/curious/MrGlucose_jump_Ascend_curious.png using Guid(a5448484886db8c4c87f538fc72e0ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d97fe9fdf974e0ecd801814104dc10') in 0.008878 seconds
-  Import took 0.013574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.663708 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/surprised
-  artifactKey: Guid(2c18a704010709d43ab3e9b66792c107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/surprised using Guid(2c18a704010709d43ab3e9b66792c107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ee25c6588196eac0421a755ba66afd') in 0.001957 seconds
-  Import took 0.006721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.071099 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/surprised/MrGlucose_jump_Ascend_surprised.png
-  artifactKey: Guid(67543aa0ed8c49b4db4ef5027ea36cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/surprised/MrGlucose_jump_Ascend_surprised.png using Guid(67543aa0ed8c49b4db4ef5027ea36cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37307be8545da73327346cc34e99bc90') in 0.009222 seconds
-  Import took 0.014084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.839408 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/surprised/MrGlucose_jump_Ascend_surprised.png
-  artifactKey: Guid(67543aa0ed8c49b4db4ef5027ea36cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/surprised/MrGlucose_jump_Ascend_surprised.png using Guid(67543aa0ed8c49b4db4ef5027ea36cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583fecd9d8ffc9f0ab2259fb867dd259') in 0.018501 seconds
-  Import took 0.023449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.643475 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/surprised/MrGlucose_jump_Ascend_surprised.png
-  artifactKey: Guid(67543aa0ed8c49b4db4ef5027ea36cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/surprised/MrGlucose_jump_Ascend_surprised.png using Guid(67543aa0ed8c49b4db4ef5027ea36cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3864d1139d1dbd5a6b97c292052d235') in 0.005188 seconds
-  Import took 0.009947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.395987 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/tired
-  artifactKey: Guid(261fabdc06861c74498d38a52efbbe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/tired using Guid(261fabdc06861c74498d38a52efbbe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afca007868b55b2a90c96cb74a48a2a') in 0.001975 seconds
-  Import took 0.006622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031658 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/tired/MrGlucose_jump_Ascend_tired.png
-  artifactKey: Guid(0dcc5d3a8cd76f745afbdc858b8c8b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/tired/MrGlucose_jump_Ascend_tired.png using Guid(0dcc5d3a8cd76f745afbdc858b8c8b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69609f7b01888a09a83fc24184a12f93') in 0.645703 seconds
-  Import took 0.652316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.081029 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/tired/MrGlucose_jump_Ascend_tired.png
-  artifactKey: Guid(0dcc5d3a8cd76f745afbdc858b8c8b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/tired/MrGlucose_jump_Ascend_tired.png using Guid(0dcc5d3a8cd76f745afbdc858b8c8b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ec725d486bba805d6738cb6f522931') in 0.008103 seconds
-  Import took 0.012909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.997093 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/angry
-  artifactKey: Guid(1f5c89d9fab35ae448c8533dc7748694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/angry using Guid(1f5c89d9fab35ae448c8533dc7748694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b08c429b18059561458755e56365d85') in 0.001859 seconds
-  Import took 0.006586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.059039 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/angry/MrGlucose_jump_Ascend_angry.png
-  artifactKey: Guid(04687d1e996abfc40a2860a63f05e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/angry/MrGlucose_jump_Ascend_angry.png using Guid(04687d1e996abfc40a2860a63f05e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558df6ed34433ce4b902cffa668829ad') in 0.008161 seconds
-  Import took 0.012847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.939134 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/angry/MrGlucose_jump_Ascend_angry.png
-  artifactKey: Guid(04687d1e996abfc40a2860a63f05e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Ascend/angry/MrGlucose_jump_Ascend_angry.png using Guid(04687d1e996abfc40a2860a63f05e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab675a2a521bb4cf093b25dccc45d89') in 0.009591 seconds
-  Import took 0.014839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.290765 seconds.
-  path: Assets/Animation/Player/Glucose/Glucose.controller
-  artifactKey: Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Glucose.controller using Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d981801366b9a35329c966e27a80ff7') in 0.006619 seconds
-  Import took 0.011398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.391805 seconds.
-  path: Assets/Animation/Player/Jump
-  artifactKey: Guid(87f7cee8e3ca36f4b83cd9a7ec70a39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Jump using Guid(87f7cee8e3ca36f4b83cd9a7ec70a39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43339d0e7d2b9d86568530645302784') in 0.005510 seconds
-  Import took 0.010167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.644544 seconds.
-  path: Assets/Animation/Player/Jump/Apex
-  artifactKey: Guid(24a7cee37f2eaf141824d7f173f777a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Jump/Apex using Guid(24a7cee37f2eaf141824d7f173f777a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559b6d8720cde862ceba53afaf8a6d4b') in 0.005854 seconds
-  Import took 0.010386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004501 seconds.
-  path: Assets/Animation/Player/Jump/Apex
-  artifactKey: Guid(24a7cee37f2eaf141824d7f173f777a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Jump/Apex using Guid(24a7cee37f2eaf141824d7f173f777a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559b6d8720cde862ceba53afaf8a6d4b') in 0.001654 seconds
-  Import took 0.006061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.761334 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex
-  artifactKey: Guid(7d38fe8afd5ca9d43809d828deb63a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex using Guid(7d38fe8afd5ca9d43809d828deb63a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b823d0d6ca33006c58deb5d4aeaba7') in 0.005629 seconds
-  Import took 0.010195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.648679 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/normal
-  artifactKey: Guid(d1e51dcdde9c9464fbf50bea1a072132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/normal using Guid(d1e51dcdde9c9464fbf50bea1a072132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a633124f9c4614bcf514451d95f91cd') in 0.001934 seconds
-  Import took 0.006487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054222 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/normal/MrGlucose_jump_Apex_normal.png
-  artifactKey: Guid(c17488ed3fe48ad468288572071e5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/normal/MrGlucose_jump_Apex_normal.png using Guid(c17488ed3fe48ad468288572071e5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b6caf3c2d55ab496b70250c8c90380') in 0.010167 seconds
-  Import took 0.014871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.513032 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/normal/MrGlucose_jump_Apex_normal.png
-  artifactKey: Guid(c17488ed3fe48ad468288572071e5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/normal/MrGlucose_jump_Apex_normal.png using Guid(c17488ed3fe48ad468288572071e5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce09abb6a151c22429cad5f2a5f4cf80') in 0.008145 seconds
-  Import took 0.012947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.672935 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/curious
-  artifactKey: Guid(eddf5973b5f6d9e4eacf4a586b4aab70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/curious using Guid(eddf5973b5f6d9e4eacf4a586b4aab70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082c29dd0f13a84abcc6a0a0e6049b83') in 0.001885 seconds
-  Import took 0.006585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.048102 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/curious/MrGlucose_jump_Apex_curious.png
-  artifactKey: Guid(52488e78e3429e54abd566e025c4e8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/curious/MrGlucose_jump_Apex_curious.png using Guid(52488e78e3429e54abd566e025c4e8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13163b1d4e47b0e4c23614b360d9410a') in 0.008947 seconds
-  Import took 0.014304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.158815 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/curious/MrGlucose_jump_Apex_curious.png
-  artifactKey: Guid(52488e78e3429e54abd566e025c4e8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/curious/MrGlucose_jump_Apex_curious.png using Guid(52488e78e3429e54abd566e025c4e8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d943eca835a0e8645c88de89876901b') in 0.008264 seconds
-  Import took 0.012871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.777784 seconds.
-  path: Assets/Animation/Player/Jump/Apex/Glucose_Jump_Apex_Curios.anim
-  artifactKey: Guid(7cf63e7bebbb9504c91386eaf6286280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Jump/Apex/Glucose_Jump_Apex_Curios.anim using Guid(7cf63e7bebbb9504c91386eaf6286280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b30f874985ad1997e5f2340637da33') in 0.007185 seconds
-  Import took 0.012011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.580247 seconds.
-  path: Assets/Animation/Player/Jump/Apex/Glucose_Jump_Apex_Normal.anim
-  artifactKey: Guid(311a027c14fa38746b3da00665ded17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Jump/Apex/Glucose_Jump_Apex_Normal.anim using Guid(311a027c14fa38746b3da00665ded17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f791969df0c07d899a5d589eb42ed8') in 0.006145 seconds
-  Import took 0.010907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000925 seconds.
-  path: Assets/Animation/Player/Jump/Apex/Glucose_Jump_Apex_Normal.anim
-  artifactKey: Guid(311a027c14fa38746b3da00665ded17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Jump/Apex/Glucose_Jump_Apex_Normal.anim using Guid(311a027c14fa38746b3da00665ded17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f791969df0c07d899a5d589eb42ed8') in 0.002354 seconds
-  Import took 0.006972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.521921 seconds.
-  path: Assets/Animation/Player/Jump/Apex/Glucose_Jump_Apex_Curious.anim
-  artifactKey: Guid(7cf63e7bebbb9504c91386eaf6286280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Jump/Apex/Glucose_Jump_Apex_Curious.anim using Guid(7cf63e7bebbb9504c91386eaf6286280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eca91595f9ab376df555779af014e70') in 0.005904 seconds
-  Import took 0.010459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.777082 seconds.
-  path: Assets/Animation/Player/Glucose/Glucose.controller
-  artifactKey: Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Glucose.controller using Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5d5ccf2be1d046faaaf84f7e36453a') in 0.005698 seconds
-  Import took 0.010420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.613364 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/surprised
-  artifactKey: Guid(09196c04bd1e49b449e892ae0f74d687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/surprised using Guid(09196c04bd1e49b449e892ae0f74d687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373367df8c579578c85686d3211930a6') in 0.001917 seconds
-  Import took 0.006443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.042192 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/surprised/MrGlucose_jump_Apex_surprised.png
-  artifactKey: Guid(62b87f5e9d23cfb46a91b79eaea56da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/surprised/MrGlucose_jump_Apex_surprised.png using Guid(62b87f5e9d23cfb46a91b79eaea56da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab69758728c99fade7913e427ee3aff0') in 0.015657 seconds
-  Import took 0.021176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.155169 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/surprised/MrGlucose_jump_Apex_surprised.png
-  artifactKey: Guid(62b87f5e9d23cfb46a91b79eaea56da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/surprised/MrGlucose_jump_Apex_surprised.png using Guid(62b87f5e9d23cfb46a91b79eaea56da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb412d4a0aa6396a1d146148a806df98') in 0.008103 seconds
-  Import took 0.013056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.288598 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/tired
-  artifactKey: Guid(2e725df4ebb664f45939895ffcc707c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/tired using Guid(2e725df4ebb664f45939895ffcc707c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc05d7cdc31d4ff15a312c1bbce0801') in 0.001780 seconds
-  Import took 0.006371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.045415 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/tired/MrGlucose_jump_Apex_tired.png
-  artifactKey: Guid(f89696442cca946419b33b525c1b20d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/tired/MrGlucose_jump_Apex_tired.png using Guid(f89696442cca946419b33b525c1b20d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f7d16c27ed0a9e8548cab8c15cde2c') in 0.008599 seconds
-  Import took 0.013194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.873999 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/tired/MrGlucose_jump_Apex_tired.png
-  artifactKey: Guid(f89696442cca946419b33b525c1b20d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/tired/MrGlucose_jump_Apex_tired.png using Guid(f89696442cca946419b33b525c1b20d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ce6e3f0841aad25b95256679f2cc67') in 0.019845 seconds
-  Import took 0.024505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.894766 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/angry
-  artifactKey: Guid(31448a1a416808b41947138523782f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/angry using Guid(31448a1a416808b41947138523782f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3ae5c45808337f447e27cece6e2a6c') in 0.001902 seconds
-  Import took 0.006506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.578953 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/angry/MrGlucose_jump_Apex_angry.png
-  artifactKey: Guid(b75c9eeb1c3060f4087b2bbf382900ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/angry/MrGlucose_jump_Apex_angry.png using Guid(b75c9eeb1c3060f4087b2bbf382900ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61378852bcc34b353de1444fc8758161') in 0.008937 seconds
-  Import took 0.013798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.248500 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/angry/MrGlucose_jump_Apex_angry.png
-  artifactKey: Guid(b75c9eeb1c3060f4087b2bbf382900ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Apex/angry/MrGlucose_jump_Apex_angry.png using Guid(b75c9eeb1c3060f4087b2bbf382900ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0bb3a822dc3d7b108562defdbfecea') in 0.013251 seconds
-  Import took 0.018076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 87.378786 seconds.
-  path: Assets/Animation/Player/Glucose/Glucose.controller
-  artifactKey: Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Glucose.controller using Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd537eff5793114aa3c73c3c17cd96b69') in 0.006778 seconds
-  Import took 0.011952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.556846 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall
-  artifactKey: Guid(8ec6fa15ee025d249b9d4fd00d796ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall using Guid(8ec6fa15ee025d249b9d4fd00d796ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21698be3ef1bebc44bf91aa1cd12baa') in 0.005455 seconds
-  Import took 0.010082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.891940 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/normal
-  artifactKey: Guid(bd2dcc78abb1d6f4698fbee64a918c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/normal using Guid(bd2dcc78abb1d6f4698fbee64a918c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fc170c8ba2d4f003c672ad72e66d06') in 0.001782 seconds
-  Import took 0.006336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.064865 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/normal/MrGlucose_jump_Fall_normal.png
-  artifactKey: Guid(47eb7062f4f9254449bef22f1cbc6dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/normal/MrGlucose_jump_Fall_normal.png using Guid(47eb7062f4f9254449bef22f1cbc6dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5155194ff376185cd93c5871a2932dca') in 0.008144 seconds
-  Import took 0.012754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.598820 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/normal/MrGlucose_jump_Fall_normal.png
-  artifactKey: Guid(47eb7062f4f9254449bef22f1cbc6dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/normal/MrGlucose_jump_Fall_normal.png using Guid(47eb7062f4f9254449bef22f1cbc6dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5dcbd355bf83879c6e892ce049ac55') in 0.008370 seconds
-  Import took 0.013671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.809537 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/surprised
-  artifactKey: Guid(ae4e08ad822b5e549bf493cdbbe557c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/surprised using Guid(ae4e08ad822b5e549bf493cdbbe557c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc24d27157540aaebc5e068b89861e2') in 0.002114 seconds
-  Import took 0.006724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.045843 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/surprised/MrGlucose_jump_Fall_surprised.png
-  artifactKey: Guid(7d9eb8f0e5b724d479bcdc565771d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/surprised/MrGlucose_jump_Fall_surprised.png using Guid(7d9eb8f0e5b724d479bcdc565771d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ef2bf04f4da9c501e31a83781602ec') in 0.009312 seconds
-  Import took 0.014875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.642667 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/surprised/MrGlucose_jump_Fall_surprised.png
-  artifactKey: Guid(7d9eb8f0e5b724d479bcdc565771d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/surprised/MrGlucose_jump_Fall_surprised.png using Guid(7d9eb8f0e5b724d479bcdc565771d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077c65c3a137bf3002f9e89934da90e7') in 0.007735 seconds
-  Import took 0.012586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.714585 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/curious
-  artifactKey: Guid(0231b6aaec041954481d42cd9e685619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/curious using Guid(0231b6aaec041954481d42cd9e685619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b49269f04eb20fb1c7382559c07dee8') in 0.005326 seconds
-  Import took 0.010043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.043165 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/curious/MrGlucose_jump_Fall_curious.png
-  artifactKey: Guid(d98c4b95bbc39124581fdaf05d68c9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/curious/MrGlucose_jump_Fall_curious.png using Guid(d98c4b95bbc39124581fdaf05d68c9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11dace20b6f6c3b14d82459ea5d6098') in 0.009315 seconds
-  Import took 0.014598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.838167 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/curious/MrGlucose_jump_Fall_curious.png
-  artifactKey: Guid(d98c4b95bbc39124581fdaf05d68c9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/curious/MrGlucose_jump_Fall_curious.png using Guid(d98c4b95bbc39124581fdaf05d68c9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cf9e7efef431c1ab2c30908f13a7f7') in 0.008316 seconds
-  Import took 0.013012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.307769 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/tired
-  artifactKey: Guid(72b4058ae9531b34c8235cfe648784f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/tired using Guid(72b4058ae9531b34c8235cfe648784f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c2abc037708ef284a8696000260a2d') in 0.001823 seconds
-  Import took 0.006439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058363 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/tired/MrGlucose_jump_Fall_tired.png
-  artifactKey: Guid(49cb71a6e0e4cb94a8e5eafee3bd44a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/tired/MrGlucose_jump_Fall_tired.png using Guid(49cb71a6e0e4cb94a8e5eafee3bd44a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b6ebdfd67e071844783cbf3be3c530') in 0.008752 seconds
-  Import took 0.013730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.408546 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/tired/MrGlucose_jump_Fall_tired.png
-  artifactKey: Guid(49cb71a6e0e4cb94a8e5eafee3bd44a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/tired/MrGlucose_jump_Fall_tired.png using Guid(49cb71a6e0e4cb94a8e5eafee3bd44a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1a9f860aed74475d8d9132b74c295b') in 0.009383 seconds
-  Import took 0.014380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.104812 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/angry
-  artifactKey: Guid(806c9f7a6f4b0f049970318f097d5984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/angry using Guid(806c9f7a6f4b0f049970318f097d5984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2a238ffe97ece0d558bc908e374068') in 0.001868 seconds
-  Import took 0.006383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.053429 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/angry/MrGlucose_jump_Fall_angry.png
-  artifactKey: Guid(3ed10253a612c6249ad1f5643a0511f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/angry/MrGlucose_jump_Fall_angry.png using Guid(3ed10253a612c6249ad1f5643a0511f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a958cd846f41b58d3cc61f99eb501b4') in 0.008318 seconds
-  Import took 0.012852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.899943 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/angry/MrGlucose_jump_Fall_angry.png
-  artifactKey: Guid(3ed10253a612c6249ad1f5643a0511f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/angry/MrGlucose_jump_Fall_angry.png using Guid(3ed10253a612c6249ad1f5643a0511f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732649723b096c1d5ddbe9528997678b') in 0.007711 seconds
-  Import took 0.012614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/angry/MrGlucose_jump_Fall_angry.png
-  artifactKey: Guid(3ed10253a612c6249ad1f5643a0511f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Fall/angry/MrGlucose_jump_Fall_angry.png using Guid(3ed10253a612c6249ad1f5643a0511f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732649723b096c1d5ddbe9528997678b') in 0.004621 seconds
-  Import took 0.008843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.421526 seconds.
-  path: Assets/Animation/Player/Glucose/Glucose.controller
-  artifactKey: Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Glucose.controller using Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431cbeff8bc08ae2efff7c68a35ca230') in 0.007120 seconds
-  Import took 0.012053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.733042 seconds.
-  path: Assets/Animation/Player/Glucose/Glucose.controller
-  artifactKey: Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Glucose.controller using Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3cd01dee0a6d4aa1260a5b0c33471d') in 0.007407 seconds
-  Import took 0.012412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.479160 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/normal
-  artifactKey: Guid(1e6b918bb7a2d174886de6c05a35a2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/normal using Guid(1e6b918bb7a2d174886de6c05a35a2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4548702fae10625a20635f3edb6c39') in 0.001945 seconds
-  Import took 0.006771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051026 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/normal/MrGlucose_jump_Land_frame1_normal.png
-  artifactKey: Guid(6096ab2c700d6d44a8ea836de3ef1245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/normal/MrGlucose_jump_Land_frame1_normal.png using Guid(6096ab2c700d6d44a8ea836de3ef1245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471604e9c365a9828ddcdd3f51b6971b') in 0.009012 seconds
-  Import took 0.014223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/normal/MrGlucose_jump_Land_frame2_normal.png
-  artifactKey: Guid(408edf3918a9d0d4d98a0d54859f9e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/normal/MrGlucose_jump_Land_frame2_normal.png using Guid(408edf3918a9d0d4d98a0d54859f9e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b00adfba254f472b78259b79ea7ae3') in 0.009575 seconds
-  Import took 0.014274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.679574 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/normal/MrGlucose_jump_Land_frame1_normal.png
-  artifactKey: Guid(6096ab2c700d6d44a8ea836de3ef1245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/normal/MrGlucose_jump_Land_frame1_normal.png using Guid(6096ab2c700d6d44a8ea836de3ef1245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a66d043c4627d0f7520aaa83f5a06cb') in 0.008689 seconds
-  Import took 0.013519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/normal/MrGlucose_jump_Land_frame2_normal.png
-  artifactKey: Guid(408edf3918a9d0d4d98a0d54859f9e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/normal/MrGlucose_jump_Land_frame2_normal.png using Guid(408edf3918a9d0d4d98a0d54859f9e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a86dd4e6fca1ae185e3ada555e78c7') in 0.007523 seconds
-  Import took 0.011956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.906148 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/surprised
-  artifactKey: Guid(8da719caa51fb464db6af477f080d4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/surprised using Guid(8da719caa51fb464db6af477f080d4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1004a7cd65bf06cd9485c1bd068138a1') in 0.001751 seconds
-  Import took 0.006625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/surprised
-  artifactKey: Guid(8da719caa51fb464db6af477f080d4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/surprised using Guid(8da719caa51fb464db6af477f080d4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1004a7cd65bf06cd9485c1bd068138a1') in 0.001696 seconds
-  Import took 0.006424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.067264 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/surprised/MrGlucose_jump_Land_frame1_surprised.png
-  artifactKey: Guid(348673e51469f0f4b8aff16ff9162589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/surprised/MrGlucose_jump_Land_frame1_surprised.png using Guid(348673e51469f0f4b8aff16ff9162589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba1ba713463360fc4566b6d934c781e') in 0.022900 seconds
-  Import took 0.027725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/surprised/MrGlucose_jump_Land_frame2_surprised.png
-  artifactKey: Guid(19dae883c974ea343ab21cda03520ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/surprised/MrGlucose_jump_Land_frame2_surprised.png using Guid(19dae883c974ea343ab21cda03520ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207c83a298f6f7dfb42b14b412dad667') in 0.023957 seconds
-  Import took 0.028115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.214038 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/tired
-  artifactKey: Guid(019f7fd4221342c40a5102ddd5e9e435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/tired using Guid(019f7fd4221342c40a5102ddd5e9e435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd315ac3ee3dfea34fd9b9ca2f7b82707') in 0.001683 seconds
-  Import took 0.006242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.556444 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/curious
-  artifactKey: Guid(46ab37bc35d5f9b428eeb9d88d3c48c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/curious using Guid(46ab37bc35d5f9b428eeb9d88d3c48c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9e97b439e6c6352d028a391910a133') in 0.001954 seconds
-  Import took 0.006806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.048084 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/curious/MrGlucose_jump_Land_frame1_curious.png
-  artifactKey: Guid(4563d0cfc7b15ab4d8a4ed18b71ce45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/curious/MrGlucose_jump_Land_frame1_curious.png using Guid(4563d0cfc7b15ab4d8a4ed18b71ce45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c750fa556785fcd3389de1db4169e2c7') in 0.008232 seconds
-  Import took 0.013191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/curious/MrGlucose_jump_Land_frame2_curious.png
-  artifactKey: Guid(ddb82d5589ea7464395ba9d10a01ac77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/curious/MrGlucose_jump_Land_frame2_curious.png using Guid(ddb82d5589ea7464395ba9d10a01ac77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d1449da0d9f6334689800562dc2cc8') in 0.008682 seconds
-  Import took 0.012756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.193428 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/curious/MrGlucose_jump_Land_frame1_curious.png
-  artifactKey: Guid(4563d0cfc7b15ab4d8a4ed18b71ce45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/curious/MrGlucose_jump_Land_frame1_curious.png using Guid(4563d0cfc7b15ab4d8a4ed18b71ce45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416b57930ab91e84218c0f805b6e18f3') in 0.008582 seconds
-  Import took 0.013644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/curious/MrGlucose_jump_Land_frame2_curious.png
-  artifactKey: Guid(ddb82d5589ea7464395ba9d10a01ac77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/curious/MrGlucose_jump_Land_frame2_curious.png using Guid(ddb82d5589ea7464395ba9d10a01ac77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77000723d09d59bd12dddc52d6d97ee') in 0.007814 seconds
-  Import took 0.012203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/curious/MrGlucose_jump_Land_frame1_curious.png
-  artifactKey: Guid(4563d0cfc7b15ab4d8a4ed18b71ce45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/curious/MrGlucose_jump_Land_frame1_curious.png using Guid(4563d0cfc7b15ab4d8a4ed18b71ce45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416b57930ab91e84218c0f805b6e18f3') in 0.005360 seconds
-  Import took 0.010166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.005578 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/surprised/MrGlucose_jump_Land_frame1_surprised.png
-  artifactKey: Guid(348673e51469f0f4b8aff16ff9162589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/surprised/MrGlucose_jump_Land_frame1_surprised.png using Guid(348673e51469f0f4b8aff16ff9162589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edcaf006afb40dde7a34fcf5d048022') in 0.007977 seconds
-  Import took 0.012750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/surprised/MrGlucose_jump_Land_frame2_surprised.png
-  artifactKey: Guid(19dae883c974ea343ab21cda03520ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/surprised/MrGlucose_jump_Land_frame2_surprised.png using Guid(19dae883c974ea343ab21cda03520ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2fd8731fabcbe3f33819f9251551a7') in 0.008712 seconds
-  Import took 0.012926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.791413 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry/MrGlucose_jump_Land_frame1_angry.png
-  artifactKey: Guid(38daa17ee4282e74bb37404a39c9bcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry/MrGlucose_jump_Land_frame1_angry.png using Guid(38daa17ee4282e74bb37404a39c9bcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99602e92157eca2db394d59d83ae3570') in 0.025615 seconds
-  Import took 0.030511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry/MrGlucose_jump_Land_frame2_angry.png
-  artifactKey: Guid(1b5765a1cf450b34ba754fdf4e195c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry/MrGlucose_jump_Land_frame2_angry.png using Guid(1b5765a1cf450b34ba754fdf4e195c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40eaeb68883e1bd58dc4f50b7255cbbd') in 0.038710 seconds
-  Import took 0.043003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.082116 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry/MrGlucose_jump_Land_frame1_angry 1.png
-  artifactKey: Guid(df94116cd303fd2418202c51c6282b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry/MrGlucose_jump_Land_frame1_angry 1.png using Guid(df94116cd303fd2418202c51c6282b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e9cd696b18cb136ab9812862a4d776') in 0.030971 seconds
-  Import took 0.036444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry/MrGlucose_jump_Land_frame2_angry 1.png
-  artifactKey: Guid(7dc9e455fd26ee1468b4cdd5400d9c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry/MrGlucose_jump_Land_frame2_angry 1.png using Guid(7dc9e455fd26ee1468b4cdd5400d9c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6343e9f542b59516efbfe83f299edbd') in 0.041924 seconds
-  Import took 0.046548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003801 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry/MrGlucose_jump_Land_frame2_angry 1.png
-  artifactKey: Guid(7dc9e455fd26ee1468b4cdd5400d9c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/angry/MrGlucose_jump_Land_frame2_angry 1.png using Guid(7dc9e455fd26ee1468b4cdd5400d9c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6343e9f542b59516efbfe83f299edbd') in 0.005406 seconds
-  Import took 0.010124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.868535 seconds.
-  path: Assets/Animation/Player/Glucose/Glucose.controller
-  artifactKey: Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Glucose.controller using Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af062aa496b5cf6e90bfa219ab605e36') in 0.007406 seconds
-  Import took 0.012280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.102314 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/tired/MrGlucose_jump_Land_frame1_tired.png
-  artifactKey: Guid(097089143d1210e4eb8c892714e5fb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/tired/MrGlucose_jump_Land_frame1_tired.png using Guid(097089143d1210e4eb8c892714e5fb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1237025dd822cec5c6ecd3550afd098') in 0.008768 seconds
-  Import took 0.013504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/tired/MrGlucose_jump_Land_frame2_tired.png
-  artifactKey: Guid(e3e1c0ea5b2852642a82d6d4ebd4838a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/tired/MrGlucose_jump_Land_frame2_tired.png using Guid(e3e1c0ea5b2852642a82d6d4ebd4838a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f65ea16e526ffbda8cd80bdfc12291') in 0.009382 seconds
-  Import took 0.013683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.278285 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/tired/MrGlucose_jump_Land_frame1_tired.png
-  artifactKey: Guid(097089143d1210e4eb8c892714e5fb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/tired/MrGlucose_jump_Land_frame1_tired.png using Guid(097089143d1210e4eb8c892714e5fb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf636cec4273afd64693676f40ebd59') in 0.007968 seconds
-  Import took 0.012980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/tired/MrGlucose_jump_Land_frame2_tired.png
-  artifactKey: Guid(e3e1c0ea5b2852642a82d6d4ebd4838a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Jump/jump_Land/tired/MrGlucose_jump_Land_frame2_tired.png using Guid(e3e1c0ea5b2852642a82d6d4ebd4838a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720a1baf0e480acb18e20b71fa206ada') in 0.008806 seconds
-  Import took 0.013151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.290304 seconds.
-  path: Assets/Animation/Player/Glucose/Glucose.controller
-  artifactKey: Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Glucose.controller using Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c562458a2d92f49a4de9d59a8a3ed902') in 0.008034 seconds
-  Import took 0.012913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 173.475339 seconds.
-  path: Assets/Animation/Player/Glucose/Glucose.controller
-  artifactKey: Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Glucose.controller using Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55cc7f92c15220aba2edf46774fada6') in 0.007536 seconds
-  Import took 0.012556 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001022 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.789 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.8 MB.
-System memory in use after: 139.9 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3724.
-Total: 2.473500 ms (FindLiveObjects: 0.364400 ms CreateObjectMapping: 0.079700 ms MarkObjects: 1.910100 ms  DeleteObjects: 0.117500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001008 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.791 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.8 MB.
-System memory in use after: 139.9 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3728.
-Total: 2.693000 ms (FindLiveObjects: 0.370300 ms CreateObjectMapping: 0.086000 ms MarkObjects: 2.104000 ms  DeleteObjects: 0.131600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000973 seconds.
+Registered in 0.001013 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
@@ -1590,201 +130,25 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
+- Completed reload, in  0.796 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.8 MB.
-System memory in use after: 139.9 MB.
+System memory in use before: 136.6 MB.
+System memory in use after: 136.7 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3732.
-Total: 2.882200 ms (FindLiveObjects: 0.506000 ms CreateObjectMapping: 0.108100 ms MarkObjects: 2.134200 ms  DeleteObjects: 0.133000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001053 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.753 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.9 MB.
-System memory in use after: 140.0 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3736.
-Total: 2.710500 ms (FindLiveObjects: 0.354300 ms CreateObjectMapping: 0.087700 ms MarkObjects: 2.142400 ms  DeleteObjects: 0.124800 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3700.
+Total: 3.114100 ms (FindLiveObjects: 0.362000 ms CreateObjectMapping: 0.103600 ms MarkObjects: 2.535000 ms  DeleteObjects: 0.112400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001058 seconds.
+Registered in 0.001066 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.801 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.9 MB.
-System memory in use after: 140.0 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3740.
-Total: 2.687100 ms (FindLiveObjects: 0.341700 ms CreateObjectMapping: 0.085900 ms MarkObjects: 2.137000 ms  DeleteObjects: 0.121300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001038 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.742 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.9 MB.
-System memory in use after: 140.0 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3744.
-Total: 3.215000 ms (FindLiveObjects: 0.456800 ms CreateObjectMapping: 0.090000 ms MarkObjects: 2.509400 ms  DeleteObjects: 0.157000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001045 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.745 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.9 MB.
-System memory in use after: 140.0 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3748.
-Total: 2.431400 ms (FindLiveObjects: 0.342200 ms CreateObjectMapping: 0.087100 ms MarkObjects: 1.892300 ms  DeleteObjects: 0.108900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 217.590848 seconds.
-  path: Assets/Animation/Player/Glucose/Glucose.controller
-  artifactKey: Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Glucose.controller using Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9a4c43b3bcea1d725ee044ecdd0056') in 0.020890 seconds
-  Import took 0.026136 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001101 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.9 MB.
-System memory in use after: 140.0 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3752.
-Total: 2.420300 ms (FindLiveObjects: 0.314900 ms CreateObjectMapping: 0.087200 ms MarkObjects: 1.906800 ms  DeleteObjects: 0.110500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001040 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.772 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.9 MB.
-System memory in use after: 140.0 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3756.
-Total: 2.607400 ms (FindLiveObjects: 0.353300 ms CreateObjectMapping: 0.105100 ms MarkObjects: 2.030600 ms  DeleteObjects: 0.117500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001037 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.774 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.9 MB.
-System memory in use after: 140.0 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3760.
-Total: 2.638200 ms (FindLiveObjects: 0.326200 ms CreateObjectMapping: 0.078600 ms MarkObjects: 2.110600 ms  DeleteObjects: 0.121700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001055 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -1793,83 +157,43 @@ Mono: successfully reloaded assembly
 - Completed reload, in  0.760 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.0 MB.
-System memory in use after: 140.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3764.
-Total: 2.455400 ms (FindLiveObjects: 0.325400 ms CreateObjectMapping: 0.087800 ms MarkObjects: 1.929500 ms  DeleteObjects: 0.111900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 295.451534 seconds.
-  path: Assets/Animation/Player/Glucose/Glucose.controller
-  artifactKey: Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Glucose.controller using Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd22ff252954acbfa1c6326608ff4b35') in 0.019426 seconds
-  Import took 0.024699 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001084 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.771 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.0 MB.
-System memory in use after: 140.1 MB.
+System memory in use before: 136.7 MB.
+System memory in use after: 136.8 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3768.
-Total: 2.676000 ms (FindLiveObjects: 0.316800 ms CreateObjectMapping: 0.085700 ms MarkObjects: 2.143800 ms  DeleteObjects: 0.128500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.992917 seconds.
-  path: Assets/Animation/Player/Glucose/Glucose.controller
-  artifactKey: Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player/Glucose/Glucose.controller using Guid(802a46b7712c0fb449b543d0ba364dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467b5fba4a5f716eb4a5ec5aa2fdeae3') in 0.020783 seconds
-  Import took 0.026255 seconds .
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3704.
+Total: 2.704300 ms (FindLiveObjects: 0.324800 ms CreateObjectMapping: 0.099600 ms MarkObjects: 2.161700 ms  DeleteObjects: 0.117300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001079 seconds.
+Registered in 0.001122 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
+- Completed reload, in  0.763 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.0 MB.
-System memory in use after: 140.1 MB.
+System memory in use before: 136.7 MB.
+System memory in use after: 136.8 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3772.
-Total: 2.703600 ms (FindLiveObjects: 0.338500 ms CreateObjectMapping: 0.085400 ms MarkObjects: 2.157100 ms  DeleteObjects: 0.121300 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3708.
+Total: 2.568000 ms (FindLiveObjects: 0.384400 ms CreateObjectMapping: 0.090100 ms MarkObjects: 1.973000 ms  DeleteObjects: 0.119300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001651 seconds.
+Registered in 0.001138 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
@@ -1878,16 +202,64 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
+- Completed reload, in  0.751 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.0 MB.
-System memory in use after: 140.1 MB.
+System memory in use before: 136.7 MB.
+System memory in use after: 136.8 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3776.
-Total: 3.308300 ms (FindLiveObjects: 0.458000 ms CreateObjectMapping: 0.130400 ms MarkObjects: 2.556200 ms  DeleteObjects: 0.162600 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3712.
+Total: 2.502600 ms (FindLiveObjects: 0.328900 ms CreateObjectMapping: 0.088400 ms MarkObjects: 1.967400 ms  DeleteObjects: 0.116300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001134 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.7 MB.
+System memory in use after: 136.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3716.
+Total: 2.888300 ms (FindLiveObjects: 0.486400 ms CreateObjectMapping: 0.109100 ms MarkObjects: 2.142900 ms  DeleteObjects: 0.148200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001211 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.7 MB.
+System memory in use after: 136.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3720.
+Total: 2.566200 ms (FindLiveObjects: 0.295100 ms CreateObjectMapping: 0.084900 ms MarkObjects: 2.080200 ms  DeleteObjects: 0.105200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
