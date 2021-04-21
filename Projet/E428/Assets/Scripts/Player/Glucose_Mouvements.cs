@@ -150,4 +150,8 @@ public class Glucose_Mouvements : MonoBehaviour
     {
         Glucose_Control = Control;
     }
+    public bool Get_Is_Grounded()
+    {
+        return Is_Grounded;
+    }
 }
