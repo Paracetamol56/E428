@@ -1,6 +1,4 @@
 # Fichier de configuration Visual studio
 *.vs
 ./PrivateBuilds/*
-[Ll]ibrary/
-
 Projet/E428/Library/
