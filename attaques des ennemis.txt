@@ -1,0 +1,23 @@
+Attacks
+
+Mobs
+
+Transporter robot : charge en direction du joueur
+Watcher Robot : tire un rayon laser
+Purple Slime : fait des des tours de ronde
+Blue Slime : explose
+Evil Carrot : saute
+Zombie Broccolie : fait sortir des racines du sol
+Electric Robot : lance des projectiles
+Fire Robot : lance-flammes
+
+Bosses
+
+Store Janitor : 	-charge le joueur
+			-laisse tomber des caisses explosives
+RGB Slime : 		-mortier
+			-spawn mini-slimes
+Doom Shroom :		-spores
+			-grands sauts
+Electricity manager :	-controle bobine tesla du terrain
+			-fait tomber des eclairs du ciel
