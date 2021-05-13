@@ -18,6 +18,8 @@ GameObject:
   - component: {fileID: 6020349119175454255}
   - component: {fileID: 1314884786017590004}
   - component: {fileID: 1711926084746492870}
+  - component: {fileID: 5234544674692303478}
+  - component: {fileID: 6222655758932461329}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -250,6 +252,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: c4ab8a0d-aa32-45a6-bb28-7bce4d4dbafc
     m_ActionName: Gameplay/Horizontal_Axis[/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5234544674692303478}
+        m_TargetAssemblyTypeName: Glucose_Attack, Assembly-CSharp
+        m_MethodName: GetAttackInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: d8085866-c0d9-4434-8b2a-f8b9879ea887
+    m_ActionName: Gameplay/Attack[/DualShock4GamepadHID/buttonWest,/DualShock4GamepadHID/rightShoulder,/Keyboard/enter]
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: 
   m_DefaultActionMap: Gameplay
@@ -265,6 +283,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 937c6cdfb0b5db640b35554ff4660676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5234544674692303478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314884786017589994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c4fd81a5e03964ea535d9630738ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6222655758932461329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314884786017589994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2a8e2028e7787548bff67d0289b4793, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1314884786330157335

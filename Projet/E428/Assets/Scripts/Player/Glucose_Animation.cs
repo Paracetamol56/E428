@@ -62,6 +62,9 @@ public class Glucose_Animation : MonoBehaviour
         // Make Player invisible when piped
         Player_SR.enabled = (Control != Glucose_States.Player_Control.Pipe);
     }
-
+    public void Launch_Attack_Animation()
+    {
+        Player_An.SetTrigger("Attack");
+    }
 
 }
