@@ -1,7 +1,0 @@
-Palette de couleur :
- -      https://lospec.com/palette-list/adventure28
- -      https://lospec.com/palette-list/rewild-64
- -      https://lospec.com/palette-list/alpha6
- -      https://lospec.com/palette-list/nanner-32
-Sprite du slime : https://opengameart.org/content/animated-slime
-ID de mob : https://twitter.com/RunninBlood/status/1072554928122617857?s=20
