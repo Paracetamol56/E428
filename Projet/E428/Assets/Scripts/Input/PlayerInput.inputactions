@@ -28,6 +28,22 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "1c47a9b9-68b7-42be-b4a6-10b85b038404",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "UI_Click",
+                    "type": "Button",
+                    "id": "403a1143-ee0c-4e79-8c8c-9903fe02d833",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -160,6 +176,28 @@
                     "processors": "",
                     "groups": "Default_Control",
                     "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "246598f2-7b83-4bfe-af1e-1100a8606d2a",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default_Control",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1314dca2-49b1-4f17-9d26-a03f7fa83f0c",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default_Control",
+                    "action": "UI_Click",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
