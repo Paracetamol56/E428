@@ -63,4 +63,10 @@ public class Pipe_Begining : MonoBehaviour
         // Enable new aniamtions;
         Is_Pipe_Enabled = true;
     }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawSphere(transform.position, 0.25f);
+        
+    }
 }

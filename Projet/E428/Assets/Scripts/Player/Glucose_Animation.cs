@@ -11,7 +11,8 @@ public class Glucose_Animation : MonoBehaviour
     private SpriteRenderer Player_SR;
     private Animator Player_An;
     private Glucose_Mouvements Player_Mo;
-    private bool Is_Facing_Right = false;
+    [HideInInspector]
+    public bool Is_Facing_Right = false;
     private float Horizontal_Velocity = 0;
     private float Vertical_Velocity = 0;
     // Start is called before the first frame update
@@ -62,6 +63,13 @@ public class Glucose_Animation : MonoBehaviour
         // Make Player invisible when piped
         Player_SR.enabled = (Control != Glucose_States.Player_Control.Pipe);
     }
-
+    public void Launch_Attack_Animation()
+    {
+        Player_An.SetTrigger("Attack");
+    }
+    public void Launch_Attack_Release_Animation()
+    {
+        Player_An.SetTrigger("Release");
+    }
 
 }

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1054057398215537311}
   - component: {fileID: 7752031591831286250}
   - component: {fileID: 3540795230771258027}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pipe_Begining
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Camera: {fileID: 0}
-  Pipe_Junctions: []
+  Camera_Damping: 5
+  Pipe_Section: []
 --- !u!61 &3540795230771258027
 BoxCollider2D:
   m_ObjectHideFlags: 0
