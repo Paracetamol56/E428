@@ -15,6 +15,7 @@ public class Glucose_Animation : MonoBehaviour
     public bool Is_Facing_Right = false;
     private float Horizontal_Velocity = 0;
     private float Vertical_Velocity = 0;
+    private bool Is_Dead = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,19 +30,23 @@ public class Glucose_Animation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Get player  velocity
-        Horizontal_Velocity = Player_RB.velocity.x;
-        Vertical_Velocity = Player_RB.velocity.y;
-        // Flip sprite in the direction the player facing
-        if (Is_Facing_Right && Horizontal_Velocity < 0)
-            Look_Left();
-        else if (!Is_Facing_Right && Horizontal_Velocity > 0)
-            Look_Right();
+        if (!Is_Dead)
+        {
+            // Get player  velocity
+            Horizontal_Velocity = Player_RB.velocity.x;
+            Vertical_Velocity = Player_RB.velocity.y;
+            // Flip sprite in the direction the player facing
+            if (Is_Facing_Right && Horizontal_Velocity < 0)
+                Look_Left();
+            else if (!Is_Facing_Right && Horizontal_Velocity > 0)
+                Look_Right();
 
-        // Update Animator values
-        Player_An.SetFloat("Velocity_X", Mathf.Abs(Horizontal_Velocity));
-        Player_An.SetFloat("Velocity_Y", Vertical_Velocity);
-        Player_An.SetBool("Is_Grounded", Player_Mo.Get_Is_Grounded());
+            // Update Animator values
+            Player_An.SetFloat("Velocity_X", Mathf.Abs(Horizontal_Velocity));
+            Player_An.SetFloat("Velocity_Y", Vertical_Velocity);
+            Player_An.SetBool("Is_Grounded", Player_Mo.Get_Is_Grounded());
+        }
+        
     }
     // Flip sprite in the direction the player is facing
     private void Look_Right()
@@ -71,5 +76,20 @@ public class Glucose_Animation : MonoBehaviour
     {
         Player_An.SetTrigger("Release");
     }
-
+    public void Launch_Death_Animation()
+    {
+        Is_Dead = true;
+        Player_An.SetBool("Is_Dead", true) ;
+    }
+    public void Launch_Stunt_Animation()
+    {
+        StartCoroutine(Stunt_Animation());
+    }
+    
+    private IEnumerator Stunt_Animation()
+    {
+        Player_SR.color = Color.red;
+        yield return new WaitForSeconds(0.2f);
+        Player_SR.color = Color.white;
+    }
 }

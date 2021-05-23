@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Camera: {fileID: 0}
-  Camera_Damping: 5
+  Camera_Damping: 1.5
   Pipe_Section: []
 --- !u!61 &3540795230771258027
 BoxCollider2D:

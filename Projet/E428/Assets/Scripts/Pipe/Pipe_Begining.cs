@@ -23,6 +23,7 @@ public class Pipe_Begining : MonoBehaviour
             // Start the pipe animation
             if (Is_Pipe_Enabled)
             {
+                
                 StartCoroutine(Camera_Animation(collision));
             }
         }
@@ -59,7 +60,8 @@ public class Pipe_Begining : MonoBehaviour
         collision.transform.position = Pipe_Section[Pipe_Section.Count - 1].transform.position;
         // Then reset camera target to the player
         Camera.Set_New_Target(collision.gameObject, 1, true);
-       
+        // Tell listeners that player has entered a pipe
+        Event_System.current.Pipe_Entered();
         // Enable new aniamtions;
         Is_Pipe_Enabled = true;
     }

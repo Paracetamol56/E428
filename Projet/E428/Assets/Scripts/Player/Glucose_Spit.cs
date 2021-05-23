@@ -27,7 +27,7 @@ public class Glucose_Spit : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        IEnemy enemy = collision.GetComponent<IEnemy>();
+        IAttackable enemy = collision.GetComponent<IAttackable>();
         if (enemy != null)
         {
             enemy.Be_Attacked();

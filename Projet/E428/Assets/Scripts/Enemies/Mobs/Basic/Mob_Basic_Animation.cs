@@ -43,8 +43,18 @@ public class Mob_Basic_Animation : MonoBehaviour
         Is_Facing_Right = false;
         Mob_SR.flipX = false;
     }
-    public void Lunch_Attack_Animation()
+    public void Launch_Stunt_Animation()
     {
-
+        StartCoroutine(Stunt_Animation());
+    }
+    private IEnumerator Stunt_Animation()
+    {
+        Mob_SR.color = Color.red;
+        yield return new WaitForSeconds(0.2f);
+        Mob_SR.color = Color.white;
+    }
+    public void Launch_Death_Animation()
+    {
+        Mob_An.SetTrigger("Die");
     }
 }

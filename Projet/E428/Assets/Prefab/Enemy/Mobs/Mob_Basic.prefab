@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5784690721479464848}
   - component: {fileID: 5784690721479464863}
-  m_Layer: 7
+  - component: {fileID: 2145955740674610030}
+  m_Layer: 9
   m_Name: Attack_Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,6 +58,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7, y: 1}
   m_EdgeRadius: 0.25
+--- !u!114 &2145955740674610030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784690721479464849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b639fe1ebcce0549813032861912e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Is_Enabled: 1
 --- !u!1 &5784690721984087760
 GameObject:
   m_ObjectHideFlags: 0
@@ -71,6 +85,7 @@ GameObject:
   - component: {fileID: 5784690721984087772}
   - component: {fileID: 5784690721984087773}
   - component: {fileID: 5596911831280423061}
+  - component: {fileID: 695172490189051554}
   - component: {fileID: 4102741405531492209}
   m_Layer: 7
   m_Name: Mob_Basic
@@ -225,6 +240,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6019a793efda3fb40bda68cb32d9c138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &695172490189051554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784690721984087760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 056916d58b8c1eb409d76bab8d70f235, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health_Easy: 5
+  Health_Normal: 6
+  Health_Hard: 7
 --- !u!95 &4102741405531492209
 Animator:
   serializedVersion: 3
