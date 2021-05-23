@@ -2,12 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IInterfaces : MonoBehaviour
-{
 
-}
 
-public interface IEnemy
+public interface IAttackable
 {
     void Be_Attacked();
 }

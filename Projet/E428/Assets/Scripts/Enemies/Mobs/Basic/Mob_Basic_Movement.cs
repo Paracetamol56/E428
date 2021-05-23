@@ -12,17 +12,16 @@ public class Mob_Basic_Movement : MonoBehaviour
     public float Easy_Speed = 4f;
     public float Normal_Speed = 5f;
     public float Hard_Speed = 6.5f;
-    public float Health_Easy = 50;
-    public float Health_Normal = 70;
-    public float Health_Hard = 80;
+    
     // Variables
     private Rigidbody2D Mob_RB;
     private Transform Spawn_Point;
     private float Horizontal_Speed = 0f;
     private float Max_Horizontal_Speed;
     private bool Is_Agro = false;
-
+    private bool Is_Alive = true;
     // Start is called before the first frame update
+    
     void Start()
     {
         Spawn_Point = transform;
@@ -39,44 +38,65 @@ public class Mob_Basic_Movement : MonoBehaviour
                 Max_Horizontal_Speed = Easy_Speed;
                 break;
         }
+        Event_System.current.onPipeEntered += Piped;
     }
-
+    private void OnDestroy()
+    {
+        Event_System.current.onPipeEntered -= Piped;
+    }
     // Update is called once per frame
     void Update()
     {
         // Get distance from Target game object 
         float Distance_From_Target = Vector2.Distance(Target.transform.position, this.transform.position);
-        // Get horizonatal distance form target
-        float Distance_From_Target_X = Mathf.Abs(transform.position.x - Target.transform.position.x);
 
-
-       // Check if the target is in reach distance from this mob
-        if(Distance_From_Target < Max_View_Distance)
+        // Check if the target is in reach distance from this mob
+        if (Distance_From_Target < Max_View_Distance)
             Is_Agro = true;
-
-        // Check if the target is in reach an not to close to prevent this mob to "freak out" and set the speed in direction of target
-        if (Is_Agro && Distance_From_Target_X > Min_Distance)
+        if (Is_Alive)
         {
-            if (Target.transform.position.x > this.transform.position.x)
+            if (Is_Agro)
+            {
+                Move_To_Target(Target.transform);
+            }
+            else
+            {
+                Move_To_Target(Spawn_Point.transform);
+            }
+        }
+        else
+        {
+            Mob_RB.velocity = new Vector2(0, Mob_RB.velocity.y);
+        }
+        
+       
+    }
+    private void Move_To_Target(Transform target_transform)
+    {
+        // Get horizonatal distance form target
+        float Distance_From_Target_X = Mathf.Abs(transform.position.x - target_transform.transform.position.x);
+        // Check if the target is in reach an not to close to prevent this mob to "freak out" and set the speed in direction of target
+        if (Distance_From_Target_X > Min_Distance)
+        {
+            if (target_transform.transform.position.x > this.transform.position.x)
             {
                 Horizontal_Speed = 1;
             }
             else
             {
-                if (  Target.transform.position.x < this.transform.position.x)
+                if (target_transform.transform.position.x < this.transform.position.x)
                 {
                     Horizontal_Speed = -1;
                 }
             }
         }
-        if(Distance_From_Target_X < Min_Distance)
+        if (Distance_From_Target_X < Min_Distance)
         {
             Horizontal_Speed = 0;
         }
         // Set Rigid Body velocity to move the mob
         Mob_RB.velocity = new Vector2(Horizontal_Speed * Max_Horizontal_Speed, Mob_RB.velocity.y);
     }
-
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.white;
@@ -85,5 +105,17 @@ public class Mob_Basic_Movement : MonoBehaviour
         //Gizmos.DrawWireSphere(transform.position, Min_Distance);
 
         Gizmos.DrawWireCube(this.transform.position, new Vector3(Min_Distance, 15, 0));
+    }
+    public void Set_Agro(bool Agro)
+    {
+        Is_Agro = Agro;
+    }
+    public void Piped()
+    {
+        Is_Agro = false;
+    }
+    public void Set_Life(bool Alive)
+    {
+        Is_Alive = Alive;
     }
 }

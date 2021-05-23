@@ -28,7 +28,7 @@ public class Glucose_Attack : MonoBehaviour
     {
             Glucose_An.Launch_Attack_Animation();
             // Transfer from event to variable
-            if ((int)Glucose_Control == 1)
+            if (Glucose_Control == Glucose_States.Player_Control.Normal)
             {
                 // Check if the attack button is Pressed
                 if (context.started)
@@ -81,6 +81,9 @@ public class Glucose_Attack : MonoBehaviour
             }
         }
         Glucose_An.Launch_Attack_Release_Animation();
-
+    }
+    public void Toggle_Attack(Glucose_States.Player_Control control)
+    {
+        Glucose_Control = control;
     }
 }

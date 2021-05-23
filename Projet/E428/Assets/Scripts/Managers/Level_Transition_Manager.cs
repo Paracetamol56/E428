@@ -10,16 +10,16 @@ public class Level_Transition_Manager : MonoBehaviour
     [SerializeField]
     private float Transition_Time = 1f;
 
-
-    private void Awake()
+    private void Start()
     {
         // Set Player Global Progression
-
+        
         Global_Variable.Last_Level_Build_Index = SceneManager.GetActiveScene().buildIndex;
         Save_System.Save_Data(SceneManager.GetActiveScene().buildIndex);
+        Event_System.current.onReloadLevel += Reload_Level;
     }
-
     
+
     public void Load_Next_Level()
     {
         // Start Transition

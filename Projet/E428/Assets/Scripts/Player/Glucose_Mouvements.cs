@@ -46,17 +46,19 @@ public class Glucose_Mouvements : MonoBehaviour
     // Glucose control state
     private Glucose_States.Player_Control Glucose_Control = Glucose_States.Player_Control.Normal;
 
-
+    // Stunt bool
+    private bool Is_Stunt = false;
     // Start is called before the first frame update
     void Start()
     {
         Player_RB = GetComponent<Rigidbody2D>();
+
     }
 
     // Update is called once per frame
     private void Update()
     {
-        if ((int) Glucose_Control == 1)
+        if (Glucose_Control == Glucose_States.Player_Control.Normal && !Is_Stunt)
         {
             // Manage horizontal velocity
             Player_RB.AddForce(Vector2.right * Horizontal_Axis * Horizontal_Acceleration * 1000 * Time.deltaTime);
@@ -115,6 +117,10 @@ public class Glucose_Mouvements : MonoBehaviour
                 Player_RB.velocity = new Vector2(Player_RB.velocity.x, Player_RB.velocity.y * Jump_Analog_Dampen);
             }
         }
+        else
+        {
+            Player_RB.velocity = new Vector2(0, Player_RB.velocity.y);
+        }
     }
     // Get horizontal axis from in put package event
     public void GetHorizontalAxis(InputAction.CallbackContext context)
@@ -124,7 +130,7 @@ public class Glucose_Mouvements : MonoBehaviour
     }
     public void GetJump(InputAction.CallbackContext context)
     {
-        if ((int) Glucose_Control== 1)
+        if (Glucose_Control == Glucose_States.Player_Control.Normal)
         {
             if (context.started)
                 Is_Input_Jump_Pressed = true;
@@ -153,5 +159,16 @@ public class Glucose_Mouvements : MonoBehaviour
     public bool Get_Is_Grounded()
     {
         return Is_Grounded;
+    }
+    // Used to stun momentarily Glucose
+    public void Stunt()
+    {
+        StartCoroutine(Stunt_Time());
+    }
+    private IEnumerator Stunt_Time()
+    {
+        Is_Stunt = true;
+        yield return new WaitForSeconds(0.1f);
+        Is_Stunt = false;
     }
 }
