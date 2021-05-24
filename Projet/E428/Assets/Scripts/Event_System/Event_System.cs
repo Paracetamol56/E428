@@ -27,5 +27,14 @@ public class Event_System : MonoBehaviour
             onReloadLevel?.Invoke();
         }
     }
-    
+    public event Action onPauseGame;
+    public void Pause_Game()
+    {
+        Debug.Log("Event Pause");
+        if (onPauseGame != null)
+        {
+            
+            onPauseGame?.Invoke();
+        }
+    }
 }

@@ -6,26 +6,34 @@ using UnityEngine;
 public class Mob_Basic_Movement : MonoBehaviour
 {
     // Parameters 
+
     public float Max_View_Distance = 10;
-    public float Min_Distance = 0.3f;
+    [SerializeField]
+    private float Min_Distance = 0.3f;
     public GameObject Target;
-    public float Easy_Speed = 4f;
-    public float Normal_Speed = 5f;
-    public float Hard_Speed = 6.5f;
-    
+    [SerializeField]
+    private float Easy_Speed = 4f;
+    [SerializeField]
+    private float Normal_Speed = 5f;
+    [SerializeField]
+    private float Hard_Speed = 6.5f;
+
     // Variables
+    
     private Rigidbody2D Mob_RB;
     private Transform Spawn_Point;
     private float Horizontal_Speed = 0f;
     private float Max_Horizontal_Speed;
     private bool Is_Agro = false;
     private bool Is_Alive = true;
+
     // Start is called before the first frame update
     
     void Start()
     {
         Spawn_Point = transform;
         Mob_RB = GetComponent<Rigidbody2D>();
+        // Difficulty switch
         switch (Global_Variable.Difficulty_Level)
         {
             case 2:
@@ -38,10 +46,12 @@ public class Mob_Basic_Movement : MonoBehaviour
                 Max_Horizontal_Speed = Easy_Speed;
                 break;
         }
+        // Pipe event subscription
         Event_System.current.onPipeEntered += Piped;
     }
     private void OnDestroy()
     {
+        // Pipe event unsubsrciption 
         Event_System.current.onPipeEntered -= Piped;
     }
     // Update is called once per frame
@@ -56,11 +66,11 @@ public class Mob_Basic_Movement : MonoBehaviour
         if (Is_Alive)
         {
             if (Is_Agro)
-            {
+            {// Move to player
                 Move_To_Target(Target.transform);
             }
             else
-            {
+            { // Move to spawn Point
                 Move_To_Target(Spawn_Point.transform);
             }
         }

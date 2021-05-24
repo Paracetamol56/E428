@@ -5,7 +5,7 @@ public class Main_Menu : MonoBehaviour
     [SerializeField]
     private GameObject BTN_Continue;
 
-    private int Overridden_Difficulty = 0;
+    private int Overridden_Difficulty = -1;
    
     
     private void Awake()
@@ -27,7 +27,7 @@ public class Main_Menu : MonoBehaviour
     {
 
         // If the difficulty has been overridden by the player set the global difficulty to that value;
-        if (Overridden_Difficulty == 0)
+        if (Overridden_Difficulty > -1)
             Global_Variable.Difficulty_Level = Overridden_Difficulty;
         // Load lastest played scene;
         SceneManager.LoadScene(Global_Variable.Last_Level_Build_Index);

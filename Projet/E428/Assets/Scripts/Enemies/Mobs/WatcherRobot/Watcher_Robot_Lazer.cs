@@ -60,19 +60,6 @@ public class Watcher_Robot_Lazer : MonoBehaviour
     public void Update_Attack(WatcherRobot_States.Watcher_Attacks Attack)
     {
         Attack_State = Attack;
-        switch (Attack)
-        {
-            case WatcherRobot_States.Watcher_Attacks.Aim:
-                break;
-            case WatcherRobot_States.Watcher_Attacks.Charge:
-                break;
-            case WatcherRobot_States.Watcher_Attacks.Attack:
-                break;
-            case WatcherRobot_States.Watcher_Attacks.Wait:
-                break;
-            default:
-                break;
-        }
         Watcher_Robot_RC.Update_Attack(Attack);
     }
     

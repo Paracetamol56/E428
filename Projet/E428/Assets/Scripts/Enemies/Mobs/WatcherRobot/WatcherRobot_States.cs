@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,8 +6,7 @@ using UnityEngine;
 public class WatcherRobot_States : MonoBehaviour
 {
     // Parametters
-    [SerializeField]
-    private GameObject Target;
+    
     [SerializeField]
     private float Aim_Time_Easy = 1.5f;
     [SerializeField]
@@ -14,6 +14,8 @@ public class WatcherRobot_States : MonoBehaviour
     [SerializeField]
     private float Aim_Time_Hard = 0.5f;
     // Variables 
+    [HideInInspector]
+    public GameObject Target;
     private Watcher_States Current_State = Watcher_States.Normal;
     private Watcher_Attacks Current_Attack = Watcher_Attacks.Aim;
     private Mob_Basic_Movement Watcher_Robot_Mo;
@@ -56,9 +58,22 @@ public class WatcherRobot_States : MonoBehaviour
                 Current_Aim_Time = Aim_Time_Easy;
                 break;
         }
+        // Do the update 
         Update_Attack(Current_Attack);
         Update_State(Current_State);
+        // Pipe event subscription
+        Event_System.current.onPipeEntered += Piped;
     }
+    private void OnDestroy()
+    {
+        // Pipe event unsubscription
+        Event_System.current.onPipeEntered -= Piped;
+    }
+    private void Piped()
+    {
+        Update_State(Watcher_States.Normal);
+    }
+
     private void Update()
     {
         // Get distance from Target game object 
@@ -101,7 +116,8 @@ public class WatcherRobot_States : MonoBehaviour
             case Watcher_States.Agro:
                 break;
             case Watcher_States.Dead:
-                // Disable Lazer
+                // Disable Lazer and movement
+                Watcher_Robot_Mo.Set_Life(false);
                 Watcher_Robot_La.enabled = false;
                 break;
             default:
