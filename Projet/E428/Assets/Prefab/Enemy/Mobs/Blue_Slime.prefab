@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5570324526375634943}
   - component: {fileID: 3879343567791918467}
   - component: {fileID: 8978271720303906742}
+  - component: {fileID: 4584652911740384221}
   m_Layer: 7
   m_Name: Blue_Slime
   m_TagString: Untagged
@@ -201,6 +202,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5b9f8c862aec941af0f83a0b9e1848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4584652911740384221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5990713012420964603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569d38850ed91584894b9e5efdc729e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audio_List:
+  - {fileID: 7604158408511497216, guid: b802f57bd0487e94592453d1215eac0b, type: 3}
+  - {fileID: 0}
 --- !u!1 &5990713012624898750
 GameObject:
   m_ObjectHideFlags: 0

@@ -128,4 +128,8 @@ public class Mob_Basic_Movement : MonoBehaviour
     {
         Is_Alive = Alive;
     }
+    public bool Get_Life()
+    {
+        return Is_Alive;
+    }
 }

@@ -17,7 +17,7 @@ public class Glucose_Health : MonoBehaviour,IAttackable
     private float Next_Attack = 0;
     private Glucose_States Glucose_St;
     private Glucose_Mouvements Glucose_Mo;
-
+    private Audio_Prefab_Spawner Audio_Prefab_Sp;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +25,7 @@ public class Glucose_Health : MonoBehaviour,IAttackable
         Glucose_An = GetComponent<Glucose_Animation>();
         Glucose_St = GetComponent<Glucose_States>();
         Glucose_Mo = GetComponent<Glucose_Mouvements>();
+        Audio_Prefab_Sp = GetComponent<Audio_Prefab_Spawner>();
         // Setup Current Health
         Current_Health = Max_Health;
     }
@@ -38,6 +39,7 @@ public class Glucose_Health : MonoBehaviour,IAttackable
             {
                 Glucose_An.Launch_Stunt_Animation();
                 Glucose_Mo.Stunt();
+                Audio_Prefab_Sp.Play_A_Sound(1);
             }
             else
             {

@@ -14,6 +14,7 @@ public class Glucose_Attack : MonoBehaviour
     // Variables
     private Glucose_Animation Glucose_An;
     private Glucose_States.Player_Control Glucose_Control = Glucose_States.Player_Control.Normal;
+    private Audio_Prefab_Spawner Audio_Prefab_Sp;
     private bool Is_Attack_Hold;
     private float Hold_Time_Start = 0;
     
@@ -21,6 +22,7 @@ public class Glucose_Attack : MonoBehaviour
     void Start()
     {
         Glucose_An = GetComponent<Glucose_Animation>();
+        Audio_Prefab_Sp = GetComponent<Audio_Prefab_Spawner>();
     }
 
 
@@ -45,7 +47,7 @@ public class Glucose_Attack : MonoBehaviour
     }
     public void Attack_Action(float Hold_Time)
     {
-
+        // If the attack isn't enought charged
         if (Hold_Time < Powered_Attack_Min_Time)
         {
             print(Hold_Time);
@@ -59,6 +61,7 @@ public class Glucose_Attack : MonoBehaviour
             {
 
                 print("Heavy Attack");
+                // Spawn 2 spits in the intended direction
                 if (!Glucose_An.Is_Facing_Right)
                 {
                     Instantiate(Spit, transform.position, Quaternion.Euler(0, 0, 0));
@@ -73,7 +76,7 @@ public class Glucose_Attack : MonoBehaviour
             else
             {
                 print("Powered Attack");
-                
+                // Spawn 1 spit in the intended direction
                 if (!Glucose_An.Is_Facing_Right)
                     Instantiate(Spit, transform.position, Quaternion.Euler(0, 0, -5));
                 else
@@ -81,6 +84,7 @@ public class Glucose_Attack : MonoBehaviour
             }
         }
         Glucose_An.Launch_Attack_Release_Animation();
+        Audio_Prefab_Sp.Play_A_Sound(0);
     }
     public void Toggle_Attack(Glucose_States.Player_Control control)
     {

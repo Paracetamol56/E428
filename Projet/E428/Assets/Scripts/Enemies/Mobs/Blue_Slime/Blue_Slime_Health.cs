@@ -16,13 +16,14 @@ public class Blue_Slime_Health : MonoBehaviour, IAttackable
     private int Current_Health;
     private Blue_Slime_Animation Blue_Slime_An;
     private Blue_Slime_Explode Blue_Slime_Ex;
-
+    private Audio_Prefab_Spawner Audio_Prefab_Sp;
     // Start is called before the first frame update
     void Start()
     {
         Blue_Slime_Ex = GetComponentInChildren<Blue_Slime_Explode>();
         Blue_Slime_An = GetComponent<Blue_Slime_Animation>();
         WatcherRobot_Mo = GetComponent<Mob_Basic_Movement>();
+        Audio_Prefab_Sp = GetComponent<Audio_Prefab_Spawner>();
         switch (Global_Variable.Difficulty_Level)
         {
             case 2:
@@ -54,7 +55,7 @@ public class Blue_Slime_Health : MonoBehaviour, IAttackable
             // Disable Attack Box
 
             // Launch Animation
-
+            Audio_Prefab_Sp.Play_A_Sound(0);
             StartCoroutine(Destruction());
             Blue_Slime_An.Launch_Death_Animation();
             

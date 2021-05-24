@@ -45,14 +45,15 @@ public class Glucose_Mouvements : MonoBehaviour
     private float Time_Before_Next_Jump;
     // Glucose control state
     private Glucose_States.Player_Control Glucose_Control = Glucose_States.Player_Control.Normal;
-
+    // Glucose audio
+    private Audio_Prefab_Spawner Audio_Prefab_Sp;
     // Stunt bool
     private bool Is_Stunt = false;
     // Start is called before the first frame update
     void Start()
     {
         Player_RB = GetComponent<Rigidbody2D>();
-
+        Audio_Prefab_Sp = GetComponent<Audio_Prefab_Spawner>();
     }
 
     // Update is called once per frame
@@ -101,7 +102,7 @@ public class Glucose_Mouvements : MonoBehaviour
             {
                 Player_RB.AddForce(new Vector2(0, Jump_Force - Player_RB.velocity.y), ForceMode2D.Impulse);
                 Jump_Buffer_Count = 0;
-
+                
                 // Set jump limiter to the time before next jump
                 Time_Before_Next_Jump = Koyote_Time + 0.1f;
             }
