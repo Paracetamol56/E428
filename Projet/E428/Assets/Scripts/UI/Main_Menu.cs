@@ -53,4 +53,9 @@ public class Main_Menu : MonoBehaviour
         Save_System.Wipe_Data();
         BTN_Continue.SetActive(false);
     }
+    public void Quit_Button()
+    {
+        Debug.Log("Quit App");   
+        Application.Quit();
+    }
 }
