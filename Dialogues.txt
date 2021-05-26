@@ -1,0 +1,30 @@
+									/==========================\
+									|     Dialogue des PNJ	   |
+									\==========================/
+
+<========================================Zone 1========================================>
+
+The lost one :
+	- Hello ! I am lost.
+	- Do you know were are we ?
+	- In any case this place is very huge !
+	- But it is full of robot, I saw them.
+	- I am scared...
+
+A blob in a box : 
+	- No, no, no, NO, NOOOOOOOOO !
+	- Go away please !
+	- They will spot me... 
+	- Go away, I beg you !
+	- I dont want to be slaughter...
+
+Baby slime :
+	- Today I saw my friends get split in half.
+	- I'm jealous now because...
+	- They have one more friend now.
+
+<========================================Zone 2========================================>
+
+<========================================Zone 3========================================>
+
+<========================================Zone 4========================================>
