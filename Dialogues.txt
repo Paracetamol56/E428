@@ -25,6 +25,41 @@ Baby slime :
 
 <========================================Zone 2========================================>
 
+Blob family : 
+	- Hello my friend !
+	- You go this way ?
+	- There are lots of slime here, that's very good.
+	- I think if we stay together nothing bad can happen to us !
+	- After all we are a family, nothing can separate us !
+
+Sick slime : 
+	- I feel bad.
+	- It is painful...
+	- Very painful.
+	- I feel pain.
+	- I am only...
+	- Pain
+	- ...
+	- Kill me...
+	- Please.
+
+Blogre : 
+	- You are very appetizing !
+	- I could eat you
+	- But...
+	- I am full.
+	- You can pass but don't stay too long...
+	- I might be hungry again !
+
+Sweetener blobers : 
+	- Oh we have a guest !
+	- Hello little slime.
+	- Are you lost ?
+	- We could help you.
+	- Unfortunatly...
+	- We are friends
+	- But no with you !
+
 <========================================Zone 3========================================>
 
 <========================================Zone 4========================================>
