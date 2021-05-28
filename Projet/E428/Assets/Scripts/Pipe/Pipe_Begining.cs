@@ -31,6 +31,10 @@ public class Pipe_Begining : MonoBehaviour
     // Pipe animation
     IEnumerator Camera_Animation(Collider2D collision)
     {
+        // Move away the player
+        collision.transform.position = new Vector3(1000, 1000, 1000);
+        // Tell listeners that player has entered a pipe
+        Event_System.current.Pipe_Entered();
         // Disable new animations
         Is_Pipe_Enabled = false;
         // Get state script from player
@@ -57,11 +61,17 @@ public class Pipe_Begining : MonoBehaviour
         {
             state.Change_Glucose_Controls(Glucose_States.Player_Control.Normal);
         }
+        // Freeze the player
+        if (collision.GetComponent<Rigidbody2D>() != null)
+        {
+            collision.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+        }
+        // TP the player to tre last pipe
         collision.transform.position = Pipe_Section[Pipe_Section.Count - 1].transform.position;
+        
         // Then reset camera target to the player
         Camera.Set_New_Target(collision.gameObject, 1, true);
-        // Tell listeners that player has entered a pipe
-        Event_System.current.Pipe_Entered();
+        
         // Enable new aniamtions;
         Is_Pipe_Enabled = true;
     }

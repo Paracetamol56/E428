@@ -20,6 +20,7 @@ public class Audio_Prefab : MonoBehaviour
             // Set audio source clip to parametter
             Source.clip = Clip;
             // Play Once
+            Source.volume = Volume;
             Source.PlayOneShot(Clip);
             // Prepare deletion
             StartCoroutine(Destroy_After_Playing());

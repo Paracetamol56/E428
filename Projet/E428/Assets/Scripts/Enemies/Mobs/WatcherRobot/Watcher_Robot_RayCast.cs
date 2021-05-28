@@ -84,13 +84,14 @@ public class Watcher_Robot_RayCast : MonoBehaviour
         }
         Lazer_Line.colorGradient = Gradiant_Attack;
     }
-    // Used to update state
+    // Used to update attack state
     public void Update_Attack(WatcherRobot_States.Watcher_Attacks Attack)
     {
         // Do the attack 
         Attack_State = Attack;
 
     }
+    // Used to update state
     public void Update_State(WatcherRobot_States.Watcher_States state)
     {
         State = state;

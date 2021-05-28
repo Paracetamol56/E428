@@ -71,13 +71,15 @@ public class Electric_Robot_Attack : MonoBehaviour, IAttackable
     }
     private IEnumerator Attack_Action()
     {
-        // Launch Cast Animation
-        Mob_An.SetTrigger("Cast");
+        
+        
         Can_Attack = false;
         yield return new WaitForSeconds(Current_Attack_Delay);
         // Prevent attack if the mob isn't agro after the delay
         if (Is_Agro && Mob_Basic_Mo.Get_Life())
         {
+            // Launch Cast Animation
+            Mob_An.SetTrigger("Cast");
             Instantiate(Attack_To_Spawn, Target.transform.position,Target.transform.rotation,null);
         }
         Can_Attack = true;

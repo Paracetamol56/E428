@@ -46,19 +46,24 @@ public class Glucose_Mouvements : MonoBehaviour
     // Glucose control state
     private Glucose_States.Player_Control Glucose_Control = Glucose_States.Player_Control.Normal;
     // Glucose audio
-    private Audio_Prefab_Spawner Audio_Prefab_Sp;
+
     // Stunt bool
     private bool Is_Stunt = false;
     // Start is called before the first frame update
     void Start()
     {
         Player_RB = GetComponent<Rigidbody2D>();
-        Audio_Prefab_Sp = GetComponent<Audio_Prefab_Spawner>();
     }
 
     // Update is called once per frame
     private void Update()
     {
+        // If the player cant play
+        if (Global_Variable.Current_State != Game_State.Player_Control)
+        {
+            // Set input axis to 0
+            Horizontal_Axis = 0;
+        }
         if (Glucose_Control == Glucose_States.Player_Control.Normal && !Is_Stunt)
         {
             // Manage horizontal velocity
@@ -102,7 +107,7 @@ public class Glucose_Mouvements : MonoBehaviour
             {
                 Player_RB.AddForce(new Vector2(0, Jump_Force - Player_RB.velocity.y), ForceMode2D.Impulse);
                 Jump_Buffer_Count = 0;
-                
+
                 // Set jump limiter to the time before next jump
                 Time_Before_Next_Jump = Koyote_Time + 0.1f;
             }
@@ -122,29 +127,41 @@ public class Glucose_Mouvements : MonoBehaviour
         {
             Player_RB.velocity = new Vector2(0, Player_RB.velocity.y);
         }
+
     }
     // Get horizontal axis from in put package event
     public void GetHorizontalAxis(InputAction.CallbackContext context)
     {
-        // Transfer from event to variable
-        Horizontal_Axis = context.ReadValue<float>();
+        // If the player can play
+        if (Global_Variable.Current_State == Game_State.Player_Control)
+        {
+            // Transfer from event to variable
+            Horizontal_Axis = context.ReadValue<float>();
+        }
+       
+
     }
     public void GetJump(InputAction.CallbackContext context)
     {
+
         if (Glucose_Control == Glucose_States.Player_Control.Normal)
         {
-            if (context.started)
-                Is_Input_Jump_Pressed = true;
-            // Check if the jump button is Pressed
-            if (context.started && !Is_Input_Jump_Hold)
+            if (Global_Variable.Current_State == Game_State.Player_Control)
             {
-                Is_Input_Jump_Hold = true;
+                if (context.started)
+                    Is_Input_Jump_Pressed = true;
+                // Check if the jump button is Pressed
+                if (context.started && !Is_Input_Jump_Hold)
+                {
+                    Is_Input_Jump_Hold = true;
+                }
             }
             else if (context.canceled & Is_Input_Jump_Hold)
             {
                 Is_Input_Jump_Hold = false;
             }
         }
+
     }
     // Gizmos helper
     private void OnDrawGizmosSelected()

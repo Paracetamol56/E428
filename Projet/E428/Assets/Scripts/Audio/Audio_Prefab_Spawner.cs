@@ -16,7 +16,9 @@ public class Audio_Prefab_Spawner : MonoBehaviour
             // Check if ther is a sound clip at the index
             if (Audio_List[Sound_Index] != null)
             {
+
                 // Instanciate audio prefab
+                Debug.Log("Play sound number " + Sound_Index);
                 Instantiate(Audio_List[Sound_Index], transform);
             }
             

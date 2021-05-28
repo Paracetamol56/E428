@@ -12,7 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Mob_Test.unity
     guid: 4466dc6dc7e660e498c5a16438582df3
   - enabled: 1
-    path: Assets/Scenes/Boss_Test.unity
+    path: Assets/Scenes/StoreJanitor_Test.unity
     guid: 6488e0ae6725ee94cbfc44dea1e12786
+  - enabled: 1
+    path: Assets/Scenes/RGB_Slime_Test.unity
+    guid: 2c466ff214c78554a8fc5a1ef9bd8c6c
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 8776c7d1145fe4a4b8fcbb413f337d45, type: 2}

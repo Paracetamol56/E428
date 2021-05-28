@@ -38,7 +38,7 @@ public class Pause_Menu : MonoBehaviour
             // Set paused timescale
             Time.timeScale = 0f;
             // Set global pause
-            GameManager.Update_Game_State(Game_State.Pause);
+            Global_Variable.Update_Game_State(Game_State.Pause);
             Pause_UI.SetActive(true);
         }
         
@@ -48,13 +48,13 @@ public class Pause_Menu : MonoBehaviour
         // Set normal timescale
         Time.timeScale = 1f;
         // Unset global pause
-        GameManager.Update_Game_State(Game_State.Player_Control);
+        Global_Variable.Update_Game_State(Game_State.Player_Control);
         Pause_UI.SetActive(false);
     }
     public void Return_To_Main_Menu()
     {
         // Unset global pause
-        GameManager.Update_Game_State(Game_State.Player_Control);
+        Global_Variable.Update_Game_State(Game_State.Player_Control);
 
         // Set normal timescale
         Time.timeScale = 1f;

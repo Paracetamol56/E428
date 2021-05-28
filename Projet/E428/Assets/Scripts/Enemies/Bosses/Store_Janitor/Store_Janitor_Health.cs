@@ -48,21 +48,22 @@ public class Store_Janitor_Health : MonoBehaviour, IAttackable
     }
     public void Be_Attacked()
     {
+        Current_Health -= 1;
         // Make boss angrier
         Store_Janitor_At.Increase_Difficulty();
         // If the boss has heath, he become stunt else he die
-        if (Current_Health >= 1)
+        if (Current_Health > 0)
         {
            
             Store_Janitor_An.Launch_Stunt_Animation();
         }
         else
         {
-            
-            Store_Janitor_St.Update_Sate(Boss_States.Dead);
+            Debug.Log("Store Janitor is Dead= ");
+            Store_Janitor_St.Update_State(Boss_States.Dead);
             Store_Janitor_An.Launch_Death_Animation();
         }
-        Current_Health -= 1;
+        Debug.Log("Store Janitor Health = " + Current_Health);
         HUD.Update_Boss_Health_Bar(Current_Health, Max_Health);
     }
 }

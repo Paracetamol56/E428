@@ -64,11 +64,16 @@ public class Store_Janitor_Mouvements : MonoBehaviour
             }
             Store_Janitor_RB.velocity = new Vector2(Horizontal_Speed, Store_Janitor_RB.velocity.y);
         }
+        else
+        {
+            Store_Janitor_RB.velocity = new Vector2(0, 0);
+        }
     }
     // Update state when called
     public void Update_State(Boss_States state)
     {
         State = state;
+        Debug.Log("Store Janitor Mo state = " + State);
     }
     
 }

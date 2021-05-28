@@ -215,9 +215,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attack_To_Spawn: {fileID: 8600169021543829964, guid: 375293e3be00b9442bc9cb883a8c0eac, type: 3}
   Max_Attack_Distance: 10
-  Easy_Attack_Delay: 2
-  Normal_Attack_Delay: 1.5
-  Hard_Attack_Delay: 1
+  Easy_Attack_Delay: 2.5
+  Normal_Attack_Delay: 2
+  Hard_Attack_Delay: 1.5
 --- !u!1 &4585255512185771322
 GameObject:
   m_ObjectHideFlags: 0

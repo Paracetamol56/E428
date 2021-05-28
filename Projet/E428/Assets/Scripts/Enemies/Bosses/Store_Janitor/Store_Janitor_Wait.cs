@@ -46,8 +46,8 @@ public class Store_Janitor_Wait : MonoBehaviour
     }
     IEnumerator Wait_After_Attack()
     {
-        Store_Janitor_St.Update_Sate(Boss_States.Wait);
+        Store_Janitor_St.Update_State(Boss_States.Wait);
         yield return new WaitForSeconds(Wait_Time);
-        Store_Janitor_St.Update_Sate(Boss_States.Attack);
+        Store_Janitor_St.Update_State(Boss_States.Attack);
     }
 }

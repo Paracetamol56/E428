@@ -28,6 +28,9 @@ public class Glucose_Attack : MonoBehaviour
 
     public void GetAttackInput(InputAction.CallbackContext context)
     {
+        // If player can play
+        if (Global_Variable.Current_State == Game_State.Player_Control)
+        {
             Glucose_An.Launch_Attack_Animation();
             // Transfer from event to variable
             if (Glucose_Control == Glucose_States.Player_Control.Normal)
@@ -44,6 +47,8 @@ public class Glucose_Attack : MonoBehaviour
                     Attack_Action(Time.time - Hold_Time_Start);
                 }
             }
+        }
+            
     }
     public void Attack_Action(float Hold_Time)
     {
@@ -56,7 +61,8 @@ public class Glucose_Attack : MonoBehaviour
         }
         else
         {
-
+            // Play Spit Sound
+            Audio_Prefab_Sp.Play_A_Sound(0);
             if (Hold_Time > Heavy_Attack_Min_Time)
             {
 
@@ -84,7 +90,7 @@ public class Glucose_Attack : MonoBehaviour
             }
         }
         Glucose_An.Launch_Attack_Release_Animation();
-        Audio_Prefab_Sp.Play_A_Sound(0);
+        
     }
     public void Toggle_Attack(Glucose_States.Player_Control control)
     {

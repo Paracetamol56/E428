@@ -7,7 +7,7 @@ public class Event_System : MonoBehaviour
     // Create a static instance
     private void Awake()
     {
-        current = this;
+            current = this;
     }
     // Event
 
@@ -35,6 +35,36 @@ public class Event_System : MonoBehaviour
         {
             
             onPauseGame?.Invoke();
+        }
+    }
+    public event Action<int> onCinematicBegin;
+    public void Cinematic_Begin(int id)
+    {
+        Debug.Log("Event Cinematic began");
+        if (onCinematicBegin != null)
+        {
+            Global_Variable.Current_State = Game_State.Cinematic;
+            onCinematicBegin?.Invoke(id);
+        }
+    }
+    public event Action<int> onCinematicEnd;
+    public void Cinematic_End(int id)
+    {
+        Global_Variable.Current_State = Game_State.Player_Control;
+        Debug.Log("Event Cinematic end began");
+        if (onCinematicEnd != null)
+        {
+            
+            onCinematicEnd?.Invoke(id);
+        }
+    }
+    public event Action onDialogStarted;
+    public void Dialog_Started()
+    {
+        Debug.Log("Event Dialog Started");
+        if (onDialogStarted != null)
+        {
+            onDialogStarted?.Invoke();
         }
     }
 }
