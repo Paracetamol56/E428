@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Doom_Shroom_Animation : MonoBehaviour
 {
-
+    // Parametter
+    [SerializeField]
+    private float Cinematic_Id = 0;
     // Variables
     private Animator Doom_Shroom_An;
     private Rigidbody2D Doom_Shroom_RB;
     private SpriteRenderer Doom_Shroom_SR;
+    private Doom_Shroom_State Doom_Shroom_St;
     private bool Is_Facing_Right = false;
     private float Horizontal_Velocity = 0;
     // Start is called before the first frame update
@@ -17,6 +20,8 @@ public class Doom_Shroom_Animation : MonoBehaviour
         Doom_Shroom_An = GetComponent<Animator>();
         Doom_Shroom_RB = GetComponent<Rigidbody2D>();
         Doom_Shroom_SR = GetComponent<SpriteRenderer>();
+        Doom_Shroom_St = GetComponent<Doom_Shroom_State>();
+        Event_System.current.onCinematicEnd += Launch_Cinematic;
     }
 
     // Update is called once per frame
@@ -45,10 +50,29 @@ public class Doom_Shroom_Animation : MonoBehaviour
     }
     public void Launch_Death_Animation()
     {
-        Doom_Shroom_An.SetBool("Death",true);
+        Debug.Log("Doom Shroom Death animation");
+        Doom_Shroom_An.SetBool("Dead", true);
     }
     public void Launch_Attack_Animation()
     {
         Doom_Shroom_An.SetTrigger("Attack");
+    }
+    public void Launch_Cinematic(int id)
+    {
+        if (id == Cinematic_Id)
+        {
+            Doom_Shroom_St.Update_State(Boss_States.Attack);
+        }
+    }
+    public void Launch_Stunt_Animation()
+    {
+        StartCoroutine(Stunt_Color());
+    }
+    IEnumerator Stunt_Color()
+    {
+        print("Stunt");
+        Doom_Shroom_SR.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        Doom_Shroom_SR.color = Color.white;
     }
 }

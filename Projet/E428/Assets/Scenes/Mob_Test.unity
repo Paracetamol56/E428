@@ -104799,7 +104799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6774871927955628579, guid: daa450350732d054d8b634940b3b5072, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6774871927955628579, guid: daa450350732d054d8b634940b3b5072, type: 3}
       propertyPath: m_LocalPosition.y
@@ -104852,6 +104852,10 @@ PrefabInstance:
     - target: {fileID: 7918052352251991793, guid: daa450350732d054d8b634940b3b5072, type: 3}
       propertyPath: Cinematic_Time
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108845217214327607, guid: daa450350732d054d8b634940b3b5072, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: daa450350732d054d8b634940b3b5072, type: 3}

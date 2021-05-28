@@ -10,7 +10,7 @@ public class Glucose_Animation : MonoBehaviour
     private Rigidbody2D Player_RB;
     private SpriteRenderer Player_SR;
     private Animator Player_An;
-    private Glucose_Mouvements Player_Mo;
+    private Glucose_Controls Player_Mo;
     [HideInInspector]
     public bool Is_Facing_Right = false;
     private float Horizontal_Velocity = 0;
@@ -23,7 +23,7 @@ public class Glucose_Animation : MonoBehaviour
         Player_RB = GetComponent<Rigidbody2D>();
         Player_SR = GetComponent<SpriteRenderer>();
         Player_An = GetComponent<Animator>();
-        Player_Mo = GetComponent<Glucose_Mouvements>();
+        Player_Mo = GetComponent<Glucose_Controls>();
         Change_Animation_Vibe(Glucose_States.Player_Emotion.Normal);
     }
 

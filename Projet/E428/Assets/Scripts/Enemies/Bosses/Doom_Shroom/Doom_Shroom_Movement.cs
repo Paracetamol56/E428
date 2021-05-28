@@ -18,16 +18,21 @@ public class Doom_Shroom_Movement : MonoBehaviour
     [SerializeField]
     private float Jump_Vertical_Speed = 5f;
     [SerializeField]
+    private float Wait_Time = 3;
+    [SerializeField]
+    private int Number_Of_Jump_Before_Wait = 5;
+    [SerializeField]
     private BoxCollider2D Ground_Checker;
     // Variables
     private float Current_Jump_Delay;
-    private Boss_States State = Boss_States.Attack;
+    private Boss_States State = Boss_States.Cinematic;
     private bool Go_To_Left = true;
     private Rigidbody2D Doom_Shroom_RB;
     private BoxCollider2D Hit_Box;
     private Doom_Shroom_Animation Doom_Shroom_An;
-    private bool Is_Frozen = false;
+    private Doom_Shroom_State Doom_Shroom_St;
     private bool Is_Grounded = true;
+    private int Jump_Counter = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,21 +52,20 @@ public class Doom_Shroom_Movement : MonoBehaviour
         Hit_Box = GetComponent<BoxCollider2D>();
         Doom_Shroom_RB = GetComponent<Rigidbody2D>();
         Doom_Shroom_An = GetComponent<Doom_Shroom_Animation>();
+        Doom_Shroom_St = GetComponent<Doom_Shroom_State>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        // If Doom_Shroom is able to move and grounded
-        if (Is_Grounded)
-        {
-            // Check if the boss is in a state of potential movement
-            if (!(State == Boss_States.Cinematic || State == Boss_States.Dead))
+        
+
+            // Check if the boss is in a state of potential movement and grounded
+            if (State == Boss_States.Attack && Is_Grounded)
             {
                 Jump(Go_To_Left);
             }
-            Debug.Log("Doom Shroom velocity = " + Doom_Shroom_RB.velocity);
-        }
+
     }
     public void Jump(bool left)
     {
@@ -80,17 +84,31 @@ public class Doom_Shroom_Movement : MonoBehaviour
         Doom_Shroom_An.Launch_Jump_Animation();
         // Move jump trigger inside th collision to block ground check while we wait for the next windows of action
         Ground_Checker.transform.localPosition = new Vector3(0, 0, 0);
-        // If Doom_Shroom has to jump to the left go in the left direction or go to the right direction if not
-        if (left)
-            Doom_Shroom_RB.velocity = new Vector2(-Jump_Horizontal_Speed, Jump_Vertical_Speed);
-        else
-            Doom_Shroom_RB.velocity = new Vector2(Jump_Horizontal_Speed, Jump_Vertical_Speed);
+        // If Doom_Shroom has to jump and is alive to the left go in the left direction or go to the right direction if not
+        if (State != Boss_States.Dead)
+        {
+            if (left)
+                Doom_Shroom_RB.velocity = new Vector2(-Jump_Horizontal_Speed, Jump_Vertical_Speed);
+            else
+                Doom_Shroom_RB.velocity = new Vector2(Jump_Horizontal_Speed, Jump_Vertical_Speed);
+        }
+       
         yield return new WaitForSeconds(1.5f );
         Doom_Shroom_RB.gravityScale = 3f;
 
         yield return new WaitForSeconds(Current_Jump_Delay);
         // Move jump trigger outside the collision to make ground check possible
         Ground_Checker.transform.localPosition = new Vector3(0, -2, 0);
+       // Increase jump counter
+        Jump_Counter++;
+        // Check if jump counter is a multiple of je wait number to make doom shroom wait sometimes
+        if (Jump_Counter % Number_Of_Jump_Before_Wait == 0)
+        {
+            // Update general state
+            Doom_Shroom_St.Update_State(Boss_States.Wait);
+            // Start wait time
+            StartCoroutine(Wait());
+        }
     }
     public void Change_Direction()
     {
@@ -101,21 +119,26 @@ public class Doom_Shroom_Movement : MonoBehaviour
     {
         Is_Grounded = grounded;
     }
-    public void Freeze()
-    {
-        //Is_Frozen = true;
-        //// Freeze position
-        //Doom_Shroom_RB.velocity = new Vector2(0, 0);
-        //// Disble gravity to prevent falling in the void
-        //Doom_Shroom_RB.gravityScale = 0;
-        //// Disable hitbox collision
-        //Hit_Box.isTrigger = true;
-        //Debug.Log(" Frozen " + Doom_Shroom_RB.velocity + " " + Doom_Shroom_RB.gravityScale + " " + Hit_Box.isTrigger);
-    }
+
     // Update state when called
     public void Update_State(Boss_States state)
     {
         State = state;
         Debug.Log("Mouvement States = " + State);
+    }
+    public void Refresh_Ground_Check()
+    {
+        // Move jump trigger inside th collision to block ground check while we wait for the next windows of action
+        Ground_Checker.transform.localPosition = new Vector3(0, 0, 0);
+        // Move jump trigger outside the collision to make ground check possible
+        Ground_Checker.transform.localPosition = new Vector3(0, -2, 0);
+    }
+    private IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(Wait_Time);
+        if (State != Boss_States.Dead)
+        {
+            Doom_Shroom_St.Update_State(Boss_States.Attack);
+        }
     }
 }

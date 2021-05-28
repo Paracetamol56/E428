@@ -20,13 +20,11 @@ public class Doom_Shroom_State : MonoBehaviour
         Doom_Shroom_HitBox = GetComponentInChildren<Mob_Basic_Attack>();
         Doom_Shroom_Collision = GetComponent<BoxCollider2D>();
         Doom_Shroom_RB = GetComponent<Rigidbody2D>();
+        Doom_Shroom_Att = GetComponent<Doom_Shroom_Attack>();
+        Doom_Shroom_Mo = GetComponent<Doom_Shroom_Movement>();
+        Update_State(Boss_States.Cinematic);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void Update_State(Boss_States state)
     {
         if (!Has_Died)
@@ -37,7 +35,7 @@ public class Doom_Shroom_State : MonoBehaviour
                 case Boss_States.Cinematic:
                     break;
                 case Boss_States.Attack:
-
+                    Doom_Shroom_Mo.Refresh_Ground_Check();
                     HUD.Start_Battle();
                     break;
                 case Boss_States.Wait:
@@ -50,7 +48,7 @@ public class Doom_Shroom_State : MonoBehaviour
                     HUD.End_Battle();
                     // Disable hurt Box and 
                     Doom_Shroom_HitBox.Is_Enabled = false;
-                    Doom_Shroom_Mo.Freeze();
+                    
                     // Block any other state pdates
                     Has_Died = true;
                     break;
@@ -58,8 +56,8 @@ public class Doom_Shroom_State : MonoBehaviour
                     break;
             }
             // Update States for all script in need
-            //RGB_Slime_Mo.Update_State(state);
-            //RGB_Slime_Att.Update_State(state);
+            Doom_Shroom_Mo.Update_State(state);
+            Doom_Shroom_Att.Update_State(state);
             Debug.Log("Updated Boss states to " + Get_States());
         }
 

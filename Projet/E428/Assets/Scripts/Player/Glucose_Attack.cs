@@ -96,4 +96,10 @@ public class Glucose_Attack : MonoBehaviour
     {
         Glucose_Control = control;
     }
+    // Used with pipes
+    public void Reset_Attack()
+    {
+        Is_Attack_Hold = false;
+        Attack_Action(0);
+    }
 }

@@ -11,8 +11,8 @@ public class RGB_Slime_States : MonoBehaviour
     
     // variables
     private Mob_Basic_Attack RGB_Slime_HitBox;
-    private Doom_Shroom_Movement Doom_Shroom_Mo;
-    private Doom_Shroom_Attack Doom_Shroom_Att;
+    private RGB_Slime_Movement RGB_Slime_Mo;
+    private RGB_Slime_Attack RGB_Slime_Att;
     private BoxCollider2D RGB_Slime_Collision;
     private Rigidbody2D RGB_Slime_RB;
     private Boss_States State = Boss_States.Cinematic;
@@ -23,8 +23,8 @@ public class RGB_Slime_States : MonoBehaviour
     {
         
         RGB_Slime_HitBox = GetComponentInChildren<Mob_Basic_Attack>();
-        Doom_Shroom_Mo = GetComponent<Doom_Shroom_Movement>();
-        Doom_Shroom_Att = GetComponent<Doom_Shroom_Attack>();
+        RGB_Slime_Mo = GetComponent<RGB_Slime_Movement>();
+        RGB_Slime_Att = GetComponent<RGB_Slime_Attack>();
         RGB_Slime_Collision = GetComponent<BoxCollider2D>();
         RGB_Slime_RB = GetComponent<Rigidbody2D>();
         
@@ -53,7 +53,7 @@ public class RGB_Slime_States : MonoBehaviour
                     HUD.End_Battle();
                     // Disable hurt Box and 
                     RGB_Slime_HitBox.Is_Enabled = false;
-                    Doom_Shroom_Mo.Freeze();
+                    RGB_Slime_Mo.Freeze();
                     // Block any other state pdates
                     Has_Died = true;
                     break;
@@ -61,8 +61,8 @@ public class RGB_Slime_States : MonoBehaviour
                     break;
             }
             // Update States for all script in need
-            Doom_Shroom_Mo.Update_State(state);
-            Doom_Shroom_Att.Update_State(state);
+            RGB_Slime_Mo.Update_State(state);
+            RGB_Slime_Att.Update_State(state);
             Debug.Log("Updated Boss states to " + Get_States());
         }
         

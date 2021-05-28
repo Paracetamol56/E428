@@ -12,15 +12,17 @@ public class Glucose_States : MonoBehaviour
     Player_Emotion Glucose_Vibe;
     Player_Control Glucose_Control;
     // 
-    Glucose_Animation Glucose_An;
-    Glucose_Mouvements Glucose_Mo;
+    private Glucose_Animation Glucose_An;
+    private Glucose_Controls Glucose_Mo;
+    private Glucose_Attack Glucose_Att;
     // Start is called before the first frame update
     void Start()
     {
         Glucose_Vibe = Player_Emotion.Normal;
         Glucose_Control = Player_Control.Normal;
         Glucose_An = GetComponent<Glucose_Animation>();
-        Glucose_Mo = GetComponent<Glucose_Mouvements>();
+        Glucose_Mo = GetComponent<Glucose_Controls>();
+        Glucose_Att = GetComponent<Glucose_Attack>();
         Event_System.current.onCinematicBegin += Change_Control_To_Cinematic;
         Event_System.current.onCinematicEnd += Change_Control_To_Normal;
     }
@@ -40,10 +42,11 @@ public class Glucose_States : MonoBehaviour
             case Player_Control.Normal:
                 break;
             case Player_Control.Pipe:
-                Glucose_An.Launch_Attack_Release_Animation();
+                // Reset attack to prevent unwanted behaviours
+                Glucose_Att.Reset_Attack();
                 break;
             case Player_Control.Cinematic:
-                Glucose_An.Launch_Attack_Release_Animation();
+                Glucose_Att.Reset_Attack();
                 break;
             case Player_Control.Stunt:
                 break;

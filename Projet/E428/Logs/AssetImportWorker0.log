@@ -1,0 +1,1549 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'fr' Physical Memory: 16294 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\Programs\Tools\UnityInstall\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Documents/Dev/Git/E428/Projet/E428
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52706
+Successfully changed project path to: E:/Documents/Dev/Git/E428/Projet/E428
+E:/Documents/Dev/Git/E428/Projet/E428
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 55.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path E:/Programs/Tools/UnityInstall/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Documents/Dev/Git/E428/Projet/E428/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
+    Vendor:   
+    VRAM:     1977 MB
+    Driver:   27.21.14.6627
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'E:/Programs/Tools/UnityInstall/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Programs/Tools/UnityInstall/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Programs/Tools/UnityInstall/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Programs/Tools/UnityInstall/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000826 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.740 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001481 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 68.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3332 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.4 MB.
+System memory in use after: 219.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3782.
+Total: 2.453000 ms (FindLiveObjects: 0.366200 ms CreateObjectMapping: 0.094800 ms MarkObjects: 1.932000 ms  DeleteObjects: 0.059100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot
+  artifactKey: Guid(ff70778668f77e04f8a745423bad9363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot using Guid(ff70778668f77e04f8a745423bad9363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f5e973a429f22a1f535134cfbcd35a') in 0.008724 seconds
+  Import took 0.013318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.370240 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Lightning Bolt
+  artifactKey: Guid(5fecd25ac54ff2f47be3db5698c548b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Lightning Bolt using Guid(5fecd25ac54ff2f47be3db5698c548b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f292f1166e29af7414949f9421ace41') in 0.004778 seconds
+  Import took 0.009481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.704299 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud
+  artifactKey: Guid(c3620b22032d67b40b01f8c2d913b448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud using Guid(c3620b22032d67b40b01f8c2d913b448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13c334ac86929c76b6872f02c0e89d5') in 0.005257 seconds
+  Import took 0.010221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.749686 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/Charging
+  artifactKey: Guid(3c5d9e28189c16648bbd56da35f8c553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/Charging using Guid(3c5d9e28189c16648bbd56da35f8c553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dea0eca56a54edfefc5fe9472d46827') in 0.005200 seconds
+  Import took 0.009819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049514 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/Charging/ElectricRobot_ThunderCloudCharging_frame1.png
+  artifactKey: Guid(d0993662ff062824b8d7c3813b63206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/Charging/ElectricRobot_ThunderCloudCharging_frame1.png using Guid(d0993662ff062824b8d7c3813b63206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d117f0ac3ea48115f1f6bbd49be4d9') in 0.092304 seconds
+  Import took 0.097078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/Charging/ElectricRobot_ThunderCloudCharging_frame3.png
+  artifactKey: Guid(fa23f051df1b6e44e962e847a3db2248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/Charging/ElectricRobot_ThunderCloudCharging_frame3.png using Guid(fa23f051df1b6e44e962e847a3db2248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111e01e93785f3ac9b9aaff170ee6737') in 0.009802 seconds
+  Import took 0.014800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/Charging/ElectricRobot_ThunderCloudCharging_frame2.png
+  artifactKey: Guid(5f20741359783934d8868584cee52e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/Charging/ElectricRobot_ThunderCloudCharging_frame2.png using Guid(5f20741359783934d8868584cee52e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517fd4bf6e3b901ade7e77e8ed7a7a19') in 0.015633 seconds
+  Import took 0.020219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.538443 seconds.
+  path: Assets/Prefab/Enemy/Mobs
+  artifactKey: Guid(dbff62aa6fce5f14cbf6ebaf7a34d6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs using Guid(dbff62aa6fce5f14cbf6ebaf7a34d6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08e1dabce88796746935a85cc9be62e') in 0.005397 seconds
+  Import took 0.010142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033724 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Blue_Slime.prefab
+  artifactKey: Guid(383550fb4ed3c354bab910e2226c7668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Blue_Slime.prefab using Guid(383550fb4ed3c354bab910e2226c7668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353881289d4dfaf5080096484fedffff') in 0.158413 seconds
+  Import took 0.165073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Purple_Slime.prefab
+  artifactKey: Guid(f8c1fd1a05ba0fd448485b9b0ce0e17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Purple_Slime.prefab using Guid(f8c1fd1a05ba0fd448485b9b0ce0e17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa801d8b902eff3aff0e6da22fe4a014') in 0.026057 seconds
+  Import took 0.031152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Watcher_Robot.prefab
+  artifactKey: Guid(7a844d1ee0fdf6046bdfd062a894d2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Watcher_Robot.prefab using Guid(7a844d1ee0fdf6046bdfd062a894d2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3a8a388a76138e7a803b66015e3a11') in 0.028607 seconds
+  Import took 0.032813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Zombie_Broccolie_Spike.prefab
+  artifactKey: Guid(9e981b05c0987804bb0fcb375feff488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Zombie_Broccolie_Spike.prefab using Guid(9e981b05c0987804bb0fcb375feff488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f997f2a15145151eae0a141c5146f24b') in 0.027599 seconds
+  Import took 0.032754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Blue_Slime_Explosion.prefab
+  artifactKey: Guid(e5fb12352da62bc4e801302699952564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Blue_Slime_Explosion.prefab using Guid(e5fb12352da62bc4e801302699952564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdb5a419cc22a0ea83aafb48bed2d3b') in 0.009695 seconds
+  Import took 0.014297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Zombie_Broccolie.prefab
+  artifactKey: Guid(15e46393ec89eb04686ab233bc3bb705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Zombie_Broccolie.prefab using Guid(15e46393ec89eb04686ab233bc3bb705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77d1fe1943da2c8f177235806d38ebe') in 0.043628 seconds
+  Import took 0.048498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Mob_Basic.prefab
+  artifactKey: Guid(b0a492ee224a11b4aa19f00739c3966b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Mob_Basic.prefab using Guid(b0a492ee224a11b4aa19f00739c3966b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d37c430a4c1728d2ce3a9297ad42e26') in 0.025037 seconds
+  Import took 0.029814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Fire_Robot.prefab
+  artifactKey: Guid(8f43f4ebe5d785c44a6156efe13de0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Fire_Robot.prefab using Guid(8f43f4ebe5d785c44a6156efe13de0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8c9cf9e3da402896f132ec724a9885') in 0.019078 seconds
+  Import took 0.023922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Electric_Robot.prefab
+  artifactKey: Guid(e540b4854c54daa4784d1bbae0edac5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Electric_Robot.prefab using Guid(e540b4854c54daa4784d1bbae0edac5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0551dfcf12a8f4a6a4745a1e8c666b') in 0.037796 seconds
+  Import took 0.042835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab
+  artifactKey: Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab using Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7706cd295b70ab155811307c3c1ec09e') in 0.009898 seconds
+  Import took 0.014622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.353518 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab
+  artifactKey: Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab using Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6221e9eb3ebadb69335526cc08be5039') in 0.010517 seconds
+  Import took 0.016218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.392634 seconds.
+  path: Assets/Sprites/Enemies/Bosses/StoreJanitor/TNT Explosion/TNT_Explosion_frame2.png
+  artifactKey: Guid(f312da7a3fe3c5d4a864350ece9b1abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/StoreJanitor/TNT Explosion/TNT_Explosion_frame2.png using Guid(f312da7a3fe3c5d4a864350ece9b1abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b752ab0930722728343ee7be480776ca') in 0.030687 seconds
+  Import took 0.035822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame6.png
+  artifactKey: Guid(9c3faef7c25efa942a88ba0ec0282da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame6.png using Guid(9c3faef7c25efa942a88ba0ec0282da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c3985d92176e7f3793255d1c86e517') in 0.023681 seconds
+  Import took 0.028608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Run/TransporterRobot_Run_frame3.png
+  artifactKey: Guid(14ee074252d1c9d47bf1336e8ad9b75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Run/TransporterRobot_Run_frame3.png using Guid(14ee074252d1c9d47bf1336e8ad9b75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb1991c8ba75bfea4d59bd338b3114b') in 0.019477 seconds
+  Import took 0.024316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Death/WatcherRobot_Death_frame5.png
+  artifactKey: Guid(fb0a15b4bd6ab9b4584ef11c5693c52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Death/WatcherRobot_Death_frame5.png using Guid(fb0a15b4bd6ab9b4584ef11c5693c52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59b2f950cfd1e2f8eb8ca0ff95434aa') in 0.022667 seconds
+  Import took 0.027220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame5.png
+  artifactKey: Guid(be9a52dc45fb33a499821f465cf15f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame5.png using Guid(be9a52dc45fb33a499821f465cf15f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40964108018f21ea163466d443bea35d') in 0.019784 seconds
+  Import took 0.024570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Sprites/Enemies/Bosses/StoreJanitor/TNT Explosion/TNT_Explosion_frame3.png
+  artifactKey: Guid(6df1de1b5303e584fad6861c4fb5498f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/StoreJanitor/TNT Explosion/TNT_Explosion_frame3.png using Guid(6df1de1b5303e584fad6861c4fb5498f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7156e31c44d9e2ca1e3e854577336e3c') in 0.023271 seconds
+  Import took 0.027860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Death/WatcherRobot_Death_frame2.png
+  artifactKey: Guid(918ad2a328369bd498bf92eefcc00841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Death/WatcherRobot_Death_frame2.png using Guid(918ad2a328369bd498bf92eefcc00841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1b197ee7dc3db5622e5e0dcebc6f5a') in 0.014020 seconds
+  Import took 0.018810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame9.png
+  artifactKey: Guid(608364c38290a2f48b9ac3ca2ed02592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame9.png using Guid(608364c38290a2f48b9ac3ca2ed02592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c80c348b97deb03f0c2e2eb4aa13f06') in 0.023062 seconds
+  Import took 0.027621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame10.png
+  artifactKey: Guid(7caac81c769d28841af73cc64877f75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame10.png using Guid(7caac81c769d28841af73cc64877f75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4c43b4dd570a2cfe0f43d8f5358b4c') in 0.024246 seconds
+  Import took 0.028951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame1.png
+  artifactKey: Guid(4e3e8bc37c3b57c4fb93cc90260bbe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame1.png using Guid(4e3e8bc37c3b57c4fb93cc90260bbe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85645235887cb49675add0e3d547e608') in 0.012360 seconds
+  Import took 0.017049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame9.png
+  artifactKey: Guid(146d84916584c6d42ab1112ba3fe04bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame9.png using Guid(146d84916584c6d42ab1112ba3fe04bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d837313cf07f2195aae76d863594a22') in 0.017986 seconds
+  Import took 0.022796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Pre&Post Run/TransporterRobot_Pre&PostRun.png
+  artifactKey: Guid(96208d0848797554e955e9a52c88c5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Pre&Post Run/TransporterRobot_Pre&PostRun.png using Guid(96208d0848797554e955e9a52c88c5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd878f51fb620d61bab930d68f0e6253e') in 0.025050 seconds
+  Import took 0.029752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame6.png
+  artifactKey: Guid(c54715adbc1fc0e4f801a84b64e0c166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame6.png using Guid(c54715adbc1fc0e4f801a84b64e0c166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa9f137de63c532d3fcb02feb276960') in 0.021498 seconds
+  Import took 0.025827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Death/TransporterRobot_Death_frame1.png
+  artifactKey: Guid(92777654a8f29e44e83d23971e180d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Death/TransporterRobot_Death_frame1.png using Guid(92777654a8f29e44e83d23971e180d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd164d4baf8a477187712877bf4336d55') in 0.020693 seconds
+  Import took 0.025004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Sprites/UI/UI.psd
+  artifactKey: Guid(459c020d077866f4caac050187073994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/UI.psd using Guid(459c020d077866f4caac050187073994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c5096e4a3982ef6feccc663fcfb8d7') in 0.041949 seconds
+  Import took 0.046416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame3.png
+  artifactKey: Guid(fc19c6adbb149d8478a6e4ac6488e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame3.png using Guid(fc19c6adbb149d8478a6e4ac6488e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3e5e78118f2754b087746c850aeae9') in 0.028243 seconds
+  Import took 0.032394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame8.png
+  artifactKey: Guid(8982d5e8086df49488c49ab9778e44f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame8.png using Guid(8982d5e8086df49488c49ab9778e44f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea94bf57c294058a7fc8497c9fd8058b') in 0.022241 seconds
+  Import took 0.026409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Run/TransporterRobot_Run_frame2.png
+  artifactKey: Guid(81ff1713a62b9ab4ba0478444d6a63e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Run/TransporterRobot_Run_frame2.png using Guid(81ff1713a62b9ab4ba0478444d6a63e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61722c0e6e279566e259b893274ced1c') in 0.014185 seconds
+  Import took 0.018289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame11.png
+  artifactKey: Guid(2c159756ac36f0e4ea88049fbcfb41b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame11.png using Guid(2c159756ac36f0e4ea88049fbcfb41b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4bfac946f7ca2b6889c694303560e7') in 0.031108 seconds
+  Import took 0.035382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame12.png
+  artifactKey: Guid(d856704a497ba3f4385894f0dce2b512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame12.png using Guid(d856704a497ba3f4385894f0dce2b512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2530fcc1f25870b2ba41cf7e975d10b8') in 0.023480 seconds
+  Import took 0.027884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/Enemies/Bosses/StoreJanitor/TNT/TNT_sprite.png
+  artifactKey: Guid(817cb2f6a647b5a4fae0cf77d4513a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/StoreJanitor/TNT/TNT_sprite.png using Guid(817cb2f6a647b5a4fae0cf77d4513a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679855dee629fa0b9d92e95623a51717') in 0.025676 seconds
+  Import took 0.030548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame8.png
+  artifactKey: Guid(00057c01ddbd10a498e54af0b12bcf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame8.png using Guid(00057c01ddbd10a498e54af0b12bcf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089efef95ca1f054ca915d53c133f051') in 0.021855 seconds
+  Import took 0.026261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Death/WatcherRobot_Death_frame1.png
+  artifactKey: Guid(a81edc2e9bb6cb54990ff03922f830f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Death/WatcherRobot_Death_frame1.png using Guid(a81edc2e9bb6cb54990ff03922f830f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2d9c210896088dcbe35212656f6e59') in 0.023759 seconds
+  Import took 0.027843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame4.png
+  artifactKey: Guid(62e06ecd4964e5647aaf7268812ffb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame4.png using Guid(62e06ecd4964e5647aaf7268812ffb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfa899676f413d6888335e10f95bfea') in 0.022898 seconds
+  Import took 0.027186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Charging/WatcherRobot_Charging_frame1.png
+  artifactKey: Guid(dba2d3f8843d1b84badb8221a8ed4a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Charging/WatcherRobot_Charging_frame1.png using Guid(dba2d3f8843d1b84badb8221a8ed4a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56386bb3397196f1a1a72c203d55d4f2') in 0.023292 seconds
+  Import took 0.028140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame1.png
+  artifactKey: Guid(f6a11f639ff3e0b4ba1fa022bb577261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame1.png using Guid(f6a11f639ff3e0b4ba1fa022bb577261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fed2096d5baf9c5675ed7967abcaac') in 0.012926 seconds
+  Import took 0.017411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Death/TransporterRobot_Death_frame5.png
+  artifactKey: Guid(cf44546362143064688872dea9279bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Death/TransporterRobot_Death_frame5.png using Guid(cf44546362143064688872dea9279bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479643a85ca738960795d27de9ef4d60') in 0.013618 seconds
+  Import took 0.018131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame4.png
+  artifactKey: Guid(5fd9ceeb45626ab4c8f3c35f3bebbd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame4.png using Guid(5fd9ceeb45626ab4c8f3c35f3bebbd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c3d77247b3e0125d71cd2ffee7ca1e') in 0.015303 seconds
+  Import took 0.019963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Death/WatcherRobot_Death_frame4.png
+  artifactKey: Guid(5fad0970e1a313b4fb7eff5c5d535341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Death/WatcherRobot_Death_frame4.png using Guid(5fad0970e1a313b4fb7eff5c5d535341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867f17e044ed001908fb9354119ee707') in 0.013670 seconds
+  Import took 0.017812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Sprites/Enemies/Bosses/StoreJanitor/TNT Explosion/TNT_Explosion_frame4.png
+  artifactKey: Guid(63dafffa35a43ca43a2885dd46913486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/StoreJanitor/TNT Explosion/TNT_Explosion_frame4.png using Guid(63dafffa35a43ca43a2885dd46913486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9580f179309a30ba1655954918efd2ee') in 0.023205 seconds
+  Import took 0.027493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame5.png
+  artifactKey: Guid(2841e828c3e17cb4591926898f228087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame5.png using Guid(2841e828c3e17cb4591926898f228087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49132db13e3b92be4cad8a209ede7a1') in 0.026918 seconds
+  Import took 0.031226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Charging/WatcherRobot_Charging_frame2.png
+  artifactKey: Guid(52821ee6b6fc88c439deb6f9b0fe0d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Charging/WatcherRobot_Charging_frame2.png using Guid(52821ee6b6fc88c439deb6f9b0fe0d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a113b2d86431e860696addebcb3af719') in 0.015858 seconds
+  Import took 0.020643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Death/TransporterRobot_Death_frame2.png
+  artifactKey: Guid(e00de30c216b51542ad6f8418d719b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Death/TransporterRobot_Death_frame2.png using Guid(e00de30c216b51542ad6f8418d719b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ff81396daf8f91b819bf73a404f4f2') in 0.013249 seconds
+  Import took 0.018148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Death/TransporterRobot_Death_frame4.png
+  artifactKey: Guid(4ec35799530e1a64390e04c8eaf5ed58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Death/TransporterRobot_Death_frame4.png using Guid(4ec35799530e1a64390e04c8eaf5ed58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a800a3e09eed01b62c39be7c02b7bff9') in 0.007973 seconds
+  Import took 0.012655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Run/TransporterRobot_Run_frame4.png
+  artifactKey: Guid(2b0c3fe236354e24e811d55eab009a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Run/TransporterRobot_Run_frame4.png using Guid(2b0c3fe236354e24e811d55eab009a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7e2a82ba9d8440069147f8ae5028f3') in 0.015340 seconds
+  Import took 0.019915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Death/WatcherRobot_Death_frame3.png
+  artifactKey: Guid(7c357c4ef43c5f840b3b51985b344924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Death/WatcherRobot_Death_frame3.png using Guid(7c357c4ef43c5f840b3b51985b344924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12619de2024e6582db573569f0293d39') in 0.020560 seconds
+  Import took 0.025316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame7.png
+  artifactKey: Guid(e879b68d52743f44f96d4da2da0f97d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame7.png using Guid(e879b68d52743f44f96d4da2da0f97d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d8bdc1b80e1d9dfe53260386ce06d7') in 0.018593 seconds
+  Import took 0.023515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame7.png
+  artifactKey: Guid(2d11085d19d8b5d40ad496d2c7af2d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame7.png using Guid(2d11085d19d8b5d40ad496d2c7af2d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adad8d3ca57ad84785f19b5133a6e4ba') in 0.015231 seconds
+  Import took 0.020118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Run/TransporterRobot_Run_frame1.png
+  artifactKey: Guid(7c8648765e4a0604d910049d6f1203e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Run/TransporterRobot_Run_frame1.png using Guid(7c8648765e4a0604d910049d6f1203e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cfdc36b6fae308d1c9e3fcff3060f8') in 0.015626 seconds
+  Import took 0.020095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame2.png
+  artifactKey: Guid(5ef28fbe3f7b88544985fd322adeea75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame2.png using Guid(5ef28fbe3f7b88544985fd322adeea75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4d7040d85aa5aecf4aa20145bde932') in 0.030000 seconds
+  Import took 0.034266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Death/TransporterRobot_Death_frame3.png
+  artifactKey: Guid(ea19bd3b7032c104ead899232934064a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Death/TransporterRobot_Death_frame3.png using Guid(ea19bd3b7032c104ead899232934064a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779cd407b28a1f500f24885329ecf5c3') in 0.008140 seconds
+  Import took 0.012321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame2.png
+  artifactKey: Guid(28f86d38e0480c040a467eec6ef97b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/WatcherRobot/Idle&Walk/WatcherRobot_Idle_frame2.png using Guid(28f86d38e0480c040a467eec6ef97b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6451bf7d6cbbcf75a128298316a2347f') in 0.044122 seconds
+  Import took 0.048694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame3.png
+  artifactKey: Guid(bf7b1daf59d5d404ba26e944e34dc5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/TransporterRobot/Idle/TransporterRobot_Idle_frame3.png using Guid(bf7b1daf59d5d404ba26e944e34dc5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975458934a9c79346ce895fb198775a4') in 0.048620 seconds
+  Import took 0.053235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.437351 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab
+  artifactKey: Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab using Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3e12a37ffbe1f1cb2abcbac7c409a4') in 0.010685 seconds
+  Import took 0.015914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.591373 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab
+  artifactKey: Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab using Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfa35272c09336308e1e54b2956457f') in 0.009235 seconds
+  Import took 0.014318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.991692 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab
+  artifactKey: Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab using Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16949707b764c2ddf2758f03e1e5cde') in 0.012645 seconds
+  Import took 0.017757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.584793 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab
+  artifactKey: Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab using Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc605a920ba69e024015016b7b8ee3c4') in 0.010205 seconds
+  Import took 0.015158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.012163 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab
+  artifactKey: Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab using Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d24cb69d7d22976c3ba67aeb274686') in 0.012235 seconds
+  Import took 0.017151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.185400 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab
+  artifactKey: Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab using Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5154004bb582f76f1a44258f07f9c52b') in 0.010266 seconds
+  Import took 0.015280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.039489 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab
+  artifactKey: Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab using Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea1527ab853d842dcff4f67300e7681') in 0.009381 seconds
+  Import took 0.014643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.641272 seconds.
+  path: Assets/Sprites/Helpers
+  artifactKey: Guid(f1bafac97ca1c7844802879b26ed99ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Helpers using Guid(f1bafac97ca1c7844802879b26ed99ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847bfe0359025bfd06e9fccc411f8998') in 0.006256 seconds
+  Import took 0.010903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.003450 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Casting/ElectricRobot_Casting_frame1.png
+  artifactKey: Guid(160ee389ca90e1747936a238ca19db6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Casting/ElectricRobot_Casting_frame1.png using Guid(160ee389ca90e1747936a238ca19db6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e014e7a578195e4c15a213ff9f166d') in 0.029100 seconds
+  Import took 0.034296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame4.png
+  artifactKey: Guid(407d8f28c7ae490499bbeda93c3191d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame4.png using Guid(407d8f28c7ae490499bbeda93c3191d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b251a2da14c89c7d22dce43de751c6f') in 0.015241 seconds
+  Import took 0.020601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011600 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame10.png
+  artifactKey: Guid(86c2bc8182448cc40a6561a087757d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame10.png using Guid(86c2bc8182448cc40a6561a087757d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77684c27c217a5981c3603b1d33e91b5') in 0.018062 seconds
+  Import took 0.025971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Sprites/PNJ/Zone 2/BlobFamily/Idle/FamilyBlob_Idle_frame2.png
+  artifactKey: Guid(6f391419f8660254fb3738d67e0c91a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 2/BlobFamily/Idle/FamilyBlob_Idle_frame2.png using Guid(6f391419f8660254fb3738d67e0c91a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b89dcb31ada58e93cad84fe4812335') in 0.009245 seconds
+  Import took 0.014535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sprites/Enemies/Mobs/FireRobot/Idle/FireRobot_Idle_frame1.png
+  artifactKey: Guid(709a6e19bff69a142b04f021dbbb3339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/FireRobot/Idle/FireRobot_Idle_frame1.png using Guid(709a6e19bff69a142b04f021dbbb3339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa908b44242c4eaf3694bd39212fa146') in 0.009239 seconds
+  Import took 0.013790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame8.png
+  artifactKey: Guid(ef3c741424bcefa46bd2c80f909c49d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame8.png using Guid(ef3c741424bcefa46bd2c80f909c49d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9ae371fe2f98518282208079110170') in 0.023884 seconds
+  Import took 0.028474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame7.png
+  artifactKey: Guid(0615ca99b2a077c48ac1bd938c03e6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame7.png using Guid(0615ca99b2a077c48ac1bd938c03e6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a2666af0aef7bae23a9eb3324fcace') in 0.016355 seconds
+  Import took 0.020830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame9.png
+  artifactKey: Guid(ad97c672d68328447ac02f2a7ca858b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame9.png using Guid(ad97c672d68328447ac02f2a7ca858b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030488b8cad66bc955ad13e17c3ff373') in 0.013850 seconds
+  Import took 0.018541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/PNJ/Zone 2/BlobFamily/Idle/FamilyBlob_Idle_frame1.png
+  artifactKey: Guid(036f4a317648850449af7306756fc424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 2/BlobFamily/Idle/FamilyBlob_Idle_frame1.png using Guid(036f4a317648850449af7306756fc424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1b427c75fc2c7501d20a691d1a2a9a') in 0.010396 seconds
+  Import took 0.015220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame6.png
+  artifactKey: Guid(11e7e81b5578b184e835ce2bfd96f6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame6.png using Guid(11e7e81b5578b184e835ce2bfd96f6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1915eb70ebd761dc0a19fa247ff268a7') in 0.018747 seconds
+  Import took 0.022889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame2.png
+  artifactKey: Guid(1b62e6dd0b0766646b6f1cf59b4b13b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame2.png using Guid(1b62e6dd0b0766646b6f1cf59b4b13b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1cca72b05014b2716987e670d070d3') in 0.023033 seconds
+  Import took 0.027979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Casting/ElectricRobot_Casting_frame4.png
+  artifactKey: Guid(093967245f46e7040b19f18aed5db9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Casting/ElectricRobot_Casting_frame4.png using Guid(093967245f46e7040b19f18aed5db9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec2c86cc4b8e4864f6231da6a722364') in 0.019706 seconds
+  Import took 0.024363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Sprites/PNJ/Zone 2/BlobFamily/Idle/FamilyBlob_Idle_frame3.png
+  artifactKey: Guid(93916978158bdf84d9751542bbc8b374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 2/BlobFamily/Idle/FamilyBlob_Idle_frame3.png using Guid(93916978158bdf84d9751542bbc8b374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1362f2ceabe9fa5022bb840b03602a5') in 0.012364 seconds
+  Import took 0.017195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/BAM/ElectricRobot_ThunderCloudBAM_frame1.png
+  artifactKey: Guid(654bec3795f3d2e4aa0db04d770c7309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/BAM/ElectricRobot_ThunderCloudBAM_frame1.png using Guid(654bec3795f3d2e4aa0db04d770c7309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4d5cce24ad4ba27c1fa9339a463906') in 0.011708 seconds
+  Import took 0.016347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Casting/ElectricRobot_Casting_frame5.png
+  artifactKey: Guid(442b9d31ce1c2624a9a7337f81155887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Casting/ElectricRobot_Casting_frame5.png using Guid(442b9d31ce1c2624a9a7337f81155887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22adb64decf1b626df42d669c9f19aa5') in 0.013137 seconds
+  Import took 0.017991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame5.png
+  artifactKey: Guid(0a04ce9c0082e7346a483a6ff350bb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame5.png using Guid(0a04ce9c0082e7346a483a6ff350bb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba115100a865c019656fcac2c19a6fb5') in 0.015851 seconds
+  Import took 0.020027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/BAM/ElectricRobot_ThunderCloudBAM_frame2.png
+  artifactKey: Guid(7a565aad1bf56644fb1ca36043b8cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/BAM/ElectricRobot_ThunderCloudBAM_frame2.png using Guid(7a565aad1bf56644fb1ca36043b8cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bd4a23c9a55a9df46216d13a2832b1') in 0.010121 seconds
+  Import took 0.014999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Casting/ElectricRobot_Casting_frame2.png
+  artifactKey: Guid(99ecb26c290377b4f83fc812cee71739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Casting/ElectricRobot_Casting_frame2.png using Guid(99ecb26c290377b4f83fc812cee71739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e303e6f628e054c8fd4a063411c16e80') in 0.025488 seconds
+  Import took 0.030211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame3.png
+  artifactKey: Guid(b078f97bea5d54449b2ba0cf80d346b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame3.png using Guid(b078f97bea5d54449b2ba0cf80d346b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2319d535a9f96bb8664977c1f4953c89') in 0.015177 seconds
+  Import took 0.020523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame11.png
+  artifactKey: Guid(2e10bbaced4d01f45b2ce0e0a3ab8031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame11.png using Guid(2e10bbaced4d01f45b2ce0e0a3ab8031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7ff434ff34f43c60de777d042abdb6') in 0.027025 seconds
+  Import took 0.031452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Casting/ElectricRobot_Casting_frame3.png
+  artifactKey: Guid(eb12f6c6d538cbc44ab21c32fb70fb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Casting/ElectricRobot_Casting_frame3.png using Guid(eb12f6c6d538cbc44ab21c32fb70fb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbdf14276f506906d5fb713295fedd1b') in 0.013500 seconds
+  Import took 0.018352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/BAM/ElectricRobot_ThunderCloudBAM_frame3.png
+  artifactKey: Guid(12c055b0cd6cc2843927a363d7481e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/BAM/ElectricRobot_ThunderCloudBAM_frame3.png using Guid(12c055b0cd6cc2843927a363d7481e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb62153dc1c7c1120db9f1964f3d290f') in 0.008602 seconds
+  Import took 0.012700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame1.png
+  artifactKey: Guid(94e0444530431c94796aa748d1877520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame1.png using Guid(94e0444530431c94796aa748d1877520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc4d6580f65758be1512f5fc68db7cc') in 0.011657 seconds
+  Import took 0.015947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Sprites/PNJ/Zone 2/BlobFamily/Idle/FamilyBlob_Idle_frame4.png
+  artifactKey: Guid(4b861c5452379734fa313044db36ec0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 2/BlobFamily/Idle/FamilyBlob_Idle_frame4.png using Guid(4b861c5452379734fa313044db36ec0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39f463c34c9e3edd279ae5cd5e3449a') in 0.008419 seconds
+  Import took 0.013222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame12.png
+  artifactKey: Guid(b2ac38012d262ce48bc18ff4ba7d90c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Idle/ElectricRobot_Idle_frame12.png using Guid(b2ac38012d262ce48bc18ff4ba7d90c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81205c6a4efba33b1afc2c4d0cf8d64') in 0.014747 seconds
+  Import took 0.019117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/PNJ/Zone 1/BabySlime/Talking/BabySlime_Talking_frame1.png
+  artifactKey: Guid(e23c52805f338ce4197d4459ef53a9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 1/BabySlime/Talking/BabySlime_Talking_frame1.png using Guid(e23c52805f338ce4197d4459ef53a9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bb32d31e8afd93646321668690ad7c') in 0.009014 seconds
+  Import took 0.013925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sprites/PNJ/Zone 1/BabySlime/Talking/BabySlime_Talking_frame2.png
+  artifactKey: Guid(19d75b2717f09064cbb5adfafaaaa964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 1/BabySlime/Talking/BabySlime_Talking_frame2.png using Guid(19d75b2717f09064cbb5adfafaaaa964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ac9ef7dc40b647921a5bc5a1f78fd0') in 0.012649 seconds
+  Import took 0.017562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/Enemies/Bosses/RGBSlime/WalkBack/RGBSlime_WalkBack_frame2.png
+  artifactKey: Guid(d604c61bd05b27f43949cec0a22bbf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/WalkBack/RGBSlime_WalkBack_frame2.png using Guid(d604c61bd05b27f43949cec0a22bbf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbedbdb79897414f39df20af02d6f73') in 0.015193 seconds
+  Import took 0.019927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sprites/PNJ/Zone 1/BabySlime/Talking/BabySlime_Talking_frame4.png
+  artifactKey: Guid(28f93fb532bca834c8f6324d4ea9d1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 1/BabySlime/Talking/BabySlime_Talking_frame4.png using Guid(28f93fb532bca834c8f6324d4ea9d1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dd77003c8df49356f49b4badb68156') in 0.012328 seconds
+  Import took 0.016662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Sprites/PNJ/Zone 1/BabySlime/Talking/BabySlime_Talking_frame3.png
+  artifactKey: Guid(070fa246acea6b845a3806a8dd141bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 1/BabySlime/Talking/BabySlime_Talking_frame3.png using Guid(070fa246acea6b845a3806a8dd141bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c765c05e85f8e9800f9bfde03ae72a85') in 0.008286 seconds
+  Import took 0.012403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprites/Enemies/Bosses/RGBSlime/WalkBack/RGBSlime_WalkBack_frame4.png
+  artifactKey: Guid(c47679bf06733264d80d348552aaa2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/WalkBack/RGBSlime_WalkBack_frame4.png using Guid(c47679bf06733264d80d348552aaa2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c4baa400f4493a0ea1427308fab064') in 0.016675 seconds
+  Import took 0.021337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sprites/Tileset/Colision/tilesets_colisions_basic.png
+  artifactKey: Guid(b2345bbd7a1203e4fbd5a2c6fdf040a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tileset/Colision/tilesets_colisions_basic.png using Guid(b2345bbd7a1203e4fbd5a2c6fdf040a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ac0c508f6b562e93df38aef6495b4b') in 0.024879 seconds
+  Import took 0.029669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Sprites/Enemies/Bosses/RGBSlime/WalkBack/RGBSlime_WalkBack_frame3.png
+  artifactKey: Guid(7cb5fa76f2df38048a1308289975ccc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/WalkBack/RGBSlime_WalkBack_frame3.png using Guid(7cb5fa76f2df38048a1308289975ccc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbd07972a4985168bb9ed74826769f6') in 0.013050 seconds
+  Import took 0.017556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Sprites/Enemies/Bosses/RGBSlime/WalkBack/RGBSlime_WalkBack_frame1.png
+  artifactKey: Guid(7bf2db92cfd7e7b4dbdd1dcb285b9b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/WalkBack/RGBSlime_WalkBack_frame1.png using Guid(7bf2db92cfd7e7b4dbdd1dcb285b9b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14c8fa7bf73253caf2cf31f33d76ebf') in 0.027881 seconds
+  Import took 0.032416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/UI/Health_Bar.psd
+  artifactKey: Guid(896c3366b8786fa438431b5bb736bcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Health_Bar.psd using Guid(896c3366b8786fa438431b5bb736bcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f8e7af0965e079a5d32ad91299d050') in 0.012711 seconds
+  Import took 0.017608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006230 seconds.
+  path: Assets/Sprites/UI/Health_Bar.psd
+  artifactKey: Guid(896c3366b8786fa438431b5bb736bcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Health_Bar.psd using Guid(896c3366b8786fa438431b5bb736bcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f8e7af0965e079a5d32ad91299d050') in 0.007944 seconds
+  Import took 0.012975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.273559 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/BAM
+  artifactKey: Guid(9f02e881108c7034187c6307dabd169e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/ThunderCloud/BAM using Guid(9f02e881108c7034187c6307dabd169e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24660dea18acea0974dcd3b3fa55072') in 0.005378 seconds
+  Import took 0.010173 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001220 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.0 MB.
+System memory in use after: 215.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3849.
+Total: 2.576300 ms (FindLiveObjects: 0.473500 ms CreateObjectMapping: 0.119200 ms MarkObjects: 1.966600 ms  DeleteObjects: 0.015800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.691410 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab
+  artifactKey: Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab using Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415184bc32ac578664cabfe23b9f4780') in 0.120587 seconds
+  Import took 0.125846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.008082 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab
+  artifactKey: Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab using Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1ffe7fe1556d0a0a6dada039a45848') in 0.007120 seconds
+  Import took 0.012126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.077971 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab
+  artifactKey: Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab using Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8172fa7cacdeae6cf129986ea0a3873e') in 0.011082 seconds
+  Import took 0.016472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.699054 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab
+  artifactKey: Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab using Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b738d75e6469b644206f295c433b934') in 0.011534 seconds
+  Import took 0.016732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.615735 seconds.
+  path: Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab
+  artifactKey: Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Mobs/Electric_Robot_Lighting_Bolt.prefab using Guid(375293e3be00b9442bc9cb883a8c0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1356fc0225945342d27d6a6953440af') in 0.015288 seconds
+  Import took 0.020312 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001056 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.1 MB.
+System memory in use after: 215.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3889.
+Total: 2.858600 ms (FindLiveObjects: 0.422400 ms CreateObjectMapping: 0.092200 ms MarkObjects: 2.322700 ms  DeleteObjects: 0.019800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.680594 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Lightning Bolt_(Old)
+  artifactKey: Guid(5fecd25ac54ff2f47be3db5698c548b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Lightning Bolt_(Old) using Guid(5fecd25ac54ff2f47be3db5698c548b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f98ad0904e434eb660708f6d4add4e1') in 0.009157 seconds
+  Import took 0.014267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.473589 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Death
+  artifactKey: Guid(1ca53753d4e6be24e8c7d61def6f3e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Death using Guid(1ca53753d4e6be24e8c7d61def6f3e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a7c70b70b1c5ac0864f5bd24a90406') in 0.005434 seconds
+  Import took 0.010210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050947 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Death/ElectricRobot_Death_frame1.png
+  artifactKey: Guid(8248106e0d102c043a440bd5567d0579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Death/ElectricRobot_Death_frame1.png using Guid(8248106e0d102c043a440bd5567d0579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dca8278a7335f137ba646805a6fc404') in 0.039188 seconds
+  Import took 0.043921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Death/ElectricRobot_Death_frame5.png
+  artifactKey: Guid(5a027efcdc3434742a4cc8dc5173fb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Death/ElectricRobot_Death_frame5.png using Guid(5a027efcdc3434742a4cc8dc5173fb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d234eb76beea0bb58113eb4a886da4') in 0.008885 seconds
+  Import took 0.013587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Death/ElectricRobot_Death_frame4.png
+  artifactKey: Guid(b77de4f7969796547884fea2ce6b8ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Death/ElectricRobot_Death_frame4.png using Guid(b77de4f7969796547884fea2ce6b8ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86b1ffe4c2853e4da56a63c1554b287') in 0.011710 seconds
+  Import took 0.016548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Death/ElectricRobot_Death_frame2.png
+  artifactKey: Guid(b85d51b9e368a6d4c9150c9a8d71c968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Death/ElectricRobot_Death_frame2.png using Guid(b85d51b9e368a6d4c9150c9a8d71c968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2375fbc36f7393feeb37a0263e718f88') in 0.011208 seconds
+  Import took 0.015503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Death/ElectricRobot_Death_frame3.png
+  artifactKey: Guid(70ea8f768989b364f95815e8bf50f804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Death/ElectricRobot_Death_frame3.png using Guid(70ea8f768989b364f95815e8bf50f804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b93d85261423cf758631bec3186e36') in 0.008914 seconds
+  Import took 0.013423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.333428 seconds.
+  path: Assets/Animation/Enemies/Mobs/Electric_Robot/Electric_Robot.controller
+  artifactKey: Guid(819845262557e084995431f0d21ff406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Mobs/Electric_Robot/Electric_Robot.controller using Guid(819845262557e084995431f0d21ff406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b552ccf9710b6c3a799e7ccf81ffcc4a') in 0.004778 seconds
+  Import took 0.009754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Animation/Enemies/Mobs/Electric_Robot/Electric_Robot.controller
+  artifactKey: Guid(819845262557e084995431f0d21ff406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Mobs/Electric_Robot/Electric_Robot.controller using Guid(819845262557e084995431f0d21ff406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b552ccf9710b6c3a799e7ccf81ffcc4a') in 0.002492 seconds
+  Import took 0.007235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.327885 seconds.
+  path: Assets/Animation/Enemies/Mobs/Electric_Robot/Electric_Robot.controller
+  artifactKey: Guid(819845262557e084995431f0d21ff406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Mobs/Electric_Robot/Electric_Robot.controller using Guid(819845262557e084995431f0d21ff406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95705af957f237916cd00a8ca8145b8') in 0.002882 seconds
+  Import took 0.007874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.771432 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Run
+  artifactKey: Guid(046e22c43f425f84db3f4f0d20af2d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Run using Guid(046e22c43f425f84db3f4f0d20af2d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adb63d04ca62eb24ac08b16f6d47000') in 0.005077 seconds
+  Import took 0.009886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068096 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Run/ElectricRobot_Run_frame1.png
+  artifactKey: Guid(d55e154cb2777b142842b05a2216495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Run/ElectricRobot_Run_frame1.png using Guid(d55e154cb2777b142842b05a2216495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cf173a7505b5fb451384c0c8f126f7') in 0.010611 seconds
+  Import took 0.015510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Run/ElectricRobot_Run_frame3.png
+  artifactKey: Guid(3f0400bae806e0b42a985dceffdfb7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Run/ElectricRobot_Run_frame3.png using Guid(3f0400bae806e0b42a985dceffdfb7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0492419bf989fc56d0323c28ec6c161') in 0.008418 seconds
+  Import took 0.013364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Run/ElectricRobot_Run_frame4.png
+  artifactKey: Guid(f810d69469273f74688c7a997d995a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Run/ElectricRobot_Run_frame4.png using Guid(f810d69469273f74688c7a997d995a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d71ff99ca2d000f14bbcb74a5076566') in 0.015659 seconds
+  Import took 0.020493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ElectricRobot/Run/ElectricRobot_Run_frame2.png
+  artifactKey: Guid(a58c41befe0560249b2017e4103a091a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ElectricRobot/Run/ElectricRobot_Run_frame2.png using Guid(a58c41befe0560249b2017e4103a091a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1de5447bcca6bf090d5565bb4b7ed1c') in 0.017175 seconds
+  Import took 0.022000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.320500 seconds.
+  path: Assets/Animation/Enemies/Mobs/Electric_Robot/Electric_Robot_Cast.anim
+  artifactKey: Guid(c05615ff4f00b3d44af0e3e402050b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Mobs/Electric_Robot/Electric_Robot_Cast.anim using Guid(c05615ff4f00b3d44af0e3e402050b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b40256f9bdbe55332546eb33cf65ed6') in 0.007090 seconds
+  Import took 0.012200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.761653 seconds.
+  path: Assets/Animation/Enemies/Mobs/Electric_Robot/Electric_Robot_Death.anim
+  artifactKey: Guid(1b0affe100433da478f55fe8b2b0fd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Mobs/Electric_Robot/Electric_Robot_Death.anim using Guid(1b0affe100433da478f55fe8b2b0fd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a53c5e8842190850765791c4bd7de2') in 0.005643 seconds
+  Import took 0.010500 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.2 MB.
+System memory in use after: 215.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3894.
+Total: 2.467100 ms (FindLiveObjects: 0.355900 ms CreateObjectMapping: 0.089100 ms MarkObjects: 2.006400 ms  DeleteObjects: 0.014800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.211687 seconds.
+  path: Assets/Scripts/Player/Glucose_Controls.cs
+  artifactKey: Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Glucose_Controls.cs using Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5a3856c1aac942554cae240f1a768b') in 0.011976 seconds
+  Import took 0.017031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011036 seconds.
+  path: Assets/Scripts/Player/Glucose_Controls.cs
+  artifactKey: Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Glucose_Controls.cs using Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5a3856c1aac942554cae240f1a768b') in 0.001495 seconds
+  Import took 0.006477 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001175 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.797 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.2 MB.
+System memory in use after: 215.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3898.
+Total: 2.742200 ms (FindLiveObjects: 0.358700 ms CreateObjectMapping: 0.090300 ms MarkObjects: 2.276800 ms  DeleteObjects: 0.015300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.888609 seconds.
+  path: Assets/Scripts/Player/Glucose_Controls.cs
+  artifactKey: Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Glucose_Controls.cs using Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ead6d932073eed3b83758b03de4f2b1') in 0.005212 seconds
+  Import took 0.009928 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001174 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.801 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.2 MB.
+System memory in use after: 215.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3902.
+Total: 2.520000 ms (FindLiveObjects: 0.359400 ms CreateObjectMapping: 0.107000 ms MarkObjects: 2.037300 ms  DeleteObjects: 0.015300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.166691 seconds.
+  path: Assets/Scripts/Player/Glucose_Controls.cs
+  artifactKey: Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Glucose_Controls.cs using Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b475ca3efe31600447c8e92416f8fd5') in 0.005219 seconds
+  Import took 0.009972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025974 seconds.
+  path: Assets/Scripts/Player/Glucose_Controls.cs
+  artifactKey: Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Glucose_Controls.cs using Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b475ca3efe31600447c8e92416f8fd5') in 0.001614 seconds
+  Import took 0.006372 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.2 MB.
+System memory in use after: 215.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3906.
+Total: 2.885300 ms (FindLiveObjects: 0.355000 ms CreateObjectMapping: 0.089000 ms MarkObjects: 2.420000 ms  DeleteObjects: 0.020000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.870020 seconds.
+  path: Assets/Scripts/Player/Glucose_Controls.cs
+  artifactKey: Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Glucose_Controls.cs using Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de008660194f4d77aea381b082e0961') in 0.004890 seconds
+  Import took 0.009528 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.2 MB.
+System memory in use after: 215.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3910.
+Total: 2.763400 ms (FindLiveObjects: 0.293900 ms CreateObjectMapping: 0.087900 ms MarkObjects: 2.362300 ms  DeleteObjects: 0.018100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.161861 seconds.
+  path: Assets/Scripts/Player/Glucose_Controls.cs
+  artifactKey: Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Glucose_Controls.cs using Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7faab2f32528177e5cdb833f17858ded') in 0.005293 seconds
+  Import took 0.010093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026285 seconds.
+  path: Assets/Scripts/Player/Glucose_Controls.cs
+  artifactKey: Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Glucose_Controls.cs using Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7faab2f32528177e5cdb833f17858ded') in 0.001562 seconds
+  Import took 0.006063 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001212 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.3 MB.
+System memory in use after: 215.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3914.
+Total: 2.565800 ms (FindLiveObjects: 0.370600 ms CreateObjectMapping: 0.082800 ms MarkObjects: 2.096800 ms  DeleteObjects: 0.014700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.574403 seconds.
+  path: Assets/Scripts/Player/Glucose_Controls.cs
+  artifactKey: Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Glucose_Controls.cs using Guid(c51dbe0a31f428d4dba0a035569c5078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0987aa229408b5a5c79047a6458a5e') in 0.005046 seconds
+  Import took 0.009888 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001142 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.3 MB.
+System memory in use after: 215.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3918.
+Total: 2.767100 ms (FindLiveObjects: 0.404200 ms CreateObjectMapping: 0.091300 ms MarkObjects: 2.250500 ms  DeleteObjects: 0.020200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001200 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.760 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.3 MB.
+System memory in use after: 215.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3922.
+Total: 2.784600 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.092100 ms MarkObjects: 2.333800 ms  DeleteObjects: 0.020200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001367 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.3 MB.
+System memory in use after: 215.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3926.
+Total: 3.040700 ms (FindLiveObjects: 0.514500 ms CreateObjectMapping: 0.101900 ms MarkObjects: 2.403600 ms  DeleteObjects: 0.019700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 400.613790 seconds.
+  path: Assets/Scripts/Enemies/Bosses/Doom_Shroom/Doom_Shroom_Animation.cs
+  artifactKey: Guid(8577ebea59dbab44bb8eca9e0f5d06a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemies/Bosses/Doom_Shroom/Doom_Shroom_Animation.cs using Guid(8577ebea59dbab44bb8eca9e0f5d06a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fde09a16199f7648e118be3b48927f') in 0.010432 seconds
+  Import took 0.015898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000668 seconds.
+  path: Assets/Scripts/Enemies/Bosses/Doom_Shroom/Doom_Shroom_Animation.cs
+  artifactKey: Guid(8577ebea59dbab44bb8eca9e0f5d06a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemies/Bosses/Doom_Shroom/Doom_Shroom_Animation.cs using Guid(8577ebea59dbab44bb8eca9e0f5d06a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fde09a16199f7648e118be3b48927f') in 0.001491 seconds
+  Import took 0.006436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.218359 seconds.
+  path: Assets/Scripts/Enemies/Bosses/Doom_Shroom/Doom_Shroom_Attack.cs
+  artifactKey: Guid(e42af7558ac0d8f45979b7b5d8434be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemies/Bosses/Doom_Shroom/Doom_Shroom_Attack.cs using Guid(e42af7558ac0d8f45979b7b5d8434be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c632eb963fcca6f4f0d0fcfa2cae0665') in 0.004961 seconds
+  Import took 0.009745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.513700 seconds.
+  path: Assets/Scripts/Enemies/Bosses/Doom_Shroom/Doom_Shroom_Health.cs
+  artifactKey: Guid(3145f3ec68ab1d942b528d4753c4c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemies/Bosses/Doom_Shroom/Doom_Shroom_Health.cs using Guid(3145f3ec68ab1d942b528d4753c4c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd9a4cb06a5e63fd67b62095c6ddc1b') in 0.005742 seconds
+  Import took 0.010712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.283101 seconds.
+  path: Assets/Scripts/Enemies/Bosses/Doom_Shroom/Doom_Shroom_Movement.cs
+  artifactKey: Guid(5153786a5209aa34b8a40a7ca843160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemies/Bosses/Doom_Shroom/Doom_Shroom_Movement.cs using Guid(5153786a5209aa34b8a40a7ca843160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464cb1297036a5c834b9776d269bf709') in 0.004802 seconds
+  Import took 0.009484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.854530 seconds.
+  path: Assets/Scripts/Enemies/Bosses/Doom_Shroom/Doom_Shroom_State.cs
+  artifactKey: Guid(ffb5908175c634f44b9db23ebd2b101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemies/Bosses/Doom_Shroom/Doom_Shroom_State.cs using Guid(ffb5908175c634f44b9db23ebd2b101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63264d265b40e5fd1260f7ec93c62d42') in 0.001517 seconds
+  Import took 0.006072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.026763 seconds.
+  path: Assets/Scenes/Doom_Shroom_Test.unity
+  artifactKey: Guid(2b8c4583071a6f349a54e4510e767a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Doom_Shroom_Test.unity using Guid(2b8c4583071a6f349a54e4510e767a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9e538f92966e37d6803cdafb9eca02') in 0.013044 seconds
+  Import took 0.018175 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001194 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.786 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.3 MB.
+System memory in use after: 215.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3930.
+Total: 2.969200 ms (FindLiveObjects: 0.526300 ms CreateObjectMapping: 0.112100 ms MarkObjects: 2.310600 ms  DeleteObjects: 0.019100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001203 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.786 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.3 MB.
+System memory in use after: 215.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3934.
+Total: 2.920300 ms (FindLiveObjects: 0.511700 ms CreateObjectMapping: 0.115600 ms MarkObjects: 2.270000 ms  DeleteObjects: 0.021700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

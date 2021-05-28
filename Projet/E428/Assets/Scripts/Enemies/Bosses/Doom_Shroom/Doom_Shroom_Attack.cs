@@ -13,15 +13,16 @@ public class Doom_Shroom_Attack : MonoBehaviour
     private Boss_States State = Boss_States.Attack;
     private GameObject Instancied_Spore;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-    
+
     public void Launch_Attack()
     {
-        Instancied_Spore = Instantiate(Spore, Spore_Spawn_Point);
-        Instancied_Spore.transform.parent = null;
+        // If the boss is in attack mode
+        if (State == Boss_States.Attack)
+        {
+            Instancied_Spore = Instantiate(Spore, Spore_Spawn_Point);
+            Instancied_Spore.transform.parent = null;
+        }
+        
 
     }
     // Update state when called
