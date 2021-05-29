@@ -1,5 +1,6 @@
 									/==========================\
-									|     Dialogue des PNJ	   |
+									|     Dialogue des PNJ     |
+							          	|      et des bosses       |
 									\==========================/
 
 <========================================Zone 1========================================>
@@ -22,6 +23,10 @@ Baby slime :
 	- Today I saw my friends get split in half.
 	- I'm jealous now because...
 	- They have one more friend now.
+
+Store janitor : 
+	- FUGITIVE !
+	- we have to collect all the FUGITIVES !
 
 <========================================Zone 2========================================>
 
@@ -61,5 +66,34 @@ Sweetener blobers :
 	- But not with you !
 
 <========================================Zone 3========================================>
+
+Hanged cherries :
+	- *first time ?*
+	- ...
+
+Infected banana : 
+	- I...
+	- I ?
+	- But who am... ?
+	- No
+	- What am I ?
+	- Or maybe we ?
+	- Please...
+	- Tell me the truth.
+
+Salashy : 
+	- What are you doing here my little friend ?
+	- Get out of here, escape this hell.
+	- Look what they did to me !
+	- I am too weak to move...
+	- I am to weak for everything...
+	- If you still have strength go away !
+	- And don't stop for the others.
+
+Doom shroom :
+	- You will end up in my belly !
+	- I hope you will be less sweet than the last I ate.
+	- I hope for you !
+	- But before i will play with you a little !
 
 <========================================Zone 4========================================>
