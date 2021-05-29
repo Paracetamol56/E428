@@ -15,11 +15,11 @@ E:/Documents/Dev/Git/E428/Projet/E428
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52911
+53323
 Successfully changed project path to: E:/Documents/Dev/Git/E428/Projet/E428
 E:/Documents/Dev/Git/E428/Projet/E428
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.23 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 57.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path E:/Programs/Tools/UnityInstall/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -36,440 +36,176 @@ Initialize mono
 Mono path[0] = 'E:/Programs/Tools/UnityInstall/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programs/Tools/UnityInstall/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Programs/Tools/UnityInstall/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Programs/Tools/UnityInstall/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000837 seconds.
+Registered in 0.000851 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 64.09 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 61.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.705 seconds
+- Completed reload, in  0.718 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001048 seconds.
+Registered in 0.000825 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.54 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 66.29 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.878 seconds
+- Completed reload, in  0.875 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3332 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 219.4 MB.
-System memory in use after: 219.6 MB.
+Unloading 3335 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.5 MB.
+System memory in use after: 219.7 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3782.
-Total: 2.629200 ms (FindLiveObjects: 0.370900 ms CreateObjectMapping: 0.094800 ms MarkObjects: 2.100400 ms  DeleteObjects: 0.062100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Mob_Test.unity
-  artifactKey: Guid(4466dc6dc7e660e498c5a16438582df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Mob_Test.unity using Guid(4466dc6dc7e660e498c5a16438582df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e450f55d7ee278421df20f7fd114e7') in 0.015100 seconds
-  Import took 0.019877 seconds .
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3785.
+Total: 2.704300 ms (FindLiveObjects: 0.461800 ms CreateObjectMapping: 0.094300 ms MarkObjects: 2.079800 ms  DeleteObjects: 0.067400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.219196 seconds.
-  path: Assets/Prefab/PNJ
-  artifactKey: Guid(0e769e220e0e622429e6a97a93a36f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PNJ using Guid(0e769e220e0e622429e6a97a93a36f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2a7a27310b3c083607df040ffb2d1c') in 0.001583 seconds
-  Import took 0.006482 seconds .
+  path: Assets/Prefab/Enemy/Bosses/Doom_Shroom/Doom_Shroom.prefab
+  artifactKey: Guid(95cf85f20eff69a4ab636d8d244518e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Bosses/Doom_Shroom/Doom_Shroom.prefab using Guid(95cf85f20eff69a4ab636d8d244518e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96129bf8c3de9946c5a538d1d3d612f') in 0.173132 seconds
+  Import took 0.179077 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.825403 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised/MrGlucose_Run_frame1_surprised.png
-  artifactKey: Guid(ea0f49c44a3e3d246aa28cfd81b55ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised/MrGlucose_Run_frame1_surprised.png using Guid(ea0f49c44a3e3d246aa28cfd81b55ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cccdf11c6e9b0c5057215a1a5b4f1c') in 0.121430 seconds
-  Import took 0.126375 seconds .
+  Time since last request: 78.646980 seconds.
+  path: Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud
+  artifactKey: Guid(f6e95c6a5ce315e40bce44b1cc20ac5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud using Guid(f6e95c6a5ce315e40bce44b1cc20ac5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252ffb88447e2d8733055930db92a595') in 0.006593 seconds
+  Import took 0.011461 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame6.png
-  artifactKey: Guid(6f94ecca2e5c9a043bef81d63e26d458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame6.png using Guid(6f94ecca2e5c9a043bef81d63e26d458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c05ed661bbaa30034762948d9f78fd') in 0.034071 seconds
-  Import took 0.038754 seconds .
+  Time since last request: 0.049534 seconds.
+  path: Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame1.png
+  artifactKey: Guid(513c33513b856ba40b20fe58adb70d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame1.png using Guid(513c33513b856ba40b20fe58adb70d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76847becdc89ccb3539539d5e5c87e7') in 0.052789 seconds
+  Import took 0.057794 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised/MrGlucose_Run_frame2_surprised.png
-  artifactKey: Guid(e407f11352ca7f04a8bf224a2d5b2cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised/MrGlucose_Run_frame2_surprised.png using Guid(e407f11352ca7f04a8bf224a2d5b2cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a95e8c0a7a22ae9ea546f900f0b438e') in 0.017970 seconds
-  Import took 0.022451 seconds .
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame7.png
+  artifactKey: Guid(06f4b5d3cf7a7fd44851dca0be2707b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame7.png using Guid(06f4b5d3cf7a7fd44851dca0be2707b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834aa6d6cfbc5aaddd72243750fe724b') in 0.011275 seconds
+  Import took 0.015769 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame10.png
-  artifactKey: Guid(fda48b2398e2efd488808457dc702c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame10.png using Guid(fda48b2398e2efd488808457dc702c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de288b02f01ba70ec8520e90ab84a58b') in 0.008672 seconds
-  Import took 0.013723 seconds .
+  Time since last request: 0.000218 seconds.
+  path: Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame8.png
+  artifactKey: Guid(578cb5bfbc74718438915725a6e8e439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame8.png using Guid(578cb5bfbc74718438915725a6e8e439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64a70983bde5dd8ac4ca3fea92145f9') in 0.012972 seconds
+  Import took 0.018027 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame5.png
-  artifactKey: Guid(36d073faaaff6d744823dd2018182f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame5.png using Guid(36d073faaaff6d744823dd2018182f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48c640a4ece4e080ff6b5369c80d828') in 0.021765 seconds
-  Import took 0.026972 seconds .
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame5.png
+  artifactKey: Guid(d3864c9e7ed4c4f4b90d9b8d52887ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame5.png using Guid(d3864c9e7ed4c4f4b90d9b8d52887ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628ea069bc50e55f8418e38e98abe661') in 0.012581 seconds
+  Import took 0.018247 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/angry/MrGlucose_Run_frame2_angry.png
-  artifactKey: Guid(004845688e1ec5a469deba99edbcab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/angry/MrGlucose_Run_frame2_angry.png using Guid(004845688e1ec5a469deba99edbcab09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8402d17ce3aec44ce841bc91d0a06f50') in 0.022677 seconds
-  Import took 0.027075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/Attack/RGBSlime_Attack_frame1.png
-  artifactKey: Guid(755cc0713f5d5b94ba8261c9f108d963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/Attack/RGBSlime_Attack_frame1.png using Guid(755cc0713f5d5b94ba8261c9f108d963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85771606ce789cf623fde22d5818268') in 0.042702 seconds
-  Import took 0.047378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/Attack/RGBSlime_Attack_frame3.png
-  artifactKey: Guid(c2dee1579fd6336498d1e726a62b1dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/Attack/RGBSlime_Attack_frame3.png using Guid(c2dee1579fd6336498d1e726a62b1dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6081257724ed31a2884f7698b556e5c6') in 0.020908 seconds
-  Import took 0.025770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Spawn/RGBMiniSlime_Spawn_frame2.png
-  artifactKey: Guid(d1dd3cac99dc8324f8c04541ff964ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Spawn/RGBMiniSlime_Spawn_frame2.png using Guid(d1dd3cac99dc8324f8c04541ff964ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68d07e609d7a5cbd9bf8b7965381baa') in 0.021835 seconds
-  Import took 0.026244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/Death/RGBSlime_Death_frame4.png
-  artifactKey: Guid(bbd357bbbeb4f6e498998c472f8e7904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/Death/RGBSlime_Death_frame4.png using Guid(bbd357bbbeb4f6e498998c472f8e7904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df12dcf9f007d5c505b6b85814730201') in 0.020854 seconds
-  Import took 0.025281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/Death/RGBSlime_Death_frame3.png
-  artifactKey: Guid(22e8273461827554c86721caf010cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/Death/RGBSlime_Death_frame3.png using Guid(22e8273461827554c86721caf010cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3915f6024d1e028d81ffca116a7c6af2') in 0.023349 seconds
-  Import took 0.027500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame12.png
-  artifactKey: Guid(eecfd94c5c3b3da4199c374e90cadc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame12.png using Guid(eecfd94c5c3b3da4199c374e90cadc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e73399291af08eac5d6cf73a1fe1543') in 0.017486 seconds
-  Import took 0.021707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/tired/MrGlucose_Run_frame1_tired.png
-  artifactKey: Guid(42ba9ea4c4cef1748b8fd8de9f19870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/tired/MrGlucose_Run_frame1_tired.png using Guid(42ba9ea4c4cef1748b8fd8de9f19870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2edca5ab829472a4527475bbdfd9494') in 0.020579 seconds
-  Import took 0.024870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/normal/MrGlucose_Run_frame2_normal.png
-  artifactKey: Guid(cfadb814f37075a478ae0e1ceff73304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/normal/MrGlucose_Run_frame2_normal.png using Guid(cfadb814f37075a478ae0e1ceff73304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730f4a0f29f0ddf6ebab3a8798d524b0') in 0.008615 seconds
-  Import took 0.013471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Death/PurpleSlime_Death_frame1.png
-  artifactKey: Guid(7148d2d9640b81e4c8221a4d96b58ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Death/PurpleSlime_Death_frame1.png using Guid(7148d2d9640b81e4c8221a4d96b58ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fffd60a3e654491e3bf3189ae78d000') in 0.008492 seconds
-  Import took 0.013226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Run/RGBMiniSlime_Run_frame2.png
-  artifactKey: Guid(5d037e362491a4d478ff4b965563dc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Run/RGBMiniSlime_Run_frame2.png using Guid(5d037e362491a4d478ff4b965563dc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf6b9957aff5bde90e3a35e2bab4559') in 0.010093 seconds
-  Import took 0.015029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/Attack/RGBSlime_Attack_frame4.png
-  artifactKey: Guid(952d9be3c167aa847b5c803c67c69a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/Attack/RGBSlime_Attack_frame4.png using Guid(952d9be3c167aa847b5c803c67c69a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53efdfc391987d16bae2d11931befdad') in 0.025501 seconds
-  Import took 0.029853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/RGBMiniSlime_PreRun.png
-  artifactKey: Guid(fe121dea212343d40961ac4166e27030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/RGBMiniSlime_PreRun.png using Guid(fe121dea212343d40961ac4166e27030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c89c08d57dfff5f1d4f5d38c26e24ea') in 0.025059 seconds
-  Import took 0.029198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame1.png
-  artifactKey: Guid(1fd563460cb2e4546aefc91797b9db1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame1.png using Guid(1fd563460cb2e4546aefc91797b9db1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed9ffd5ce6799e0dac50fa2290ff352') in 0.013988 seconds
-  Import took 0.018756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/curious/MrGlucose_Run_frame2_curious.png
-  artifactKey: Guid(9f84e176077df924eb5ea80952418eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/curious/MrGlucose_Run_frame2_curious.png using Guid(9f84e176077df924eb5ea80952418eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcb97a4c5b5d2a3ab87221b28000c81') in 0.023135 seconds
-  Import took 0.028094 seconds .
+  Time since last request: 0.000210 seconds.
+  path: Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame3.png
+  artifactKey: Guid(4e2f2fa45676fdd41945b21fdbbdb098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame3.png using Guid(4e2f2fa45676fdd41945b21fdbbdb098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24ffc15adcf89b83e079f047ee2da1a') in 0.012467 seconds
+  Import took 0.017324 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000193 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/Death/RGBSlime_Death_frame1.png
-  artifactKey: Guid(985823f8b84921c48aba61b12be4993d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/Death/RGBSlime_Death_frame1.png using Guid(985823f8b84921c48aba61b12be4993d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eabd917d94d9d3b005fe2180ef071e2') in 0.016391 seconds
-  Import took 0.020526 seconds .
+  path: Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame12.png
+  artifactKey: Guid(b146255c95075f342bf3e07bf5f74882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame12.png using Guid(b146255c95075f342bf3e07bf5f74882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342e8475f442c427e5d9de5345fcd95a') in 0.009729 seconds
+  Import took 0.014490 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Spawn/RGBMiniSlime_Spawn_frame6.png
-  artifactKey: Guid(f6509fc3ed8ecd64283e23b6be06797f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Spawn/RGBMiniSlime_Spawn_frame6.png using Guid(f6509fc3ed8ecd64283e23b6be06797f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9d6c76e3d54674650872ff78b759c4') in 0.022142 seconds
-  Import took 0.026982 seconds .
+  Time since last request: 0.000200 seconds.
+  path: Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame2.png
+  artifactKey: Guid(7db6f0533759403498a26d262d257a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame2.png using Guid(7db6f0533759403498a26d262d257a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816fb36150f7de0d58d6671b53517c94') in 0.013622 seconds
+  Import took 0.018808 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Run/RGBMiniSlime_Run_frame1.png
-  artifactKey: Guid(d90ab57e9456efe43a8674ce24493e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Run/RGBMiniSlime_Run_frame1.png using Guid(d90ab57e9456efe43a8674ce24493e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f690eda2cd3f85247c3f8fda405b90') in 0.023243 seconds
-  Import took 0.027918 seconds .
+  Time since last request: 0.000220 seconds.
+  path: Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame10.png
+  artifactKey: Guid(f6d1b6d00c18fb94ba954049849c4c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame10.png using Guid(f6d1b6d00c18fb94ba954049849c4c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaffb0abd079ff8ffab1453341dc838b') in 0.010610 seconds
+  Import took 0.015491 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Death/PurpleSlime_Death_frame5.png
-  artifactKey: Guid(7eb73024f0bd99b4eadf8e4530183c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Death/PurpleSlime_Death_frame5.png using Guid(7eb73024f0bd99b4eadf8e4530183c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfd0ba498bd1af82ae375013c458466') in 0.012770 seconds
-  Import took 0.017024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame2.png
-  artifactKey: Guid(5f0b360566058164fb7b8ca9429cbcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame2.png using Guid(5f0b360566058164fb7b8ca9429cbcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61acad1a997344c18273855250b4f7a') in 0.034566 seconds
-  Import took 0.039290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame8.png
-  artifactKey: Guid(b9263aa3201a3974fbd4e2018ccab2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame8.png using Guid(b9263aa3201a3974fbd4e2018ccab2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960a33249eccdde4d5498788244503b9') in 0.008410 seconds
-  Import took 0.012795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Spawn/RGBMiniSlime_Spawn_frame4.png
-  artifactKey: Guid(c5247375b1983c440a5ae1f75d1d419c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Spawn/RGBMiniSlime_Spawn_frame4.png using Guid(c5247375b1983c440a5ae1f75d1d419c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733f9ec1d4b8c999d01b98a93e2b526c') in 0.037882 seconds
-  Import took 0.042812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Death/PurpleSlime_Death_frame2.png
-  artifactKey: Guid(ea678593290c2d34ab8b23c198c72930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Death/PurpleSlime_Death_frame2.png using Guid(ea678593290c2d34ab8b23c198c72930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d48f3fb082d7123b8b2fa5b09ea46c6') in 0.021624 seconds
-  Import took 0.025814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Spawn/RGBMiniSlime_Spawn_frame1.png
-  artifactKey: Guid(955352cbc36f1e245822e552d876e3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Spawn/RGBMiniSlime_Spawn_frame1.png using Guid(955352cbc36f1e245822e552d876e3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a83d59cac67792b27b6720f9a9d145f') in 0.019480 seconds
-  Import took 0.023882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame9.png
-  artifactKey: Guid(6d3f8314614bd2b44b96d6fef05064ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame9.png using Guid(6d3f8314614bd2b44b96d6fef05064ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd946579f648cea30cd871ec2e64d491e') in 0.010278 seconds
-  Import took 0.014614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/tired/MrGlucose_Run_frame2_tired.png
-  artifactKey: Guid(e08c52d3dc7f89441a8a1f64ea1c320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/tired/MrGlucose_Run_frame2_tired.png using Guid(e08c52d3dc7f89441a8a1f64ea1c320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747a7963e1d0520cfaff6060b8d686f7') in 0.017410 seconds
-  Import took 0.022279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/Attack/RGBSlime_Attack_frame5.png
-  artifactKey: Guid(99deb6566821d694197b1b2790697622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/Attack/RGBSlime_Attack_frame5.png using Guid(99deb6566821d694197b1b2790697622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af11b23611c3b7f22106d0d1227228ff') in 0.019421 seconds
-  Import took 0.024308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Death/PurpleSlime_Death_frame6.png
-  artifactKey: Guid(6da01cfd492bc1344a76172e6964924c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Death/PurpleSlime_Death_frame6.png using Guid(6da01cfd492bc1344a76172e6964924c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77be5589129e3704b935b877a1086450') in 0.021407 seconds
-  Import took 0.026513 seconds .
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame6.png
+  artifactKey: Guid(42bd0269a42970a4f989b6fe0ba67aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame6.png using Guid(42bd0269a42970a4f989b6fe0ba67aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8c27db25ace6f8f290559852dbf8c0') in 0.011887 seconds
+  Import took 0.016996 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000227 seconds.
-  path: Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised/MrGlucose_Run_frame1_surprised.png
-  artifactKey: Guid(ea0f49c44a3e3d246aa28cfd81b55ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/Glucose/Glucose_Run/Run/surprised/MrGlucose_Run_frame1_surprised.png using Guid(ea0f49c44a3e3d246aa28cfd81b55ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cccdf11c6e9b0c5057215a1a5b4f1c') in 0.029507 seconds
-  Import took 0.034128 seconds .
+  path: Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame9.png
+  artifactKey: Guid(b8a2611fab57e8746bf3c0a65bef6360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame9.png using Guid(b8a2611fab57e8746bf3c0a65bef6360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf36914c18c62c8c3f91a99e4aaac08') in 0.012427 seconds
+  Import took 0.017056 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/Attack/RGBSlime_Attack_frame2.png
-  artifactKey: Guid(12d22c7b252cf53488b6e8c27fae724e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/Attack/RGBSlime_Attack_frame2.png using Guid(12d22c7b252cf53488b6e8c27fae724e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b60bf3ea47a6336045d41d680be79a7') in 0.026387 seconds
-  Import took 0.030637 seconds .
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame4.png
+  artifactKey: Guid(49a8b10fa19fbee48b65dea9e2b78124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame4.png using Guid(49a8b10fa19fbee48b65dea9e2b78124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc26fff9e604f09ba60100652ea2e0a') in 0.009894 seconds
+  Import took 0.015461 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Death/PurpleSlime_Death_frame4.png
-  artifactKey: Guid(f16860a7f824ea343bca5a33786925ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Death/PurpleSlime_Death_frame4.png using Guid(f16860a7f824ea343bca5a33786925ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a527b9920b8831475f142319335267e') in 0.028210 seconds
-  Import took 0.032630 seconds .
+  Time since last request: 0.000272 seconds.
+  path: Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame11.png
+  artifactKey: Guid(bc5e82851c6d3f04a85ce63a233f9939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame11.png using Guid(bc5e82851c6d3f04a85ce63a233f9939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36979af5fb50584182118846e320d05') in 0.011880 seconds
+  Import took 0.016826 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame4.png
-  artifactKey: Guid(8cc14542ad9ca534395f71463310695c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame4.png using Guid(8cc14542ad9ca534395f71463310695c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d9c98b3b8291bede4a68b6fdb16eab') in 0.031608 seconds
-  Import took 0.035769 seconds .
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame9.png
+  artifactKey: Guid(b8a2611fab57e8746bf3c0a65bef6360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame9.png using Guid(b8a2611fab57e8746bf3c0a65bef6360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf36914c18c62c8c3f91a99e4aaac08') in 0.012279 seconds
+  Import took 0.016681 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame7.png
-  artifactKey: Guid(a7370f6e8dd6cc74d85e25057f95d27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame7.png using Guid(a7370f6e8dd6cc74d85e25057f95d27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b13479453810a2b033131b8e5972014') in 0.008455 seconds
-  Import took 0.013342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Death/PurpleSlime_Death_frame3.png
-  artifactKey: Guid(d1d2752cf18e0294aabaddfdc1b77268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Death/PurpleSlime_Death_frame3.png using Guid(d1d2752cf18e0294aabaddfdc1b77268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0d8d89c20057fbc19222e87b0824e7') in 0.016079 seconds
-  Import took 0.020660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame3.png
-  artifactKey: Guid(055fdd4a1d1508d4192c88f5d617fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame3.png using Guid(055fdd4a1d1508d4192c88f5d617fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ccb2c605c5ee3f6e021b80fbce9750') in 0.019404 seconds
-  Import took 0.023722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame11.png
-  artifactKey: Guid(6dbcaa2429a5ed943a27d787e1fbd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Mobs/PurpleSlime/Walk/PurpleSlime_Walk_frame11.png using Guid(6dbcaa2429a5ed943a27d787e1fbd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b85f898241b6bbf122ff8df2c3d811e') in 0.011924 seconds
-  Import took 0.016101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Spawn/RGBMiniSlime_Spawn_frame5.png
-  artifactKey: Guid(e944b82df4de2b24f9ab2e1f32cd2755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Spawn/RGBMiniSlime_Spawn_frame5.png using Guid(e944b82df4de2b24f9ab2e1f32cd2755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8d4146d399463e84b9c1ed750f73a7') in 0.016764 seconds
-  Import took 0.021260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/Death/RGBSlime_Death_frame2.png
-  artifactKey: Guid(5f6fd06fe90ee854c9566747876ad408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/Death/RGBSlime_Death_frame2.png using Guid(5f6fd06fe90ee854c9566747876ad408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68a0e4c5133f0eaec3430d3ec7b23fa') in 0.025966 seconds
-  Import took 0.030136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Spawn/RGBMiniSlime_Spawn_frame3.png
-  artifactKey: Guid(26f1e6fcaf4bf3f4b9e0ca024b8e703d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies/Bosses/RGBSlime/MiniSlime/Spawn/RGBMiniSlime_Spawn_frame3.png using Guid(26f1e6fcaf4bf3f4b9e0ca024b8e703d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661651e3ded0cc1999fcecab40ebc700') in 0.030104 seconds
-  Import took 0.034190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 122.581325 seconds.
-  path: Assets/Animation/PNJ/Zone_1/Baby_Slime/Baby_Slime.controller
-  artifactKey: Guid(67739c242dda80347b9f68cf7ef2ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/PNJ/Zone_1/Baby_Slime/Baby_Slime.controller using Guid(67739c242dda80347b9f68cf7ef2ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdbbbcdfab693b67c457b3ce84dcbdc') in 0.009255 seconds
-  Import took 0.014374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001210 seconds.
-  path: Assets/Animation/PNJ/Zone_1/Baby_Slime/Baby_Slime.controller
-  artifactKey: Guid(67739c242dda80347b9f68cf7ef2ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/PNJ/Zone_1/Baby_Slime/Baby_Slime.controller using Guid(67739c242dda80347b9f68cf7ef2ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdbbbcdfab693b67c457b3ce84dcbdc') in 0.001797 seconds
-  Import took 0.006565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.839447 seconds.
-  path: Assets/Sprites/PNJ/Zone 1/BabySlime/Talking
-  artifactKey: Guid(0ad93b9d9729f894893b6abbbe375075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PNJ/Zone 1/BabySlime/Talking using Guid(0ad93b9d9729f894893b6abbbe375075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99228eccebefb827efb7acd42d0f60f') in 0.005129 seconds
-  Import took 0.010005 seconds .
+  Time since last request: 0.000203 seconds.
+  path: Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame11.png
+  artifactKey: Guid(bc5e82851c6d3f04a85ce63a233f9939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Bosses/DoomShroom/SporeCloud/DoomShroom_SporeCloud_frame11.png using Guid(bc5e82851c6d3f04a85ce63a233f9939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36979af5fb50584182118846e320d05') in 0.005920 seconds
+  Import took 0.010738 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001704 seconds.
+Registered in 0.001472 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
@@ -478,22 +214,22 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.771 seconds
+- Completed reload, in  0.885 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.7 MB.
+Unloading 3194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.8 MB.
+System memory in use after: 215.0 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3796.
-Total: 2.329800 ms (FindLiveObjects: 0.320400 ms CreateObjectMapping: 0.089100 ms MarkObjects: 1.903300 ms  DeleteObjects: 0.016200 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3837.
+Total: 2.597500 ms (FindLiveObjects: 0.407800 ms CreateObjectMapping: 0.084400 ms MarkObjects: 2.088600 ms  DeleteObjects: 0.014900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001222 seconds.
+Registered in 0.001281 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
@@ -502,102 +238,174 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.754 seconds
+- Completed reload, in  0.810 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.8 MB.
+Unloading 3194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.8 MB.
+System memory in use after: 215.1 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3800.
-Total: 2.767400 ms (FindLiveObjects: 0.351000 ms CreateObjectMapping: 0.089900 ms MarkObjects: 2.303100 ms  DeleteObjects: 0.021900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001226 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.757 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.6 MB.
-System memory in use after: 212.8 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3804.
-Total: 2.341500 ms (FindLiveObjects: 0.344700 ms CreateObjectMapping: 0.088500 ms MarkObjects: 1.891100 ms  DeleteObjects: 0.016300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001149 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.6 MB.
-System memory in use after: 212.8 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3808.
-Total: 2.634300 ms (FindLiveObjects: 0.344600 ms CreateObjectMapping: 0.090700 ms MarkObjects: 2.179800 ms  DeleteObjects: 0.017800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001263 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.765 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.6 MB.
-System memory in use after: 212.8 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3812.
-Total: 2.534800 ms (FindLiveObjects: 0.397000 ms CreateObjectMapping: 0.106400 ms MarkObjects: 2.012900 ms  DeleteObjects: 0.017400 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3841.
+Total: 2.642200 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.081100 ms MarkObjects: 2.196100 ms  DeleteObjects: 0.019000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 227.766948 seconds.
-  path: Assets/Prefab/Level_Transition_Manager
-  artifactKey: Guid(6471a66a8566e15499f1f5851a7dca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Level_Transition_Manager using Guid(6471a66a8566e15499f1f5851a7dca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263b7ffaf8f3c14bbe22f632a5e3d6cf') in 0.010208 seconds
-  Import took 0.015519 seconds .
+  Time since last request: 353.381846 seconds.
+  path: Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame7.png
+  artifactKey: Guid(1c398dfec12d18c43a2c73fff0822700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame7.png using Guid(1c398dfec12d18c43a2c73fff0822700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a3aa97300c32e35b06ce4b7058b330') in 0.051101 seconds
+  Import took 0.057003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame8.png
+  artifactKey: Guid(e0338c1d9187b0c4f8a4fe3f8aae6806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame8.png using Guid(e0338c1d9187b0c4f8a4fe3f8aae6806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ec375fd6ba06b802c62e65df0a1171') in 0.010018 seconds
+  Import took 0.015009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame7.png
+  artifactKey: Guid(1c398dfec12d18c43a2c73fff0822700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame7.png using Guid(1c398dfec12d18c43a2c73fff0822700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a3aa97300c32e35b06ce4b7058b330') in 0.005353 seconds
+  Import took 0.009519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame8.png
+  artifactKey: Guid(e0338c1d9187b0c4f8a4fe3f8aae6806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame8.png using Guid(e0338c1d9187b0c4f8a4fe3f8aae6806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ec375fd6ba06b802c62e65df0a1171') in 0.010443 seconds
+  Import took 0.015181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.851465 seconds.
+  path: Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame1.png
+  artifactKey: Guid(bf15ffab23ae5c744beaa37d74e9e0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame1.png using Guid(bf15ffab23ae5c744beaa37d74e9e0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33aaeb90aee3d6e0e2d02a8959d77e2e') in 0.011258 seconds
+  Import took 0.016248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame5.png
+  artifactKey: Guid(449b884be7301d9489a5cd9b5c103018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame5.png using Guid(449b884be7301d9489a5cd9b5c103018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7947200f0db64df90510c40c38eabd7') in 0.011664 seconds
+  Import took 0.015843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame2.png
+  artifactKey: Guid(9a90728105a6442448381acc2d1abf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame2.png using Guid(9a90728105a6442448381acc2d1abf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b091159dc7005f299a8387620265dd4b') in 0.012037 seconds
+  Import took 0.016565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame3.png
+  artifactKey: Guid(05b70dac289b4a94e9a5e8cfad919484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame3.png using Guid(05b70dac289b4a94e9a5e8cfad919484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cef1087496c9b8dd152140a507fcd7') in 0.019072 seconds
+  Import took 0.023360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame4.png
+  artifactKey: Guid(d07c153fdb07d934387fd63e667bcbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame4.png using Guid(d07c153fdb07d934387fd63e667bcbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0475dc23414e9a68b4749ff012b9b4d9') in 0.009679 seconds
+  Import took 0.014794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame6.png
+  artifactKey: Guid(dc874be57c9489d4b96e0a54fe390f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PNJ/Zone 2/Blogre/WakingUp/Blogre_WakingUp_frame6.png using Guid(dc874be57c9489d4b96e0a54fe390f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fa410a179cb5b7e10b8c3cfbd4e308') in 0.012699 seconds
+  Import took 0.017605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.113764 seconds.
+  path: Assets/Sprites/Player/Spit/SpitParticle.psd
+  artifactKey: Guid(72890c44016f90442b4e4d1347690cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Spit/SpitParticle.psd using Guid(72890c44016f90442b4e4d1347690cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be57fe87216ebf154cceb6aeadd2934') in 0.024536 seconds
+  Import took 0.029689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame2.png
+  artifactKey: Guid(68e90f7be28609147b67c9a8214a03e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame2.png using Guid(68e90f7be28609147b67c9a8214a03e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd1ee515c74c372105057d8de79d456') in 0.016577 seconds
+  Import took 0.021399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame6.png
+  artifactKey: Guid(fe361672539b43847970fad327a25f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame6.png using Guid(fe361672539b43847970fad327a25f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8487e8796c59029ee095a03336f91c1b') in 0.008192 seconds
+  Import took 0.012556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame8.png
+  artifactKey: Guid(e282577aad335c3498ddf9de9a1edf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame8.png using Guid(e282577aad335c3498ddf9de9a1edf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b025deb3c7fec346820f15e29249672') in 0.019028 seconds
+  Import took 0.023922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame1.png
+  artifactKey: Guid(236a8fb169e14ce41b4f8f2602cdb916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame1.png using Guid(236a8fb169e14ce41b4f8f2602cdb916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b036e74b35387b147f420e6fbb2fd21') in 0.010227 seconds
+  Import took 0.014982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame4.png
+  artifactKey: Guid(f963b0608564b014ebe3ea0d7a7a1d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame4.png using Guid(f963b0608564b014ebe3ea0d7a7a1d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bffd3174f073a07f4ff77e477991dc3') in 0.010769 seconds
+  Import took 0.016278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame7.png
+  artifactKey: Guid(68b5d2d141c09314b869a1442fa5d7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame7.png using Guid(68b5d2d141c09314b869a1442fa5d7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a401e954cef665f7f1ebdb67156bd4') in 0.009352 seconds
+  Import took 0.014108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame3.png
+  artifactKey: Guid(64e775d2e532f084f8edce9de3728417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame3.png using Guid(64e775d2e532f084f8edce9de3728417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ad035877baaf537f4de834d1c55b05') in 0.013284 seconds
+  Import took 0.017825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame5.png
+  artifactKey: Guid(a33c4b32e73f6ca42a84c60aa2c2c565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/Mobs/ZombieBroccolie/Spike/ZombieBroccolie_Spike_frame5.png using Guid(a33c4b32e73f6ca42a84c60aa2c2c565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175a43cdf03e85f73518c2c36e4e9ba7') in 0.010003 seconds
+  Import took 0.014739 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001525 seconds.
+Registered in 0.001194 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
@@ -606,102 +414,126 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.742 seconds
+- Completed reload, in  0.766 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.6 MB.
-System memory in use after: 212.9 MB.
+Unloading 3194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.9 MB.
+System memory in use after: 215.1 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3816.
-Total: 2.902500 ms (FindLiveObjects: 0.543300 ms CreateObjectMapping: 0.115700 ms MarkObjects: 2.215800 ms  DeleteObjects: 0.026500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.964288 seconds.
-  path: Assets/Prefab/PNJ/Baby_Slime.prefab
-  artifactKey: Guid(fbe6a62a1c2124c4683e997f29d6e7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PNJ/Baby_Slime.prefab using Guid(fbe6a62a1c2124c4683e997f29d6e7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e14df7b1b14b2642e33be3a3e3dc5ed') in 0.145658 seconds
-  Import took 0.150672 seconds .
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3853.
+Total: 2.738200 ms (FindLiveObjects: 0.393800 ms CreateObjectMapping: 0.089400 ms MarkObjects: 2.236500 ms  DeleteObjects: 0.017400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.967416 seconds.
-  path: Assets/Prefab/PNJ/Baby_Slime.prefab
-  artifactKey: Guid(fbe6a62a1c2124c4683e997f29d6e7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PNJ/Baby_Slime.prefab using Guid(fbe6a62a1c2124c4683e997f29d6e7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a07d6ef85a129380fede71afd80386') in 0.007584 seconds
-  Import took 0.012443 seconds .
+  Time since last request: 214.672932 seconds.
+  path: Assets/Prefab/Enemy/Bosses/Spore/Spore.prefab
+  artifactKey: Guid(ce80f2ad6f12fda4b8ab597062f54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Bosses/Spore/Spore.prefab using Guid(ce80f2ad6f12fda4b8ab597062f54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be24e129a28bfbe9c73130af2d6f16b7') in 0.120524 seconds
+  Import took 0.126024 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.578156 seconds.
-  path: Assets/Prefab/PNJ/Baby_Slime.prefab
-  artifactKey: Guid(fbe6a62a1c2124c4683e997f29d6e7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PNJ/Baby_Slime.prefab using Guid(fbe6a62a1c2124c4683e997f29d6e7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42192ffb2e8df8972d68885d67fcdff7') in 0.006639 seconds
-  Import took 0.011587 seconds .
+  Time since last request: 4.016906 seconds.
+  path: Assets/Prefab/Enemy/Bosses/Spore/Spore.prefab
+  artifactKey: Guid(ce80f2ad6f12fda4b8ab597062f54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Bosses/Spore/Spore.prefab using Guid(ce80f2ad6f12fda4b8ab597062f54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82817c53920b8c49570247738e904bc8') in 0.014013 seconds
+  Import took 0.019009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.577439 seconds.
+  path: Assets/Prefab/Enemy/Bosses/Spore/Spore.prefab
+  artifactKey: Guid(ce80f2ad6f12fda4b8ab597062f54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Bosses/Spore/Spore.prefab using Guid(ce80f2ad6f12fda4b8ab597062f54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432686f6394868619b863ce6139ab31a') in 0.009046 seconds
+  Import took 0.014023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.292548 seconds.
+  path: Assets/Prefab/Enemy/Bosses/Spore/Spore.prefab
+  artifactKey: Guid(ce80f2ad6f12fda4b8ab597062f54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Bosses/Spore/Spore.prefab using Guid(ce80f2ad6f12fda4b8ab597062f54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbcc221165d42dca96e92fde4613a7e') in 0.009651 seconds
+  Import took 0.014685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.230112 seconds.
+  path: Assets/Prefab/Enemy/Bosses/Spore/Spore.prefab
+  artifactKey: Guid(ce80f2ad6f12fda4b8ab597062f54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Bosses/Spore/Spore.prefab using Guid(ce80f2ad6f12fda4b8ab597062f54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377390ec8918cc680fa9365e13a39674') in 0.008341 seconds
+  Import took 0.014065 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001242 seconds.
+Registered in 0.001205 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.791 seconds
+- Completed reload, in  0.780 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.0 MB.
+System memory in use after: 215.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3893.
+Total: 2.493900 ms (FindLiveObjects: 0.342400 ms CreateObjectMapping: 0.096100 ms MarkObjects: 2.040800 ms  DeleteObjects: 0.013500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.052911 seconds.
+  path: Assets/Prefab/Enemy/Bosses/Spore/Spore.prefab
+  artifactKey: Guid(ce80f2ad6f12fda4b8ab597062f54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Bosses/Spore/Spore.prefab using Guid(ce80f2ad6f12fda4b8ab597062f54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb12a9f302194a3f9da07105e284297b') in 0.120550 seconds
+  Import took 0.125749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.138563 seconds.
+  path: Assets/Prefab/Enemy/Bosses/Spore/Spore.prefab
+  artifactKey: Guid(ce80f2ad6f12fda4b8ab597062f54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy/Bosses/Spore/Spore.prefab using Guid(ce80f2ad6f12fda4b8ab597062f54021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edcca6d64fd6229e421edc3ddbbd9e2') in 0.008807 seconds
+  Import took 0.013675 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001045 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.9 MB.
-System memory in use after: 215.1 MB.
+Unloading 3194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.1 MB.
+System memory in use after: 215.4 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3863.
-Total: 3.476800 ms (FindLiveObjects: 0.397700 ms CreateObjectMapping: 0.092500 ms MarkObjects: 2.959100 ms  DeleteObjects: 0.025900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.342716 seconds.
-  path: Assets/Animation/PNJ/Zone_1/Baby_Slime/Baby_Slime.controller
-  artifactKey: Guid(67739c242dda80347b9f68cf7ef2ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/PNJ/Zone_1/Baby_Slime/Baby_Slime.controller using Guid(67739c242dda80347b9f68cf7ef2ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab05a35a3363eb3fd6ad052a49d11c01') in 0.014127 seconds
-  Import took 0.019205 seconds .
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3933.
+Total: 2.588400 ms (FindLiveObjects: 0.391000 ms CreateObjectMapping: 0.090200 ms MarkObjects: 2.090100 ms  DeleteObjects: 0.016200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001104 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.768 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.9 MB.
-System memory in use after: 215.1 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3867.
-Total: 3.176400 ms (FindLiveObjects: 0.543200 ms CreateObjectMapping: 0.119500 ms MarkObjects: 2.491400 ms  DeleteObjects: 0.021000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001288 seconds.
+Registered in 0.063762 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
@@ -710,40 +542,16 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.799 seconds
+- Completed reload, in  1.123 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.9 MB.
-System memory in use after: 215.1 MB.
+Unloading 3194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.2 MB.
+System memory in use after: 215.4 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3871.
-Total: 2.466000 ms (FindLiveObjects: 0.354000 ms CreateObjectMapping: 0.090700 ms MarkObjects: 2.004900 ms  DeleteObjects: 0.015400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001245 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.792 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.9 MB.
-System memory in use after: 215.1 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3875.
-Total: 2.716500 ms (FindLiveObjects: 0.347700 ms CreateObjectMapping: 0.088900 ms MarkObjects: 2.261400 ms  DeleteObjects: 0.017600 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3937.
+Total: 2.957000 ms (FindLiveObjects: 0.382300 ms CreateObjectMapping: 0.091100 ms MarkObjects: 2.465500 ms  DeleteObjects: 0.016800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
