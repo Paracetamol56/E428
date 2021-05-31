@@ -97,3 +97,38 @@ Doom shroom :
 	- But before I will play with you a little !
 
 <========================================Zone 4========================================>
+
+Broken robot : 
+	- INTRUDER 
+	- INTRUDER
+	- INTRUDER
+	- must catch
+	- all
+	- INTRUDER
+	- INTRUDER APPRHENSION PROJECT : running
+	- ...
+	- FAIL
+
+Burnt slime : 
+	- Be careful the robots here are very aggressive.
+	- I learned it well on my own...
+	- From what I heard the exit is not far but it is not without risk.
+	- And who knows what can be behind that door...
+
+Zaply : 
+	- Hey you !
+	- Yes you !
+	- You want to take a dump ?
+	- That's very pleasant you know.
+	- Trust me !
+	- No ? 
+	- You don't want ?
+	- Too bad for you, you are not ready for what will happen then.
+
+Electricity manager : 
+	- INTRUDER EXTERMINATION PROTOCOL : starting
+	- ...
+	- ANALYSING...
+	- corn syrup slime
+	- TARGET SET
+	- INTRUDER EXTERMINATION PROTOCOL : running
