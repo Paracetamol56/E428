@@ -54,9 +54,9 @@ Blogre :
 	- But...
 	- I am full.
 	- You can pass but don't stay too long...
-	- I might be hungry again !
+	- 	
 
-Sweetener blobers : 
+Sweetener blobers/ RGB Slime : 
 	- Oh we have a guest !
 	- Hello little slime.
 	- Are you lost ?
