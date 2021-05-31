@@ -57,6 +57,6 @@ public class Store_Janitor_Attack : MonoBehaviour
     public void Increase_Difficulty()
     {
         print("Diff++");
-        Time_Between_Launch *= 0.9f;
+        Time_Between_Launch *= 0.95f;
     }
 }

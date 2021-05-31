@@ -9,8 +9,8 @@ public class Mob_Basic_Animation : MonoBehaviour
     private SpriteRenderer Mob_SR;
     private Animator Mob_An;
     private float Horizontal_Velocity = 0;
-
-    private bool Is_Facing_Right = false;
+    [HideInInspector]
+    public bool Is_Facing_Right = false;
     // Start is called before the first frame update
     void Start()
     {

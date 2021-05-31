@@ -22,7 +22,7 @@ public class Store_Janitor_Health : MonoBehaviour, IAttackable
     private Store_Janitor_Animation Store_Janitor_An;
     private Store_Janitor_States Store_Janitor_St;
     private Store_Janitor_Attack Store_Janitor_At;
-
+    private Boss_States State = Boss_States.Cinematic;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,22 +48,31 @@ public class Store_Janitor_Health : MonoBehaviour, IAttackable
     }
     public void Be_Attacked()
     {
-        Current_Health -= 1;
-        // Make boss angrier
-        Store_Janitor_At.Increase_Difficulty();
-        // If the boss has heath, he become stunt else he die
-        if (Current_Health > 0)
+        // If boss can be attacked
+        if (State != Boss_States.Cinematic && State != Boss_States.Dead)
         {
-           
-            Store_Janitor_An.Launch_Stunt_Animation();
+            Current_Health -= 1;
+            // Make boss angrier
+            Store_Janitor_At.Increase_Difficulty();
+            // If the boss has heath, he become stunt else he die
+            if (Current_Health > 2)
+            {
+                Store_Janitor_An.Launch_Stunt_Animation();
+            }
+            else
+            {
+                Debug.Log("Store Janitor is Dead");
+                Store_Janitor_St.Update_State(Boss_States.Dead);
+                Store_Janitor_An.Launch_Death_Animation();
+            }
+            Debug.Log("Store Janitor Health = " + Current_Health);
+            HUD.Update_Boss_Health_Bar(Current_Health, Max_Health);
         }
-        else
-        {
-            Debug.Log("Store Janitor is Dead= ");
-            Store_Janitor_St.Update_State(Boss_States.Dead);
-            Store_Janitor_An.Launch_Death_Animation();
-        }
-        Debug.Log("Store Janitor Health = " + Current_Health);
-        HUD.Update_Boss_Health_Bar(Current_Health, Max_Health);
+        
+    }
+    // Update local state
+    public void Update_State(Boss_States state)
+    {
+        State = state;
     }
 }

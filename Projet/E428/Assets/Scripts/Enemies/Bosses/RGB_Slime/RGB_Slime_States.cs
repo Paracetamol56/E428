@@ -17,11 +17,10 @@ public class RGB_Slime_States : MonoBehaviour
     private Rigidbody2D RGB_Slime_RB;
     private Boss_States State = Boss_States.Cinematic;
     private bool Has_Died = false;
-
     // Start is called before the first frame update
     void Start()
     {
-        
+
         RGB_Slime_HitBox = GetComponentInChildren<Mob_Basic_Attack>();
         RGB_Slime_Mo = GetComponent<RGB_Slime_Movement>();
         RGB_Slime_Att = GetComponent<RGB_Slime_Attack>();
@@ -56,6 +55,8 @@ public class RGB_Slime_States : MonoBehaviour
                     RGB_Slime_Mo.Freeze();
                     // Block any other state pdates
                     Has_Died = true;
+                    // Fade out Boss music
+                    Audio_Mixer_Control.current.Fade_Boss(-80, 0.6f);
                     break;
                 default:
                     break;

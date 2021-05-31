@@ -14,9 +14,11 @@ public class Doom_Shroom_Animation : MonoBehaviour
     private Doom_Shroom_State Doom_Shroom_St;
     private bool Is_Facing_Right = false;
     private float Horizontal_Velocity = 0;
+    private Audio_Prefab_Spawner Audio_Prefab_Sp;
     // Start is called before the first frame update
     void Start()
     {
+        Audio_Prefab_Sp = GetComponent<Audio_Prefab_Spawner>();
         Doom_Shroom_An = GetComponent<Animator>();
         Doom_Shroom_RB = GetComponent<Rigidbody2D>();
         Doom_Shroom_SR = GetComponent<SpriteRenderer>();
@@ -52,6 +54,7 @@ public class Doom_Shroom_Animation : MonoBehaviour
     {
         Debug.Log("Doom Shroom Death animation");
         Doom_Shroom_An.SetBool("Dead", true);
+        Audio_Prefab_Sp.Play_A_Sound(0);
     }
     public void Launch_Attack_Animation()
     {
@@ -62,6 +65,12 @@ public class Doom_Shroom_Animation : MonoBehaviour
         if (id == Cinematic_Id)
         {
             Doom_Shroom_St.Update_State(Boss_States.Attack);
+            // Launch Boss_Music
+            GetComponent<AudioSource>().Play();
+            // Fade in boss music
+            Audio_Mixer_Control.current.Fade_Boss(0, 1.0f);
+            // Fade out normal music
+            Audio_Mixer_Control.current.Fade_Music(-80,1f);
         }
     }
     public void Launch_Stunt_Animation()

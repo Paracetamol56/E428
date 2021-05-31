@@ -50,7 +50,7 @@ public class RGB_Slime_Health : MonoBehaviour,IAttackable
             RGB_Slime_At.Increase_Difficulty();
             Current_Health -= 1;
             // If the boss has heath, he become stunt else he die
-            if (Current_Health > 0)
+            if (Current_Health > 2)
             {
 
                 RGB_Slime_An.Launch_Stunt_Animation();

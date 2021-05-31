@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8747250360682228558}
   - component: {fileID: 8747250360682228559}
   - component: {fileID: 8747250360682228556}
-  - component: {fileID: 5604567718181531993}
+  - component: {fileID: 7215624976810905194}
   m_Layer: 12
   m_Name: TNT_Projectile
   m_TagString: Untagged
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f6b94697da3d89429ebca430230c19e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Default_Speed: 20
+  Default_Speed: 15
 --- !u!50 &8747250360682228559
 Rigidbody2D:
   serializedVersion: 4
@@ -139,7 +139,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &8747250360682228556
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -166,7 +166,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
---- !u!61 &5604567718181531993
+--- !u!61 &7215624976810905194
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -190,5 +190,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.8, y: 1.8}
-  m_EdgeRadius: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0.5

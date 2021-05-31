@@ -74,6 +74,10 @@ public class RGB_Slime_Animation : MonoBehaviour
             yield return new WaitForSeconds(5f);
             RGB_Slime_St.Update_State(Boss_States.Attack);
             Debug.Log(" After cinematic" + RGB_Slime_St.Get_States());
+            // Launch Boss Music and fade the mixers
+            Audio_Mixer_Control.current.Fade_Music(-80, 0.6f);
+            Audio_Mixer_Control.current.Fade_Boss(-0, 0.6f);
+            GetComponent<AudioSource>().Play();
         }
 
     }

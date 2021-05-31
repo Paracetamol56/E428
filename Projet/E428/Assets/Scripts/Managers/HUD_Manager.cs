@@ -61,7 +61,8 @@ public class HUD_Manager : MonoBehaviour
     {
         // Update health bar 
         float Current_Health_float = Current_Health;
-        Boss_Health_Normalised = Current_Health_float / Max_Health;
+        float Curren_Max_Health = Max_Health;
+        Boss_Health_Normalised = Current_Health_float / Curren_Max_Health;
         print(Glucose_Health_Normalised);
     }
     // Display Boss Health bar

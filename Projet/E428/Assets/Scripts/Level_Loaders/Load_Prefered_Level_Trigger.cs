@@ -13,6 +13,7 @@ public class Load_Prefered_Level_Trigger : MonoBehaviour
         if (collision.tag == "Player")
         {
             Manager.Load_A_Level(Level_Build_Index);
+            Audio_Mixer_Control.current.Fade_Master(-80, 1.5f);
         }
     }
 }

@@ -42,16 +42,16 @@ public class Glucose_States : MonoBehaviour
             case Player_Control.Normal:
                 break;
             case Player_Control.Pipe:
-                // Reset attack to prevent unwanted behaviours
-                Glucose_Att.Reset_Attack();
                 break;
             case Player_Control.Cinematic:
-                Glucose_Att.Reset_Attack();
                 break;
             case Player_Control.Stunt:
                 break;
             case Player_Control.Dead:
                 Glucose_An.Launch_Death_Animation();
+                // Fade out Master sound before reoload
+                Audio_Mixer_Control.current.Fade_Master(-80, 1.5f);
+
                 // Call Reload event
                 Event_System.current.Reload_Level();
                 break;

@@ -21,6 +21,7 @@ public class TNT_Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //Debug.Log("Explosion " + Time.time);
         IAttackable enemy = collision.GetComponent<IAttackable>();
         if (enemy != null)
         {

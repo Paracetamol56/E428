@@ -43,6 +43,7 @@ public class Pipe_Begining : MonoBehaviour
         if (state != null)
         {
             // Change the control of the player to pipe
+            Debug.Log("Updated Glucose control to Pipe");
             state.Change_Glucose_Controls(Glucose_States.Player_Control.Pipe);
         }
 

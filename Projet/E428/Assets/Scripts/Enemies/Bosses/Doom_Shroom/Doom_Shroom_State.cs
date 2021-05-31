@@ -14,9 +14,11 @@ public class Doom_Shroom_State : MonoBehaviour
     private Mob_Basic_Attack Doom_Shroom_HitBox;
     private Doom_Shroom_Movement Doom_Shroom_Mo;
     private Doom_Shroom_Attack Doom_Shroom_Att;
+
     // Start is called before the first frame update
     void Start()
     {
+        
         Doom_Shroom_HitBox = GetComponentInChildren<Mob_Basic_Attack>();
         Doom_Shroom_Collision = GetComponent<BoxCollider2D>();
         Doom_Shroom_RB = GetComponent<Rigidbody2D>();
@@ -46,6 +48,8 @@ public class Doom_Shroom_State : MonoBehaviour
                     Doom_Shroom_Collision.isTrigger = true;
                     // Update HUD
                     HUD.End_Battle();
+                    // Fade out Boss Music slowly
+                    Audio_Mixer_Control.current.Fade_Boss(-80,0.4f);
                     // Disable hurt Box and 
                     Doom_Shroom_HitBox.Is_Enabled = false;
                     

@@ -44,7 +44,7 @@ public class WatcherRobot_States : MonoBehaviour
         Watcher_Robot_An = GetComponent<Watcher_Robot_Animation>();
         Watcher_Robot_La = GetComponentInChildren<Watcher_Robot_Lazer>();
         Watcher_Robot_Mo = GetComponent<Mob_Basic_Movement>();
-        Watcher_Robot_Mo.Target = Target;
+        Target = Watcher_Robot_Mo.Target;
         Max_View_Distance = Watcher_Robot_Mo.Max_View_Distance;
         switch (Global_Variable.Difficulty_Level)
         {

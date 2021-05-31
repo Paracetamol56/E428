@@ -79,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 350530922a4c9cd498a0ad36ba8b852a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Max_View_Distance: 10
   Min_Distance: 0.3
-  Target: {fileID: 4909519743933979222, guid: e5fb12352da62bc4e801302699952564, type: 3}
+  Target: {fileID: 0}
   Easy_Speed: 1
   Normal_Speed: 1
   Hard_Speed: 1
@@ -335,7 +335,7 @@ MonoBehaviour:
   Explosion_Delay_Hard: 0.25
   Explosion_Delay_Normal: 0.5
   Explosion_Delay_Easy: 0.75
-  Explostion_Prefab: {fileID: 6186062381161271959, guid: ae8efc4c9391dcd4d918c2ed0406a10b, type: 3}
+  Explostion_Prefab: {fileID: 4909519743933979222, guid: e5fb12352da62bc4e801302699952564, type: 3}
   Parent: {fileID: 5990713012420964603}
 --- !u!61 &5697428042777669965
 BoxCollider2D:

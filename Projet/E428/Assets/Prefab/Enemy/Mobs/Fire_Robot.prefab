@@ -104,6 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e2b26ce21744c48a27087eb423f7e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Fire_Robot_Mo: {fileID: 7388644789761448283}
 --- !u!1 &8890912096123559519
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,6 +343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6019a793efda3fb40bda68cb32d9c138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Is_Facing_Right: 0
 --- !u!114 &2486052210445950828
 MonoBehaviour:
   m_ObjectHideFlags: 0

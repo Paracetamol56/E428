@@ -60,29 +60,43 @@ public class Watcher_Robot_RayCast : MonoBehaviour
         {
             // Change Lazer Lenght
             Lazer_Line.SetPosition(1, new Vector3(Raycast_Info.distance,0,0));
+
+            IAttackable enemy = Raycast_Info.collider.GetComponent<IAttackable>();
+            // Show if enemy is locked
+            if (enemy != null)
+            {
+                Lazer_Line.colorGradient = Gradiant_Found;
+            }
+            else
+            {
+                Lazer_Line.colorGradient = Gradiant_Scan;
+            }
         }
-        IAttackable enemy = Raycast_Info.collider.GetComponent<IAttackable>();
-        // Show if enemy is locked
-        if (enemy != null)
+        else // If scan in empty space
         {
-            Lazer_Line.colorGradient = Gradiant_Found;
-        }
-        else
-        {
+            // Change Lazer Lenght to 100 to be shure
+            Lazer_Line.SetPosition(1, new Vector3(100, 0, 0));
+            // Change color to scan since nothing can be found if nothing is hit
             Lazer_Line.colorGradient = Gradiant_Scan;
         }
+        
     }
     private void Attack()
     {
         RaycastHit2D Raycast_Info = Physics2D.Raycast(transform.position, transform.right, 50, Lazer_Mask);
-        IAttackable enemy = Raycast_Info.collider.GetComponent<IAttackable>();
-        if (enemy != null)
+        if (Raycast_Info.collider != null)
         {
-            // Change Lazer Lenght
-            Lazer_Line.SetPosition(1, new Vector3(Raycast_Info.distance, 0, 0));
-            enemy.Be_Attacked();
+            IAttackable enemy = Raycast_Info.collider.GetComponent<IAttackable>();
+            if (enemy != null)
+            {
+                // Change Lazer Lenght
+                Lazer_Line.SetPosition(1, new Vector3(Raycast_Info.distance, 0, 0));
+                enemy.Be_Attacked();
+            }
+            Lazer_Line.colorGradient = Gradiant_Attack;
         }
-        Lazer_Line.colorGradient = Gradiant_Attack;
+        
+        
     }
     // Used to update attack state
     public void Update_Attack(WatcherRobot_States.Watcher_Attacks Attack)

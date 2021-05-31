@@ -9,12 +9,14 @@ public class Store_Janitor_Animation : MonoBehaviour
     private Animator Store_Janitore_An;
     private float Horizontal_Velocity = 0;
     private bool Is_Facing_Right = false;
+    private Audio_Prefab_Spawner Audio_Prefab_Sp;
     // Start is called before the first frame update
     void Start()
     {
         Store_Janitore_RB = GetComponent<Rigidbody2D>();
         Store_Janitore_SR = GetComponent<SpriteRenderer>();
         Store_Janitore_An = GetComponent<Animator>();
+        Audio_Prefab_Sp = GetComponent<Audio_Prefab_Spawner>();
     }
 
     // Update is called once per frame
@@ -55,7 +57,7 @@ public class Store_Janitor_Animation : MonoBehaviour
     public void Launch_Death_Animation()
     {
         Store_Janitore_An.SetTrigger("Death");
-
+        Audio_Prefab_Sp.Play_A_Sound(0);
     }
 }
 
