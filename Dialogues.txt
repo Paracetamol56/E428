@@ -131,4 +131,4 @@ Electricity manager :
 	- ANALYSING...
 	- corn syrup slime
 	- TARGET SET
-	- INTRUDER EXTERMINATION PROTOCOL : running
+	- INTRUDER EXTERMINATION PROTOCOL : 
