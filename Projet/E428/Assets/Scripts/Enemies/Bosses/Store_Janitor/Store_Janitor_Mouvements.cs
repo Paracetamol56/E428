@@ -22,7 +22,7 @@ public class Store_Janitor_Mouvements : MonoBehaviour
 
     // Variable
     private Rigidbody2D Store_Janitor_RB;
-    private Boss_States State = Boss_States.Attack;
+    private Boss_States State = Boss_States.Cinematic;
     
     private float Max_Horizontal_Speed;
     private float Horizontal_Speed = 0f;
