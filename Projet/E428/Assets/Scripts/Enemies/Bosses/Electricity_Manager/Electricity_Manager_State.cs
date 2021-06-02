@@ -8,6 +8,8 @@ public class Electricity_Manager_State : MonoBehaviour
     public HUD_Manager HUD;
     [SerializeField]
     private GameObject Attack_Box;
+    [SerializeField]
+    private List<Tesla_Tower_Main> Tesla_List;
     // Variables
     private Boss_States State = Boss_States.Cinematic;
     private bool Has_Died = false;
@@ -37,13 +39,12 @@ public class Electricity_Manager_State : MonoBehaviour
                 case Boss_States.Cinematic:
                     break;
                 case Boss_States.Attack:
+                    // Make Boss Health bar visible
                     HUD.Start_Battle();
                     break;
                 case Boss_States.Wait:
                     break;
                 case Boss_States.Dead:
-                    
-
                     // Update HUD
                     HUD.End_Battle();
                     // Fade out Boss Music slowly
@@ -53,8 +54,6 @@ public class Electricity_Manager_State : MonoBehaviour
                     Attack_Box.SetActive(false);
                     // Block any other state pdates
                     Has_Died = true;
-
-                    
                     break;
                 default:
                     break;
@@ -68,8 +67,22 @@ public class Electricity_Manager_State : MonoBehaviour
         }
 
     }
+    //  Return state 
     public Boss_States Get_States()
     {
         return State;
+    }
+    
+    public void Enable_Tesla()
+    {
+        // For each tesla tower in list enable it
+        for (int i = 0; i < Tesla_List.Count; i++)
+            Tesla_List[i].Enable();
+    }
+    public void Disable_Tesla()
+    {
+        // For each tesla tower in list disable it
+        for (int i = 0; i < Tesla_List.Count; i++)
+            Tesla_List[i].Disable();
     }
 }

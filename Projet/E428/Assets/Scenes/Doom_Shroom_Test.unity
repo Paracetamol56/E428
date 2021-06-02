@@ -3209,6 +3209,10 @@ PrefabInstance:
       propertyPath: Music_Transition_Speed
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2759189790877003345, guid: 5f04a75080ffdcf469a59777fa245ca2, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e6c4b8bd821f2834b83662bc1bf8e2ce, type: 3}
     - target: {fileID: 2759189790877003347, guid: 5f04a75080ffdcf469a59777fa245ca2, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -15595,7 +15599,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -5
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 2.4375, y: 3.5, z: 0}
+  m_ChunkCullingBounds: {x: 2.5, y: 3.5, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -17390,6 +17394,10 @@ PrefabInstance:
       propertyPath: HUD
       value: 
       objectReference: {fileID: 458854934}
+    - target: {fileID: 1464613947045061591, guid: 95cf85f20eff69a4ab636d8d244518e6, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95cf85f20eff69a4ab636d8d244518e6, type: 3}
 --- !u!1001 &6404165807028994458
