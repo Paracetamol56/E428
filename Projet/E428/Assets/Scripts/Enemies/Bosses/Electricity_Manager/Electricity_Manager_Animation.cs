@@ -52,6 +52,7 @@ public class Electricity_Manager_Animation : MonoBehaviour
     {
         Debug.Log("Doom Shroom Death animation");
         Electricity_Manager_An.SetTrigger("Dead");
+        Electricity_Manager_St.Disable_Tesla();
     }
     public void Launch_Cast_Animation()
     {
@@ -72,6 +73,7 @@ public class Electricity_Manager_Animation : MonoBehaviour
             if (State == Boss_States.Cinematic)
             {
                 Electricity_Manager_St.Update_State(Boss_States.Attack);
+                Electricity_Manager_St.Enable_Tesla();
             }
         }
     }
