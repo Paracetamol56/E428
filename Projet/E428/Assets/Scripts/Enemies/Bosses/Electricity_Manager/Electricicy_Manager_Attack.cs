@@ -19,6 +19,7 @@ public class Electricicy_Manager_Attack : MonoBehaviour
     private float Current_Attack_Delay;
     private bool Can_Attack = true;
     private Boss_States State = Boss_States.Cinematic;
+    private Electricity_Manager_Animation Electricity_Manager_An;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,11 +35,13 @@ public class Electricicy_Manager_Attack : MonoBehaviour
                 Current_Attack_Delay = Easy_Attack_Delay;
                 break;
         }
+        Electricity_Manager_An = GetComponent<Electricity_Manager_Animation>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        // If boss is alive and is not already attacking
         if (State == Boss_States.Attack && Can_Attack)
         {
             StartCoroutine(Attack_Action());
@@ -47,14 +50,15 @@ public class Electricicy_Manager_Attack : MonoBehaviour
     }
     private IEnumerator Attack_Action()
     {
-
-
         Can_Attack = false;
         yield return new WaitForSeconds(Current_Attack_Delay);
+        if (State != Boss_States.Dead)
+        {
             // Launch Cast Animation
-            //Electricicy_Manager_An.SetTrigger("Cast");
+            Electricity_Manager_An.Launch_Cast_Animation();
             Instantiate(Attack_To_Spawn, Target.transform.position, Target.transform.rotation, null);
-        Can_Attack = true;
+            Can_Attack = true;
+        }
     }
     public void Update_State(Boss_States state)
     {
