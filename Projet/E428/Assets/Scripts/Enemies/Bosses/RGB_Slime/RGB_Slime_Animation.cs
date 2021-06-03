@@ -66,8 +66,8 @@ public class RGB_Slime_Animation : MonoBehaviour
         // Check if the combat hasn't already began
         if (RGB_Slime_St.Get_States() == Boss_States.Cinematic)
         {
-            // Proto animations
-            yield return new WaitForSeconds(4f);
+            // Wait for dialog end
+            yield return new WaitForSeconds(10f);
             RGB_Slime_An.SetTrigger("Cinematic");
             Audio_Prefab_Sp.Play_A_Sound(3);
             //Debug.Log(" Before cinematic" + RGB_Slime_St.Get_States());
