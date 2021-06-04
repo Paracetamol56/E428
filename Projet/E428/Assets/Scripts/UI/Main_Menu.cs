@@ -11,11 +11,16 @@ public class Main_Menu : MonoBehaviour
     private void Awake()
     {
         Save_System.Recover_Data();
-        BTN_Continue.SetActive(Global_Variable.Last_Level_Build_Index != 0);
     }
-
+    private void Start()
+    {
+        if (Global_Variable.Last_Level_Build_Index <= 0)
+        {
+            Wipe_Button();
+        }
+    }
     // Launch new playthrough
-   public void New_Game()
+    public void New_Game()
     {
         Global_Variable.Last_Level_Build_Index = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

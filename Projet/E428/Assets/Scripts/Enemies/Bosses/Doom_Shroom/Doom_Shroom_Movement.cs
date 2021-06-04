@@ -58,14 +58,11 @@ public class Doom_Shroom_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-
-            // Check if the boss is in a state of potential movement and grounded
-            if (State == Boss_States.Attack && Is_Grounded)
-            {
-                Jump(Go_To_Left);
-            }
-
+        // Check if the boss is in a state of potential movement and grounded
+        if (State == Boss_States.Attack && Is_Grounded)
+        {
+            Jump(Go_To_Left);
+        }
     }
     public void Jump(bool left)
     {

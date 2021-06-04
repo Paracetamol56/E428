@@ -23,6 +23,7 @@ public class Glucose_States : MonoBehaviour
         Glucose_An = GetComponent<Glucose_Animation>();
         Glucose_Mo = GetComponent<Glucose_Controls>();
         Glucose_Att = GetComponent<Glucose_Attack>();
+
         Event_System.current.onCinematicBegin += Change_Control_To_Cinematic;
         Event_System.current.onCinematicEnd += Change_Control_To_Normal;
     }
@@ -39,14 +40,6 @@ public class Glucose_States : MonoBehaviour
         Glucose_Control = Control;
         switch (Control)
         {
-            case Player_Control.Normal:
-                break;
-            case Player_Control.Pipe:
-                break;
-            case Player_Control.Cinematic:
-                break;
-            case Player_Control.Stunt:
-                break;
             case Player_Control.Dead:
                 Glucose_An.Launch_Death_Animation();
                 // Fade out Master sound before reoload
@@ -58,8 +51,13 @@ public class Glucose_States : MonoBehaviour
             default:
                 break;
         }
+
+        
+        // toggles other scripts controls
         Glucose_Mo.Toggle_Movement(Control);
+
         Glucose_An.Change_Animation_Control(Control);
+
         print("Glucose Control States updated to " + Glucose_Control);      
     }
     private void Change_Control_To_Cinematic(int id)// Id is not used but requierd for the function to function (function to function lol)

@@ -442,12 +442,12 @@ GameObject:
   - component: {fileID: 118942546}
   - component: {fileID: 118942545}
   m_Layer: 0
-  m_Name: BTN_Wipe
+  m_Name: BTN_Wipe (Usefull for debug purposes)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &118942544
 RectTransform:
   m_ObjectHideFlags: 0

@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cinematic_Id: 0
-  Cinematic_Time: 19
+  Cinematic_Time: 18
   Camera: {fileID: 0}
   New_Target: {fileID: 4505234011558340376}
   Player: {fileID: 0}
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cinematic_ID_Overide: 72
   Animation_Cinematic_Begin_Trigger_Delay: 0
-  Animation_Cinematic_End_Trigger_Delay: 19
+  Animation_Cinematic_End_Trigger_Delay: 18
 --- !u!114 &5957445692151473235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,17 +138,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialog:
-  - 'INTRUDER '
-  - 'INTRUDER '
-  - 'INTRUDER '
-  - must catch
-  - all
-  - INTRUDER
-  - 'INTRUDER APPRHENSION PROJECT : running'
-  - ...
-  - 'FAIL
-
-'
+  - Hey you !
+  - Yes you !
+  - You want to take a discharge ?
+  - That's very pleasant you know.
+  - Trust me !
+  - 'No ? '
+  - You don't want ?
+  - Too bad for you, you are not ready for what will happen then.
   Cinematic_Id: 0
 --- !u!95 &6526025220265437634
 Animator:

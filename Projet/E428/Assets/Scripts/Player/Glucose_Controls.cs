@@ -53,6 +53,7 @@ public class Glucose_Controls : MonoBehaviour
     void Start()
     {
         Player_RB = GetComponent<Rigidbody2D>();
+        
     }
 
     // Update is called once per frame

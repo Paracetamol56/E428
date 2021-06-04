@@ -9,7 +9,7 @@ public class Save_System : MonoBehaviour
     public static void Save_Data(int Level_Buid_Index)
     {
         PlayerPrefs.SetInt("Difficulty", Global_Variable.Difficulty_Level);
-        PlayerPrefs.SetInt("Last_Level", Global_Variable.Last_Level_Build_Index);
+        PlayerPrefs.SetInt("Last_Level", Level_Buid_Index);
     }
     public static void Recover_Data()
     {

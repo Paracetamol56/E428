@@ -19,6 +19,7 @@ public class Doom_Shroom_State : MonoBehaviour
     void Start()
     {
         
+        // Get components
         Doom_Shroom_HitBox = GetComponentInChildren<Mob_Basic_Attack>();
         Doom_Shroom_Collision = GetComponent<BoxCollider2D>();
         Doom_Shroom_RB = GetComponent<Rigidbody2D>();
@@ -33,6 +34,7 @@ public class Doom_Shroom_State : MonoBehaviour
         if (!Has_Died)
         {
             State = state;
+            // Call functions expected functions when there is a new state 
             switch (state)
             {
                 case Boss_States.Cinematic:
