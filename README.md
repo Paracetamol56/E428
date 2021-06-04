@@ -23,6 +23,11 @@ Each area of the factory involves a multitude of creatures and ends with a boss 
 
 The game is developed on Unity version 2020.3 2f1.
 
+## How to play
+
+Keyboard: directional keys or ZQSD to move, enter or left click to attack (keep pressed to load), space or up arrow to jump, escape to open the menu.
+Controller: Joystick or directional pad to move, square to attack (keep pressed to charge), cross to jump, start to open the menu.
+
 ### Glucose
 
 The main protagonist being a slime, he has funny abilities, such as being able to travel in pipe systems allowing him to escape monsters or move from place to place. The character's controls are analog on both keyboard and controller, allowing the player to feel the gelatinous texture of the slime. In addition, the animations of the characters and the scenery as well as the atmosphere particles bring dynamism and make the factory more alive.
@@ -37,7 +42,7 @@ The game also has 3 difficulty levels (easy, normal, hard) which change the beha
 
 ### Release and deployment
 
-The game is currently in development but when it releases (scheduled for June 2021), it will be available for free on PC and consoles. The first stable builds will be available in beta in the release section on this repository.
+The game is currently in beta, it will be available for free on PC. E428 release 1.0.0
 
 ## Artistic direction
 
@@ -70,6 +75,11 @@ Chaque zone de l'usine fait intervenir une multitude de créatures et se clôtur
 
 Le jeu est développé sur Unity version 2020.3 2f1.
 
+## Commande du jeu
+
+Clavier : touches directionnelles ou ZQSD pour se déplacer, entrer ou clic gauche pour attaquer (rester appuyé pour charger), espace ou flèche du haut pour sauter, echap pour ouvrir le menu.
+Manette : Joystick ou pad directionnel pour se déplacer, carré pour attaquer (rester appuyé pour charger), croix pour sauter, start pour ouvrir le menu.
+
 ### Glucose
 
 Le protagoniste principal étant un slime, il dispose de compacités étonnantes, comme le fait de pouvoir voyager dans des systèmes de tuyaux lui permettant d’échapper aux montres ou de passer de zones en zones. Les contrôles du personnage sont analogiques aussi bien au clavier que sur manette, ce qui permet au joueur de ressentir la texture gélatineuse du slime. De plus, les animations des personnages et du décor ainsi que des particules d'ambiances apporte un réel dynamisme et rendent l'usine plus vivante.
@@ -84,7 +94,7 @@ Le jeu dispose aussi de 3 niveaux de difficulté (facile, normal, difficile) qui
 
 ### Sortie et déploiement
 
-Le jeu est actuellement en développement mais lors de sa sortie (prévu en juin 2021), il sera disponible gratuitement sur PC et consoles. Les premières builds stables seront disponibles en beta dans la section release sur ce repository.
+Le jeu est actuellement en beta , il sera disponible gratuitement sur PC. E428 release 1.0.0
 
 ## Direction artistique
 
