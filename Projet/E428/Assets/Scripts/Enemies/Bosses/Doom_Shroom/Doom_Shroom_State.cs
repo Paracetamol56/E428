@@ -14,7 +14,7 @@ public class Doom_Shroom_State : MonoBehaviour
     private Mob_Basic_Attack Doom_Shroom_HitBox;
     private Doom_Shroom_Movement Doom_Shroom_Mo;
     private Doom_Shroom_Attack Doom_Shroom_Att;
-
+    private Boss_Load_Next_Level Boss_Load_Next_Le;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +24,7 @@ public class Doom_Shroom_State : MonoBehaviour
         Doom_Shroom_RB = GetComponent<Rigidbody2D>();
         Doom_Shroom_Att = GetComponent<Doom_Shroom_Attack>();
         Doom_Shroom_Mo = GetComponent<Doom_Shroom_Movement>();
+        Boss_Load_Next_Le = GetComponent<Boss_Load_Next_Level>();
         Update_State(Boss_States.Cinematic);
     }
 
@@ -52,9 +53,10 @@ public class Doom_Shroom_State : MonoBehaviour
                     Audio_Mixer_Control.current.Fade_Boss(-80,0.4f);
                     // Disable hurt Box and 
                     Doom_Shroom_HitBox.Is_Enabled = false;
-                    
                     // Block any other state pdates
                     Has_Died = true;
+                    // Change level
+                    Boss_Load_Next_Le.Load_Next_Level();
                     break;
                 default:
                     break;

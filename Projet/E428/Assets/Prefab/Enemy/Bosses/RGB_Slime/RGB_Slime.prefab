@@ -66,6 +66,7 @@ GameObject:
   - component: {fileID: 8813754157867111402}
   - component: {fileID: 8528733121902951133}
   - component: {fileID: 4187464586340375267}
+  - component: {fileID: 1197029411691224996}
   m_Layer: 14
   m_Name: RGB_Slime
   m_TagString: Untagged
@@ -417,6 +418,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1197029411691224996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8813754157867111415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1fa5671966f43e4baf37b412bf7f9b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Manager: {fileID: 0}
 --- !u!1 &8813754157907380318
 GameObject:
   m_ObjectHideFlags: 0
