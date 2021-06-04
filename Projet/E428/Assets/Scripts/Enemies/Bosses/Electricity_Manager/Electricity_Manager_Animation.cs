@@ -72,6 +72,9 @@ public class Electricity_Manager_Animation : MonoBehaviour
             Electricity_Manager_An.SetTrigger("Cinematic_End");
             if (State == Boss_States.Cinematic)
             {
+                // Play boss music
+                GetComponent<AudioSource>().Play();
+                // Change states
                 Electricity_Manager_St.Update_State(Boss_States.Attack);
                 Electricity_Manager_St.Enable_Tesla();
             }

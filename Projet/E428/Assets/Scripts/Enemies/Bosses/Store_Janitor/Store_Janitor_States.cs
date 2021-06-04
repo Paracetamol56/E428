@@ -15,6 +15,7 @@ public class Store_Janitor_States : MonoBehaviour
     private Store_Janitor_Health Store_Janitor_He;
     private Boss_States State = Boss_States.Cinematic;
     private bool Has_Died = false;
+    private Boss_Load_Next_Level Boss_Load_Next_Le;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class Store_Janitor_States : MonoBehaviour
         Store_Janitor_HitBox = GetComponentInChildren<Mob_Basic_Attack>();
         Store_Janitor_Mo = GetComponent<Store_Janitor_Mouvements>();
         Store_Janitor_Att = GetComponent<Store_Janitor_Attack>();
+        Boss_Load_Next_Le = GetComponent<Boss_Load_Next_Level>();
         // Call event
         Update_State(State);
         // Subscribe to event
@@ -53,7 +55,8 @@ public class Store_Janitor_States : MonoBehaviour
                     Store_Janitor_Att.Update_State(State);
                     // Set variable
                     Has_Died = true;
-
+                    // Load Next Level
+                    Boss_Load_Next_Le.Load_Next_Level();
                     // Fade out boss music volume 
                     Audio_Mixer_Control.current.Fade_Boss(-80, 0.5f);
                     break;

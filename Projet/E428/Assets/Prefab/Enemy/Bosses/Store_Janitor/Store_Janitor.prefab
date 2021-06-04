@@ -191,6 +191,7 @@ GameObject:
   - component: {fileID: 6555047918256940191}
   - component: {fileID: 3989061965471144168}
   - component: {fileID: 7037880839258388418}
+  - component: {fileID: 4791139036785773553}
   m_Layer: 7
   m_Name: Store_Janitor
   m_TagString: Untagged
@@ -514,3 +515,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Audio_List:
   - {fileID: 7452247597765398609, guid: d6fb83210b7473d47b8a726746ad55ae, type: 3}
+--- !u!114 &4791139036785773553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6555047918256940182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1fa5671966f43e4baf37b412bf7f9b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Manager: {fileID: 0}

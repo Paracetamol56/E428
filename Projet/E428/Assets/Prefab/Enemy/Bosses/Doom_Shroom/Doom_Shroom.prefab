@@ -391,6 +391,7 @@ GameObject:
   - component: {fileID: 1464613947045061587}
   - component: {fileID: 8858974016373418804}
   - component: {fileID: 1371743887411255459}
+  - component: {fileID: 7598371916063643591}
   m_Layer: 7
   m_Name: Doom_Shroom
   m_TagString: Untagged
@@ -740,3 +741,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7598371916063643591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464613947045061583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1fa5671966f43e4baf37b412bf7f9b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Manager: {fileID: 0}

@@ -15,8 +15,10 @@ public class RGB_Slime_States : MonoBehaviour
     private RGB_Slime_Attack RGB_Slime_Att;
     private BoxCollider2D RGB_Slime_Collision;
     private Rigidbody2D RGB_Slime_RB;
+    private Boss_Load_Next_Level Boss_Load_Next_Le;
     private Boss_States State = Boss_States.Cinematic;
     private bool Has_Died = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +28,7 @@ public class RGB_Slime_States : MonoBehaviour
         RGB_Slime_Att = GetComponent<RGB_Slime_Attack>();
         RGB_Slime_Collision = GetComponent<BoxCollider2D>();
         RGB_Slime_RB = GetComponent<Rigidbody2D>();
-        
+        Boss_Load_Next_Le = GetComponent<Boss_Load_Next_Level>();
     }
 
     public void Update_State(Boss_States state)
@@ -57,6 +59,8 @@ public class RGB_Slime_States : MonoBehaviour
                     Has_Died = true;
                     // Fade out Boss music
                     Audio_Mixer_Control.current.Fade_Boss(-80, 0.6f);
+                    // Load next level
+                    Boss_Load_Next_Le.Load_Next_Level();
                     break;
                 default:
                     break;

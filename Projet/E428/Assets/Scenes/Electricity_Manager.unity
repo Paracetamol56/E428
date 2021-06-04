@@ -17335,6 +17335,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElectricityManager
       objectReference: {fileID: 0}
+    - target: {fileID: 3732841808085848481, guid: 0d5e264c76d8bee4294a7d6667d99173, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 6095316805061224309, guid: ff11dd611d149b44099caac75f0067e5, type: 2}
+    - target: {fileID: 4342861475305582129, guid: 0d5e264c76d8bee4294a7d6667d99173, type: 3}
+      propertyPath: Manager
+      value: 
+      objectReference: {fileID: 629258458}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d5e264c76d8bee4294a7d6667d99173, type: 3}
 --- !u!1001 &3657989273954269823
