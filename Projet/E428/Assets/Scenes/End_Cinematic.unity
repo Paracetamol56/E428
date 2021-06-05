@@ -1749,6 +1749,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868181854}
   m_CullTransparentMesh: 1
+--- !u!1 &1884194222 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2759189790877003350, guid: 5f04a75080ffdcf469a59777fa245ca2, type: 3}
+  m_PrefabInstance: {fileID: 2059156769}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1884194225
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884194222}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c68c856815cfe9443b4f9bc186295c04, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1981384167
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,10 +1870,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1554471152}
     m_Modifications:
+    - target: {fileID: 2759189790877003344, guid: 5f04a75080ffdcf469a59777fa245ca2, type: 3}
+      propertyPath: Max_Music_DB
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2759189790877003345, guid: 5f04a75080ffdcf469a59777fa245ca2, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2759189790877003345, guid: 5f04a75080ffdcf469a59777fa245ca2, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: e23000127475cf7479cbd2aa9c8ac18e, type: 3}
     - target: {fileID: 2759189790877003347, guid: 5f04a75080ffdcf469a59777fa245ca2, type: 3}
       propertyPath: m_RootOrder
       value: 0

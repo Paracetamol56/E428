@@ -23,7 +23,6 @@ public class Glucose_States : MonoBehaviour
         Glucose_An = GetComponent<Glucose_Animation>();
         Glucose_Mo = GetComponent<Glucose_Controls>();
         Glucose_Att = GetComponent<Glucose_Attack>();
-
         Event_System.current.onCinematicBegin += Change_Control_To_Cinematic;
         Event_System.current.onCinematicEnd += Change_Control_To_Normal;
     }
@@ -72,5 +71,23 @@ public class Glucose_States : MonoBehaviour
             Glucose_Control = Player_Control.Normal;
         }
         
+    }
+    // Potential function (would need refactor to be usefull)
+    private void Random_Vibe()
+    {
+        StartCoroutine(Vibe_Changer());
+    }
+    private IEnumerator Vibe_Changer()
+    {
+        // Wait for a ranged random amount of time
+        yield return new WaitForSeconds(Random.Range(3f, 5f));
+        // Chose a random vibe 
+        int vibe_id = Random.Range(0, 4);
+        // Set player vibe to vibe id
+        Glucose_Vibe = (Player_Emotion)vibe_id;
+        // Update animation controller
+        Change_Glucose_Vibe(Glucose_Vibe);
+        // Relaunch Sequence
+        Random_Vibe();
     }
 }
