@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cinematic_Id: 0
-  Cinematic_Time: 6
+  Cinematic_Time: 7
   Camera: {fileID: 0}
   New_Target: {fileID: 4505234011558340376}
   Player: {fileID: 0}
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cinematic_ID_Overide: 64
   Animation_Cinematic_Begin_Trigger_Delay: 0
-  Animation_Cinematic_End_Trigger_Delay: 6
+  Animation_Cinematic_End_Trigger_Delay: 7
 --- !u!114 &5957445692151473235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,13 +138,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialog:
-  - 'Today I saw my friends get split in half.
-
-'
-  - I'm jealous now because...
-  - 'They have one more friend now.
-
-'
+  - Be careful the robots here are very aggressive.
+  - I learned it well on my own...
+  - The exit is not far but it is not without risk.
+  - Who knows what can be behind that door...
   Cinematic_Id: 0
 --- !u!95 &6526025220265437634
 Animator:

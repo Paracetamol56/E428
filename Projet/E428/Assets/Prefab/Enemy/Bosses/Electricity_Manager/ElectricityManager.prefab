@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 750623149432651521}
   - component: {fileID: 3732841808085848481}
   - component: {fileID: 4342861475305582129}
+  - component: {fileID: 4655243120191845769}
   m_Layer: 7
   m_Name: ElectricityManager
   m_TagString: Untagged
@@ -349,6 +350,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Manager: {fileID: 0}
+--- !u!114 &4655243120191845769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750623149432651639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569d38850ed91584894b9e5efdc729e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audio_List:
+  - {fileID: 6244477618124040896, guid: e44224c465400f04baec87b4fac7838b, type: 3}
 --- !u!1 &750623151180862835
 GameObject:
   m_ObjectHideFlags: 0

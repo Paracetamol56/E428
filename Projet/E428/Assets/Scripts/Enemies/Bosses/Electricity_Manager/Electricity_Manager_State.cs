@@ -18,6 +18,7 @@ public class Electricity_Manager_State : MonoBehaviour
     private Electricity_Manager_Animation Electricity_Manager_An;
     private Boss_Load_Next_Level Boss_Load_Next_Le;
     private BoxCollider2D Electricity_Manager_Hit_Box;
+    private Audio_Prefab_Spawner Audio_Prefab_Sp;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +28,7 @@ public class Electricity_Manager_State : MonoBehaviour
         Electricity_Manager_An = GetComponent<Electricity_Manager_Animation>();
         Boss_Load_Next_Le = GetComponent<Boss_Load_Next_Level>();
         Electricity_Manager_Hit_Box = GetComponent<BoxCollider2D>();
+        Audio_Prefab_Sp = GetComponent<Audio_Prefab_Spawner>();
         // Update all scripts states
         Update_State(State);
     }
@@ -56,6 +58,9 @@ public class Electricity_Manager_State : MonoBehaviour
                     Attack_Box.SetActive(false);
                     // Block any other state pdates
                     Has_Died = true;
+                    // Play death sound
+                    Audio_Prefab_Sp.Play_A_Sound(0);
+
                     // Load next Level
                     Boss_Load_Next_Le.Load_Next_Level();
                     break;

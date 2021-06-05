@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cinematic_Id: 0
-  Cinematic_Time: 18
+  Cinematic_Time: 17
   Camera: {fileID: 0}
   New_Target: {fileID: 4505234011558340376}
   Player: {fileID: 0}
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cinematic_ID_Overide: 72
   Animation_Cinematic_Begin_Trigger_Delay: 0
-  Animation_Cinematic_End_Trigger_Delay: 18
+  Animation_Cinematic_End_Trigger_Delay: 17
 --- !u!114 &5957445692151473235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
   Dialog:
   - Hey you !
   - Yes you !
-  - You want to take a discharge ?
+  - Do you want to take a discharge ?
   - That's very pleasant you know.
   - Trust me !
   - 'No ? '
@@ -157,7 +157,7 @@ Animator:
   m_GameObject: {fileID: 4505234011558340376}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1117c942c2437d544bb3b30842f9c71c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

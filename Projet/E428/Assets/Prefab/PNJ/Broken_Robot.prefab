@@ -143,7 +143,9 @@ MonoBehaviour:
   - 'INTRUDER '
   - must catch
   - all
-  - INTRUDER
+  - 'INTRUDERS
+
+'
   - 'INTRUDER APPRHENSION PROJECT : running'
   - ...
   - 'FAIL
