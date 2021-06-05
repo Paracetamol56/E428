@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cinematic_Id: 0
-  Cinematic_Time: 17
+  Cinematic_Time: 15
   Camera: {fileID: 0}
   New_Target: {fileID: 4505234011558340376}
   Player: {fileID: 0}
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cinematic_ID_Overide: 58
   Animation_Cinematic_Begin_Trigger_Delay: 0
-  Animation_Cinematic_End_Trigger_Delay: 17
+  Animation_Cinematic_End_Trigger_Delay: 15
 --- !u!114 &5957445692151473235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,7 +156,7 @@ Animator:
   m_GameObject: {fileID: 4505234011558340376}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7b1bb7461af23604da54985a12dc9d18, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
