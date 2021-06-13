@@ -1,10 +1,11 @@
 # E428
 
-![Work in progress](https://img.shields.io/badge/-Work%20In%20Progress-red?style=flat-square) ![Unity version](https://img.shields.io/badge/Unity%20version-2020.3%202f1-blue?style=flat-square) ![GitHub contributors](https://img.shields.io/github/contributors/Paracetamol56/E428?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Paracetamol56/E428?style=flat-square) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Paracetamol56/E428?style=flat-square)
+![Done](https://img.shields.io/badge/Done-009922?style=flat-square) ![Unity version](https://img.shields.io/badge/Unity%20version-2020.3%202f1-blue?style=flat-square) ![GitHub contributors](https://img.shields.io/github/contributors/Paracetamol56/E428?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Paracetamol56/E428?style=flat-square)
 
 ---
 
-## _[EN]_
+<details open="close">
+    <summary>ENGLISH</summary>
 
 ## Kind of game and Gameplay
 
@@ -50,9 +51,12 @@ All the assets used for the graphics of the game were made by us. The fluidity o
 
 The Pixilart of E428: https://www.pixilart.com/ajtheender/gallery/albums
 
+</details>
+
 ---
 
-## _[FR]_
+<details open="close">
+    <summary>FRANCAIS</summary>
 
 ## Lien du projet github pour suivre le développement
 
