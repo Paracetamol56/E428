@@ -29,20 +29,23 @@ public class PNJ_System : MonoBehaviour
         // Change the Cinematic id to the override
         Dialog_Sy.Update_Cinematic_Id(Cinematic_ID_Overide);
         Event_System.current.onCinematicBegin += Begin_Cinematic;
+        Event_System.current.onCinematicEnd += End_Cinematic;
     }
 
     private void Begin_Cinematic(int id)
     {
         if (id == Cinematic_ID_Overide)
         {
-            StartCoroutine(Cinematic());
+            PNJ_An.SetTrigger("Cinematic_Begin");
         }
     }
-    private IEnumerator Cinematic()
+
+    private void End_Cinematic(int id)
     {
-        yield return new WaitForSeconds(Animation_Cinematic_Begin_Trigger_Delay);
-        PNJ_An.SetTrigger("Cinematic_Begin");
-        yield return new WaitForSeconds(Animation_Cinematic_End_Trigger_Delay);
-        PNJ_An.SetTrigger("Cinematic_End");
+        if (id == Cinematic_ID_Overide)
+        {
+            PNJ_An.SetTrigger("Cinematic_End");
+            Cinematic_Ac.End_Cinematic();
+        }
     }
 }

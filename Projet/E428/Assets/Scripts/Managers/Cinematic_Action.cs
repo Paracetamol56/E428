@@ -9,8 +9,6 @@ public class Cinematic_Action : MonoBehaviour
     [SerializeField]
     private int Cinematic_Id = 0;
     [SerializeField]
-    private float Cinematic_Time = 2;
-    [SerializeField]
     private Camera_Control Camera;
     [SerializeField]
     private GameObject New_Target;
@@ -23,9 +21,9 @@ public class Cinematic_Action : MonoBehaviour
         // If player enter 
         if (collision.tag == "Player" && Is_Enabled)
         {
-            Launch_Cinematic();
+            Start_Cinematic();
         }
-        
+
     }
     // update the cinematic id 
     public void Update_Cinematic_Id(int id)
@@ -33,22 +31,16 @@ public class Cinematic_Action : MonoBehaviour
         Cinematic_Id = id;
     }
     // Launch cinematic
-    public void Launch_Cinematic()
-    {
-        StartCoroutine(Cinematic());
-    }
-    private IEnumerator Cinematic()
+    public void Start_Cinematic()
     {
         Is_Enabled = false;
         // Set camera target to a new object
         Camera.Set_New_Target(New_Target, 3, false);
-        
-        // Launch cinematic event 
+        // Launch cinematic event
         Event_System.current.Cinematic_Begin(Cinematic_Id);
-        // Wait for cinematic to end
-        yield return new WaitForSeconds(Cinematic_Time);
-        // Launch cinematic end event 
-        Event_System.current.Cinematic_End(Cinematic_Id);
+    }
+    public void End_Cinematic()
+    {
         // Set camera target to the player
         Camera.Set_New_Target(Player, 1, true);
         Destroy(gameObject);
