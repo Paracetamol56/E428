@@ -407,6 +407,7 @@ MonoBehaviour:
   Aim_Time_Easy: 1.5
   Aim_Time_Normal: 1
   Aim_Time_Hard: 0.5
+  Max_Attack_Distance: 11
   Target: {fileID: 0}
 --- !u!114 &3707793431468639192
 MonoBehaviour:
@@ -420,7 +421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c24d8c57c626144e959ff8a9f04f522, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Max_View_Distance: 5
+  Max_View_Distance: 8
   Min_Distance: 0.3
   Target: {fileID: 0}
   Easy_Speed: 2

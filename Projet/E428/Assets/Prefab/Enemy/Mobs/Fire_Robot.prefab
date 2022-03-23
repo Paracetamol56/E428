@@ -325,12 +325,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c24d8c57c626144e959ff8a9f04f522, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Max_View_Distance: 6
+  Max_View_Distance: 8
   Min_Distance: 0.3
   Target: {fileID: 0}
-  Easy_Speed: 1.5
-  Normal_Speed: 2
-  Hard_Speed: 2.5
+  Easy_Speed: 1
+  Normal_Speed: 1.5
+  Hard_Speed: 2
 --- !u!114 &7388644789761448283
 MonoBehaviour:
   m_ObjectHideFlags: 0

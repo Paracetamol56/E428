@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 8823377896510633611}
   - component: {fileID: 8514939309390156652}
   m_Layer: 7
-  m_Name: Eombie_Broccolie
+  m_Name: Zombie_Broccolie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c24d8c57c626144e959ff8a9f04f522, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Max_View_Distance: 6
+  Max_View_Distance: 7
   Min_Distance: 0.3
   Target: {fileID: 0}
   Easy_Speed: 1.5
@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6019a793efda3fb40bda68cb32d9c138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Is_Facing_Right: 0
 --- !u!114 &5420237538057449304
 MonoBehaviour:
   m_ObjectHideFlags: 0

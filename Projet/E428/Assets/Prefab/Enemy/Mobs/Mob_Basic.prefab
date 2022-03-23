@@ -219,15 +219,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c24d8c57c626144e959ff8a9f04f522, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Max_View_Distance: 6
+  Max_View_Distance: 11.5
   Min_Distance: 0.3
   Target: {fileID: 0}
   Easy_Speed: 1.5
   Normal_Speed: 2.5
   Hard_Speed: 4
-  Health_Easy: 50
-  Health_Normal: 70
-  Health_Hard: 8
 --- !u!114 &5596911831280423061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,6 +237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6019a793efda3fb40bda68cb32d9c138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Is_Facing_Right: 0
 --- !u!114 &695172490189051554
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -149,13 +149,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0701b19319433f84b81ec2101fe09fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Max_View_Distance: 6
+  Max_View_Distance: 9
   Min_Distance: 0.3
   Target: {fileID: 0}
   Easy_Jump_Delay: 1.5
   Normal_Jump_Delay: 1
   Hard_Jump_Delay: 0.5
-  Jump_Strenght: 11
+  Jump_Strenght: 13
 --- !u!95 &8591148540966794113
 Animator:
   serializedVersion: 3
