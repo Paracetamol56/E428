@@ -8,7 +8,7 @@ public class Electric_Robot_Attack : MonoBehaviour, IAttackable
     [SerializeField]
     private GameObject Attack_To_Spawn;
     [SerializeField]
-    private float Max_Attack_Distance = 10;
+    private float Max_Attack_Distance = 5.5f;
     [SerializeField]
     private float Easy_Attack_Delay = 2f;
     [SerializeField]
