@@ -13,6 +13,9 @@ public class WatcherRobot_States : MonoBehaviour
     private float Aim_Time_Normal = 1.0f;
     [SerializeField]
     private float Aim_Time_Hard = 0.5f;
+    [SerializeField]
+    private float Max_Attack_Distance = 11f;
+
     // Variables 
     [HideInInspector]
     public GameObject Target;
@@ -85,7 +88,7 @@ public class WatcherRobot_States : MonoBehaviour
             Update_State(Watcher_States.Agro);
         }
             
-        if (Current_State == Watcher_States.Agro && Can_Attack)
+        if (Current_State == Watcher_States.Agro && Distance_From_Target < Max_Attack_Distance && Can_Attack)
         {
             StartCoroutine(Attack_Sequence());
         }
