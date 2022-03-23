@@ -18,7 +18,7 @@ public class Evil_Carot_Movement : MonoBehaviour
     [SerializeField]
     private float Hard_Jump_Delay = 0.25f;
     [SerializeField]
-    private float Jump_Strenght = 5;
+    private float Jump_Strenght = 13;
 
     // Variables
     private Evil_Carot_Animation Evil_Carot_An;
@@ -70,6 +70,9 @@ public class Evil_Carot_Movement : MonoBehaviour
         {
             Is_Agro = true;
         }
+        else
+            Is_Agro = false;
+
         if (Is_Alive)
         {
             if (Is_Agro)
