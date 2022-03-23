@@ -7,7 +7,7 @@ public class Mob_Basic_Movement : MonoBehaviour
 {
     // Parameters 
 
-    public float Max_View_Distance = 10;
+    public float Max_View_Distance = 11.5f;
     [SerializeField]
     private float Min_Distance = 0.3f;
     public GameObject Target;
@@ -63,6 +63,9 @@ public class Mob_Basic_Movement : MonoBehaviour
         // Check if the target is in reach distance from this mob
         if (Distance_From_Target < Max_View_Distance)
             Is_Agro = true;
+        else
+            Is_Agro = false;
+
         if (Is_Alive)
         {
             if (Is_Agro)
