@@ -42,8 +42,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -109,7 +109,7 @@ TextureImporter:
         height: 8
       alignment: 9
       pivot: {x: 0.5000002, y: 0.50370365}
-      border: {x: 3, y: 3, z: 3, w: 3}
+      border: {x: 3, y: 2, z: 3, w: 3}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -130,7 +130,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 3, y: 3, z: 3, w: 3}
+      border: {x: 3, y: 2, z: 3, w: 3}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -150,8 +150,8 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 3, y: 3, z: 3, w: 3}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 2, z: 3, w: 3}
       outline: []
       physicsShape: []
       tessellationDetail: 0

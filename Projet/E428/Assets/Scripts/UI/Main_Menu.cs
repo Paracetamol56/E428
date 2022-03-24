@@ -1,17 +1,19 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class Main_Menu : MonoBehaviour
 {
     [SerializeField]
     private GameObject BTN_Continue;
 
     private int Overridden_Difficulty = -1;
-   
-    
+
+
     private void Awake()
     {
         Save_System.Recover_Data();
     }
+
     private void Start()
     {
         if (Global_Variable.Last_Level_Build_Index <= 0)
@@ -37,6 +39,7 @@ public class Main_Menu : MonoBehaviour
         // Load lastest played scene;
         SceneManager.LoadScene(Global_Variable.Last_Level_Build_Index);
     }
+
     public void Update_Overriddent_Difficulty(int Diff)
     {
         // Prevent illegal value
@@ -53,14 +56,16 @@ public class Main_Menu : MonoBehaviour
                 break;
         }
     }
+
     public void Wipe_Button()
     {
         Save_System.Wipe_Data();
         BTN_Continue.SetActive(false);
     }
+
     public void Quit_Button()
     {
-        Debug.Log("Quit App");   
+        Debug.Log("Quit App");
         Application.Quit();
     }
 }
