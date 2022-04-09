@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class Main_Menu : MonoBehaviour
 {
@@ -8,6 +10,14 @@ public class Main_Menu : MonoBehaviour
 
     private int Overridden_Difficulty = -1;
 
+    [SerializeField]
+    private AudioMixer Audio_Mixer;
+    [SerializeField]
+    private Slider Master_Slider;
+    [SerializeField]
+    private Slider Music_Slider;
+    [SerializeField]
+    private Slider FX_Slider;
 
     private void Awake()
     {
@@ -67,5 +77,20 @@ public class Main_Menu : MonoBehaviour
     {
         Debug.Log("Quit App");
         Application.Quit();
+    }
+
+    public void OnMasterSliderValueChanged()
+    {
+        Audio_Mixer.SetFloat("Master", Mathf.Log10(Master_Slider.value) * 20);
+    }
+
+    public void OnMusicSliderValueChanged()
+    {
+        Audio_Mixer.SetFloat("Music", Mathf.Log10(Music_Slider.value) * 20);
+    }
+
+    public void OnFXSliderValueChanged()
+    {
+        Audio_Mixer.SetFloat("FX", Mathf.Log10(FX_Slider.value) * 20);
     }
 }
